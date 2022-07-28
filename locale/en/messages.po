@@ -1,0 +1,1881 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2022-03-31 23:33+1300\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: en\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
+
+#: pages/examples.js:14
+msgid "Connect Wallet"
+msgstr "Connect Wallet"
+
+#: sections/SectionWrapper.js:179
+#: sections/SectionWrapper.js:259
+msgid "Mark-done"
+msgstr "Mark as done"
+
+#: sections/SectionWrapper.js:179
+#: sections/SectionWrapper.js:259
+msgid "Marked"
+msgstr "Mark as undone"
+
+#: components/Header/Header.js:32
+#: layouts/Main/index.js:67
+msgid "My First NFT"
+msgstr "My First NFT"
+
+#: pages/index.js:36
+#~ msgid "Next Step"
+#~ msgstr "Next Step"
+
+#: components/FixedTools/Discord.js:45
+msgid "discord-content-10"
+msgstr "Any questions or suggestions? "
+
+#: components/FixedTools/Discord.js:48
+msgid "discord-content-11"
+msgstr "Please feel free to join our "
+
+#: sections/SectionMint.js:139
+msgid "mint-record-not-found"
+msgstr "No local mint records found"
+
+#: sections/SectionMint.js:140
+msgid "mint-record-not-found-tip1"
+msgstr "Please mint one on the top. Or you can go to"
+
+#: sections/SectionMint.js:148
+msgid "mint-record-not-found-tip2"
+msgstr "to check NFTs in your wallet."
+
+#: sections/SectionMint.js:28
+msgid "mintRecord-content-10"
+msgstr "Just finished \"My First NFT\" tutorial on @mfnft_official http://myfirstnft.info/ where I learnt the basis of Web3 and NFT. Minted a FREE NFT to be my profile picture. If you want to learn how to mint a FREE NFT for yourself, join me NOW!"
+
+#: sections/SectionMint.js:60
+msgid "mintRecord-content-11"
+msgstr "Check my NFT"
+
+#: sections/SectionMint.js:68
+msgid "mintRecord-content-12"
+msgstr "Download PFP"
+
+#: sections/SectionMint.js:76
+msgid "mintRecord-content-13"
+msgstr "Check on Etherscan"
+
+#: sections/SectionMint.js:83
+msgid "mintRecord-content-14"
+msgstr "Check on OpenSea"
+
+#: sections/SectionMint.js:93
+msgid "mintRecord-content-15"
+msgstr "Share your NFT with your friends"
+
+#: sections/SectionCatalog.js:212
+#: sections/SectionMint.js:164
+msgid "mintRecord-content-16"
+msgstr "Step 5: Mint my first NFT"
+
+#: sections/SectionMint.js:165
+msgid "mintRecord-content-17"
+msgstr "In this section, you will learn how to mint your first NFT"
+
+#: sections/SectionMint.js:176
+msgid "mintRecord-content-20"
+msgstr "Alright, at this point, you should be ready to mint your first NFT."
+
+#: sections/SectionMint.js:179
+msgid "mintRecord-content-21"
+msgstr "Pick traits you like to conduct an avatar and mint it as an NFT. "
+
+#: sections/SectionMint.js:181
+msgid "mintRecord-content-22"
+msgstr "The NFT collection is a simple stroke style PFP collection. You can choose any traits as you like and assemble them to an avatar.  We provide free and unlimited minting. All traits used in this project are originally created by GCLX NFT project. "
+
+#: sections/SectionMint.js:186
+msgid "mintRecord-content-23"
+msgstr "Why can we use traits from other NFT projects? The reason is GCLX NFT uses CC0 license when released, in the other word, the project doesn’t reserve any right of their assets and anyone can use them freely. However, creating and minting the “same” picture as an GCLX NFT doesn’t make you a GCLX NFT holder, nor bring you benefits of a GCLX NFT holder. "
+
+#: sections/SectionMint.js:194
+msgid "mintRecord-content-24"
+msgstr "Want to more about CC0 license?"
+
+#: sections/SectionMint.js:201
+msgid "mintRecord-content-25"
+msgstr "Why we can use these assets?"
+
+#: sections/SectionMint.js:207
+msgid "mintRecord-content-26"
+msgstr "Want to add more traits or optimize any trait? Please contact"
+
+#: sections/SectionMint.js:217
+msgid "mintRecord-content-27"
+msgstr "Confirm the total fee in MetaMask and approve the minting. "
+
+#: sections/SectionMint.js:229
+msgid "mintRecord-content-28"
+msgstr "Isn't this a free mint NFT? Why do I see a fee?"
+
+#: sections/SectionMint.js:232
+msgid "mintRecord-content-29"
+msgstr "Any transaction happens on the blockchain requires “Gas Fee” which is used to reward miners for maintaining the decentralized network."
+
+#: sections/SectionMint.js:239
+msgid "mintRecord-content-30"
+msgstr "The NFT project is a free mint project, however, minting an NFT still needs miners from blockchain to finish jobs such as executing, validating and etc. As a result, gas fee is unavoidable."
+
+#: sections/SectionMint.js:242
+msgid "mintRecord-content-31"
+msgstr "What needs to be mentioned is that "
+
+#: sections/SectionMint.js:243
+msgid "mintRecord-content-32"
+msgstr "the gas fee fluctuates all the time. "
+
+#: sections/SectionMint.js:244
+msgid "mintRecord-content-33"
+msgstr "You would notice that the “gas fee” section in MetaMask keeps refreshing. Why is that? "
+
+#: sections/SectionMint.js:247
+msgid "mintRecord-content-34"
+msgstr "This is because there’s a capacity limit on each block and not all the transactions will be packed in time. "
+
+#: sections/SectionMint.js:248
+msgid "mintRecord-content-35"
+msgstr "Miners would always pack transactions with higher gas fee first. Hence, the more gas fee you pay, the faster your transaction will be completed. "
+
+#: sections/SectionMint.js:255
+msgid "mintRecord-content-36"
+msgstr "We would recommend you "
+
+#: sections/SectionMint.js:256
+msgid "mintRecord-content-37"
+msgstr "to mint when the gas fee is low."
+
+#: sections/SectionMint.js:257
+msgid "mintRecord-content-38"
+msgstr "In this case, it will save you some ETH. You can check live gas fee on "
+
+#: sections/SectionMint.js:265
+msgid "mintRecord-content-39"
+msgstr "15 to 40 Gwei is a good gas fee range for minting. "
+
+#: sections/SectionMint.js:283
+msgid "mintRecord-content-40"
+msgstr "Check the mint result. Feel free to use your first NFT and share it with your friends!"
+
+#: components/PFPMaker/PFPMaker.js:463
+msgid "pfpmaker-add-laser-eye"
+msgstr "Add laser eye?"
+
+#: components/PFPMaker/PFPMaker.js:220
+msgid "pfpmaker-contract-not-ready"
+msgstr "Mint not started"
+
+#: components/PFPMaker/PFPMaker.js:306
+msgid "pfpmaker-mint-confirm-etherscan"
+msgstr "Check tx on Etherscan"
+
+#: components/PFPMaker/PFPMaker.js:369
+msgid "pfpmaker-mint-confirm-minted"
+msgstr "Minted successfully"
+
+#: components/PFPMaker/PFPMaker.js:377
+msgid "pfpmaker-mint-confirm-text"
+msgstr "Confirm"
+
+#: components/PFPMaker/PFPMaker.js:282
+msgid "pfpmaker-mint-confirm-title"
+msgstr "Please double-check your PFP"
+
+#: components/PFPMaker/PFPMaker.js:254
+#: components/PFPMaker/PFPMaker.js:357
+msgid "pfpmaker-mint-failed"
+msgstr "Failed to mint"
+
+#: components/PFPMaker/PFPMaker.js:267
+msgid "pfpmaker-mint-text"
+msgstr "Mint"
+
+#: components/PFPMaker/PFPMaker.js:507
+msgid "pfpmaker-mint-tips"
+msgstr "Note: 1 per wallet, no traits and rarity, unlimited supply, for education purposes."
+
+#: components/PFPMaker/PFPMaker.js:266
+msgid "pfpmaker-minted"
+msgstr "This address has minted"
+
+#: components/PFPMaker/PFPMaker.js:311
+msgid "pfpmaker-minting-tip"
+msgstr "Please do not close the modal and page"
+
+#: components/PFPMaker/PFPMaker.js:485
+msgid "pfpmaker-random-generate"
+msgstr "Random"
+
+#: components/PFPMaker/PFPMaker.js:474
+msgid "pfpmaker-random-generate-tip"
+msgstr "You can adjust traits on the left"
+
+#: components/PFPMaker/PFPMaker.js:489
+msgid "pfpmaker-reset"
+msgstr "Reset"
+
+#: components/PFPMaker/PFPMaker.js:310
+msgid "pfpmaker-success-tip"
+msgstr "You can find your NFT below"
+
+#: components/PFPMaker/PFPMaker.js:264
+msgid "pfpmaker-uploading"
+msgstr "Uploading..."
+
+#: components/FixedTools/Progress.js:43
+#~ msgid "progress-tip"
+#~ msgstr "Current Progress"
+
+#: components/Donation.js:180
+msgid "section-donate-button"
+msgstr "Donate"
+
+#: components/Donation.js:45
+msgid "section-donate-content-1"
+msgstr "We appreciate your support. We will use donations to keep maintaining and creating more non-profit projects like this."
+
+#: components/Donation.js:141
+msgid "section-donate-content-10"
+msgstr "Please contact us and provide the information to be on the Donation AD list."
+
+#: components/Donation.js:142
+msgid "section-donate-content-11"
+msgstr "For the contact info and information, please refer to"
+
+#: components/Donation.js:147
+msgid "section-donate-content-13"
+msgstr "About My First NFT ☝"
+
+#: components/Donation.js:149
+msgid "section-donate-content-14"
+msgstr ". Thank you!"
+
+#: components/Donation.js:48
+msgid "section-donate-content-2"
+msgstr "More details about what we gonna use donation:"
+
+#: components/Donation.js:53
+msgid "section-donate-content-3"
+msgstr "About My First NFT ☝"
+
+#: components/Donation.js:57
+msgid "section-donate-content-4"
+msgstr "You can use the following form:"
+
+#: components/Donation.js:67
+msgid "section-donate-content-5"
+msgstr "I want to donate"
+
+#: components/Donation.js:98
+msgid "section-donate-content-6"
+msgstr "Confirm"
+
+#: components/Donation.js:107
+msgid "section-donate-content-7"
+msgstr "Check tx on Etherscan:"
+
+#: components/Donation.js:118
+msgid "section-donate-content-8"
+msgstr "Or, donate ETH to our wallet manually:"
+
+#: components/Donation.js:138
+msgid "section-donate-content-9"
+msgstr "After donating"
+
+#: components/Donation.js:36
+msgid "section-donation-title"
+msgstr "Donation Instructions"
+
+#: sections/SectionNext.js:252
+#~ msgid "section-title-10"
+#~ msgstr "section-title-10"
+
+#: sections/SectionNext.js:253
+#~ msgid "section-title-11"
+#~ msgstr "section-title-11"
+
+#: sections/SectionNext.js:257
+#~ msgid "section-title-12"
+#~ msgstr "section-title-12"
+
+#: sections/SectionNext.js:261
+#~ msgid "section-title-13"
+#~ msgstr "section-title-13"
+
+#: sections/SectionNext.js:264
+#~ msgid "section-title-14"
+#~ msgstr "section-title-14"
+
+#: sections/SectionBTC.js:123
+msgid "sectionBTC-FQA-10"
+msgstr "What is the value of Bitcoin?"
+
+#: sections/SectionBTC.js:124
+msgid "sectionBTC-FQA-11"
+msgstr "It has the features of a currency. And by design in the whitepaper, it will not inflate. With the features of blockchain, BTC is anonymous, transparent, immutable and running in virtual network, which means much easier for the scenarios of cross-boarding transactions and settlements. Therefore, it provides value."
+
+#: sections/SectionBTC.js:127
+msgid "sectionBTC-FQA-12"
+msgstr "Why the price of BTC is high and unstable?"
+
+#: sections/SectionBTC.js:128
+msgid "sectionBTC-FQA-13"
+msgstr "With no difference from cabbages, stocks and currencies, BTC price is determined by the supply and demand. However, because of no regulations and restrictions, it is easier to surge due to events and news."
+
+#: sections/SectionBTC.js:131
+msgid "sectionBTC-FQA-14"
+msgstr "How does blockchain implements the transparency for the transactions with privacy and anonymity?"
+
+#: sections/SectionBTC.js:132
+msgid "sectionBTC-FQA-15"
+msgstr "In the network, your transactions are processed with a wallet address that is randomly generated. All the transactions related to the wallet address are open to public in the network. Anonymity means that nobody other than yourself knows that the wallet is yours. However, if the wallet address gets shared on social networks, it could link back to you."
+
+#: sections/SectionBTC.js:135
+msgid "sectionBTC-FQA-16"
+msgstr "What are the disadvantages of Bitcoin?"
+
+#: sections/SectionBTC.js:136
+msgid "sectionBTC-FQA-17"
+msgstr "Anonymity and freedom have both advantages and disadvantages. Being difficult to track and restrict is one of the disadvantages. It is often used illegally for money laundering and/or other criminal activities. Generating a new block takes approximately 10 minutes, which has negative impact on the immediacy of the transactions. And the data stored in each block is limited as well. Fortunately, new and optimized blockchain technologies are being developed to solve these issues."
+
+#: sections/SectionBTC.js:64
+msgid "sectionBTC-content-10"
+msgstr "Miners get rewards"
+
+#: sections/SectionBTC.js:67
+msgid "sectionBTC-content-11"
+msgstr "Nodes as service providers(hereinafter referred to as network service providers) get rewards for their work. Different network service providers get different reward tokens, i.e, Bitcoin."
+
+#: sections/SectionBTC.js:88
+msgid "sectionBTC-content-12"
+msgstr "Bitcoin as currency"
+
+#: sections/SectionBTC.js:91
+msgid "sectionBTC-content-13"
+msgstr "By design, Bitcoin has limited supply and can be transferred freely. With these features of currency, it has become crypto currency."
+
+#: sections/SectionBTC.js:14
+#: sections/SectionCatalog.js:141
+msgid "sectionBTC-title-10"
+msgstr "What is Bitcoin (BTC)"
+
+#: sections/SectionBTC.js:15
+msgid "sectionBTC-title-11"
+msgstr "What is Bitcoin?"
+
+#: sections/SectionBTC.js:27
+msgid "sectionBTC-title-12"
+msgstr "Decentralization is good, but why would someone provide this service?"
+
+#: sections/SectionBTC.js:36
+msgid "sectionBTC-title-13"
+msgstr "Because they can get rewards: "
+
+#: sections/SectionBTC.js:49
+msgid "sectionBTC-title-14"
+msgstr "BTC"
+
+#: sections/SectionBlockchain.js:48
+msgid "sectionBlockchain-content-1"
+msgstr "This is a Block"
+
+#: sections/SectionBlockchain.js:146
+msgid "sectionBlockchain-content-10"
+msgstr "Blockchain"
+
+#: sections/SectionBlockchain.js:170
+msgid "sectionBlockchain-content-11"
+msgstr "Here are some important facts/features about Blockchain"
+
+#: sections/SectionBlockchain.js:202
+msgid "sectionBlockchain-content-12"
+msgstr "Immutability"
+
+#: sections/SectionBlockchain.js:205
+msgid "sectionBlockchain-content-13"
+msgstr "You cannot modify the history, because they are chained together and each block contains the summary of previous block. This means if you'd try change a block, all blocks afterwards have to be changed as well."
+
+#: sections/SectionBlockchain.js:239
+msgid "sectionBlockchain-content-14"
+msgstr "Transparency and anonymity"
+
+#: sections/SectionBlockchain.js:242
+msgid "sectionBlockchain-content-15"
+msgstr "All information is public and transparent on the blockchain, everyone can check the transactions in the past and get the balance of your wallet via the block and the chain. But no one knows that YOU own that wallet."
+
+#: sections/SectionBlockchain.js:276
+msgid "sectionBlockchain-content-16"
+msgstr "Fast transactions"
+
+#: sections/SectionBlockchain.js:279
+msgid "sectionBlockchain-content-17"
+msgstr "As long as it's packed in the network, your transaction is done automatically regardless the amount or where you are. Much quicker than traditional cross-boarding transactions."
+
+#: sections/SectionBlockchain.js:288
+msgid "sectionBlockchain-content-18"
+msgstr "Wait, how to make sure the history of transactions are genuine and trustworthy?"
+
+#: sections/SectionBlockchain.js:296
+msgid "sectionBlockchain-content-19"
+msgstr "Distributed bookkeeping!"
+
+#: sections/SectionBlockchain.js:56
+msgid "sectionBlockchain-content-2"
+msgstr "A Block consists of two parts: one is information (e.g. transactions), the other is the summary of previous block content (hash)."
+
+#: sections/SectionBlockchain.js:312
+msgid "sectionBlockchain-content-20"
+msgstr "There are many nodes (aka, miners) in the network that contribute to the bookkeeping. Each of them keeps an identical copy of the whole blockchain."
+
+#: sections/SectionBlockchain.js:320
+msgid "sectionBlockchain-content-21"
+msgstr "With distributed network, blockchain gets new features!"
+
+#: sections/SectionBlockchain.js:352
+msgid "sectionBlockchain-content-22"
+msgstr "Decentralization"
+
+#: sections/SectionBlockchain.js:355
+msgid "sectionBlockchain-content-23"
+msgstr "The blockchain network is global with each node storing an identical copy of the blockchain data. Since no one can control all the nodes, the blockchain data will last forever."
+
+#: sections/SectionBlockchain.js:389
+msgid "sectionBlockchain-content-24"
+msgstr "True Immutability"
+
+#: sections/SectionBlockchain.js:392
+msgid "sectionBlockchain-content-25"
+msgstr "The blockchain network is global, no one can control most of nodes in the network, even someone modified some blocks, other nodes will not buy it unless 51% nodes are modified at the same time."
+
+#: sections/SectionBlockchain.js:60
+msgid "sectionBlockchain-content-3"
+msgstr "Each Block has limited storage."
+
+#: sections/SectionBlockchain.js:64
+msgid "sectionBlockchain-content-4"
+msgstr "Block will be generated in a period of time, for example, 10min a block."
+
+#: sections/SectionBlockchain.js:92
+msgid "sectionBlockchain-content-5"
+msgstr "This is a Chain"
+
+#: sections/SectionBlockchain.js:100
+msgid "sectionBlockchain-content-6"
+msgstr "A chain can link two blocks."
+
+#: sections/SectionBlockchain.js:104
+msgid "sectionBlockchain-content-7"
+msgstr "Only one single chain."
+
+#: sections/SectionBlockchain.js:108
+msgid "sectionBlockchain-content-8"
+msgstr "Blocks are connected sequentially"
+
+#: sections/SectionBlockchain.js:132
+msgid "sectionBlockchain-content-9"
+msgstr "Combining together:"
+
+#: sections/SectionBlockchain.js:31
+msgid "sectionBlockchain-subtitle-1"
+msgstr "Speaking about cryptocurrency, we have to mention Blockchain - the underlying technology of cryptocurrency."
+
+#: sections/SectionBlockchain.js:19
+#: sections/SectionCatalog.js:136
+msgid "sectionBlockchain-title-1"
+msgstr "What is Blockchain?"
+
+#: sections/SectionBlockchain.js:20
+msgid "sectionBlockchain-title-2"
+msgstr "sectionBlockchain-title-2"
+
+#: sections/SectionComponents.js:45
+msgid "sectionComponents-content-10"
+msgstr "Decentralized network and blockchain"
+
+#: sections/SectionComponents.js:49
+msgid "sectionComponents-content-11"
+msgstr "Blockchain has a chain to record all information and exists in its decentralized network."
+
+#: sections/SectionComponents.js:53
+msgid "sectionComponents-content-12"
+msgstr "The decentralized network is running on the service provided by numerous miners, which is called \"mining\"."
+
+#: sections/SectionComponents.js:86
+msgid "sectionComponents-content-13"
+msgstr "Token incentives to keep the network running"
+
+#: sections/SectionComponents.js:90
+msgid "sectionComponents-content-14"
+msgstr "A decentralized network is maintained by countless nodes providing services to keep the network running, an operation called mining. The people who maintain these services are generally called miners. Miners need rewards to maintain network operation, just like you need a salary for work. In the blockchain, the rewards for miners are generally tokens. For example, the gas fee you often hear is the \"salary\" of miners."
+
+#: sections/SectionComponents.js:94
+msgid "sectionComponents-content-15"
+msgstr "Tokens are required for transferring, transactions, NFT mint etc. in the network. Exchanges between tokens and FIAT may be necessary if you don't have the token but wish to have the service in the network."
+
+#: sections/SectionComponents.js:124
+msgid "sectionComponents-content-16"
+msgstr "How does a blockchain work?"
+
+#: sections/SectionComponents.js:140
+msgid "sectionComponents-content-17"
+msgstr "Because blockchain technology and characteristics can be maintained due to the existence of blockchain nodes, a large number of developers have gathered to develop applications based on this. Because of those applications, there will be an increasing number of active users, and the resulting transaction tokens will feed the blockchain nodes."
+
+#: sections/SectionCatalog.js:146
+#: sections/SectionComponents.js:17
+msgid "sectionComponents-title-10"
+msgstr "Core Components of Blockchain"
+
+#: sections/SectionComponents.js:18
+msgid "sectionComponents-title-11"
+msgstr "In this section, we will summarize the core components of the blockchain."
+
+#: sections/SectionComponents.js:29
+msgid "sectionComponents-title-12"
+msgstr "As mentioned above, we now know there are two core components of a blockchain"
+
+#: sections/SectionConnectWallet.js:41
+msgid "sectionConnectWallet-content-10"
+msgstr "Please click the button below to connect your wallet"
+
+#: sections/SectionConnectWallet.js:59
+msgid "sectionConnectWallet-content-11"
+msgstr "What just happened? What is Connect Wallet?"
+
+#: sections/SectionConnectWallet.js:74
+msgid "sectionConnectWallet-content-12"
+msgstr "Connect Wallet is a key feature of web3 applications"
+
+#: sections/SectionConnectWallet.js:78
+msgid "sectionConnectWallet-content-13"
+msgstr "When you find the “Connect Wallet” button on a website, mostly like you are using a Web3 APP;"
+
+#: sections/SectionConnectWallet.js:82
+msgid "sectionConnectWallet-content-14"
+msgstr "Think of connecting wallet as logging into the web application. Once a wallet is connected, the website would have permission to retrieve information of your wallet information and your on-chain assets;"
+
+#: sections/SectionConnectWallet.js:86
+msgid "sectionConnectWallet-content-15"
+msgstr "Since the blockchain is open and transparent, websites connected with your wallet can retrieve all your information and assets from the blockchain;"
+
+#: sections/SectionConnectWallet.js:90
+msgid "sectionConnectWallet-content-16"
+msgstr "Your wallet is your account, and it's anonymous. You don't need to provide a password or any contact information."
+
+#: sections/SectionCatalog.js:207
+#: sections/SectionConnectWallet.js:29
+msgid "sectionConnectWallet-title-10"
+msgstr "Step 4: Connect Wallet"
+
+#: sections/SectionConnectWallet.js:30
+msgid "sectionConnectWallet-title-11"
+msgstr "Introduction to Connect Wallet on what does it mean and how it works"
+
+#: sections/SectionConnectWallet.js:30
+#~ msgid "sectionConnectWallet-title-12"
+#~ msgstr "Congrats! You have got your ETH wallet!"
+
+#: sections/SectionConnectWallet.js:31
+#~ msgid "sectionConnectWallet-title-13"
+#~ msgstr "sectionConnectWallet-title-13"
+
+#: sections/SectionDYOR.js:34
+msgid "sectionDYOR-content-10"
+msgstr "Before you decide to buy an NFT, consider why you are buying it?"
+
+#: sections/SectionDYOR.js:44
+msgid "sectionDYOR-content-11"
+msgstr "Does this artwork resonate with you? Do you really want to have it in your collection?"
+
+#: sections/SectionDYOR.js:57
+msgid "sectionDYOR-content-12"
+msgstr "Are you optimistic about the community and culture behind this NFT and want to join them?"
+
+#: sections/SectionDYOR.js:70
+msgid "sectionDYOR-content-13"
+msgstr "Do you believe, after research and analysis, that the project team is very powerful and there will be room for appreciation in the future?"
+
+#: sections/SectionDYOR.js:83
+msgid "sectionDYOR-content-14"
+msgstr "Do you have to buy it ANYWAY after seeing a lot of people on Facebook and Twitter claiming FOMO that this is definitely making money?"
+
+#: sections/SectionDYOR.js:88
+msgid "sectionDYOR-content-15"
+msgstr "You will need to know everything about the NFT project"
+
+#: sections/SectionDYOR.js:90
+msgid "sectionDYOR-content-16"
+msgstr "As much as possible, including but not limited to:"
+
+#: sections/SectionDYOR.js:93
+msgid "sectionDYOR-content-17"
+msgstr "The preview of the artwork (sneak-peaks)"
+
+#: sections/SectionDYOR.js:94
+msgid "sectionDYOR-content-18"
+msgstr "The team and their backgrounds"
+
+#: sections/SectionDYOR.js:95
+msgid "sectionDYOR-content-19"
+msgstr "The plan of the project and the possibility of implementation"
+
+#: sections/SectionDYOR.js:96
+msgid "sectionDYOR-content-20"
+msgstr "What your friends say"
+
+#: sections/SectionDYOR.js:100
+msgid "sectionDYOR-content-21"
+msgstr "Evaluate whether the current price is reasonable for you"
+
+#: sections/SectionDYOR.js:102
+msgid "sectionDYOR-content-22"
+msgstr "NFTs are very easy to hype due to their uniqueness. To avoid unnecessary loss, it is recommended that you estimate the price."
+
+#: sections/SectionDYOR.js:105
+msgid "sectionDYOR-content-23"
+msgstr "What kind of values do you think this NFT project has? Value of memento? Value as an artwork? Value for being an instrument? Value by the community?"
+
+#: sections/SectionDYOR.js:106
+msgid "sectionDYOR-content-24"
+msgstr "How much you are willing to pay for it?"
+
+#: sections/SectionDYOR.js:117
+msgid "sectionDYOR-content-25"
+msgstr "Ask yourself twice: "
+
+#: sections/SectionDYOR.js:118
+msgid "sectionDYOR-content-26"
+msgstr "are you willing to give money to someone randomly?"
+
+#: sections/SectionDYOR.js:120
+msgid "sectionDYOR-content-27"
+msgstr "If the answer is NO, please DYOR."
+
+#: sections/SectionDYOR.js:123
+msgid "sectionDYOR-content-28"
+msgstr "FOMO, stands for Fear Of Missing Out. In this mood, people tend to take over at a high price which could be lower."
+
+#: sections/SectionDYOR.js:124
+msgid "sectionDYOR-content-29"
+msgstr "FUD, stands for Fear, Uncertainty, and Doubt. In this mood, people tend to sell at a low price which could be higher."
+
+#: sections/SectionCatalog.js:176
+#: sections/SectionDYOR.js:15
+msgid "sectionDYOR-title-10"
+msgstr "What is DYOR? How to DYOR?"
+
+#: sections/SectionDYOR.js:16
+msgid "sectionDYOR-title-11"
+msgstr "We will explain what is DYOR and how to DYOR."
+
+#: sections/SectionDYOR.js:31
+msgid "sectionDYOR-title-12"
+msgstr "DYOR can be seen in Web3 everywhere. It stands for Do Your Own Research. As a disclaimer, it means you must do your own research to make the purchase decision. Well, how to DYOR?"
+
+#: sections/SectionDYOR.js:127
+msgid "sectionDYOR-web3-glossary"
+msgstr "Refer to these links for more Web3 glossary: "
+
+#: sections/SectionDYOR.js:134
+msgid "sectionDYOR-web3-glossary-link-1"
+msgstr "@punk6529 Tweet"
+
+#: sections/SectionDYOR.js:141
+msgid "sectionDYOR-web3-glossary-link-2"
+msgstr "The Web3 Glossary"
+
+#: sections/SectionCatalog.js:217
+#: sections/SectionDiscord.js:16
+msgid "sectionDiscord-title-10"
+msgstr "Step6: Join Community Discord Server"
+
+#: sections/SectionDiscord.js:17
+msgid "sectionDiscord-title-11"
+msgstr "Instructions for joining our community Discord server"
+
+#: sections/SectionDiscord.js:21
+#~ msgid "sectionDiscord-title-12"
+#~ msgstr "Congrats!"
+
+#: sections/SectionDiscord.js:25
+#~ msgid "sectionDiscord-title-13"
+#~ msgstr "You've finished Join Community Discord Server."
+
+#: sections/SectionDiscord.js:28
+#~ msgid "sectionDiscord-title-14"
+#~ msgstr "Keep the good work!"
+
+#: sections/SectionDiscord.js:28
+msgid "sectionDiscord-title-15"
+msgstr "Discord is the most popular community tool in the Web3 world. Of course, we have one too."
+
+#: sections/SectionDiscord.js:37
+msgid "sectionDiscord-title-16"
+msgstr "Join the server, have conversations, ask any question, provide feedback... Follow the steps below to join"
+
+#: sections/SectionDiscord.js:41
+msgid "sectionDiscord-title-17"
+msgstr "Click the link to join our Discord server"
+
+#: sections/SectionDiscord.js:43
+msgid "sectionDiscord-title-18"
+msgstr "Official Discord server link: "
+
+#: sections/SectionDiscord.js:49
+msgid "sectionDiscord-title-19"
+msgstr "You will need to create a Discord account if this is your first time using it. Using Discord with your browser is just as convenient as with desktop/mobile app, you don't have to download anything if you don't want to."
+
+#: sections/SectionDiscord.js:52
+msgid "sectionDiscord-title-20"
+msgstr "Connect wallet, verify account ownership"
+
+#: sections/SectionDiscord.js:54
+msgid "sectionDiscord-title-21"
+msgstr "Discord servers for Web3 usually have a dedicated channel for verifying your wallet address and getting access for information about your existing NFTs. This channel is often powered by a bot called Collab.Land."
+
+#: sections/SectionDiscord.js:58
+msgid "sectionDiscord-title-22"
+msgstr "Click \"Let's go!\", and you should receive a link from the bot. Open the link and select MetaMask for verification."
+
+#: sections/SectionDiscord.js:62
+msgid "sectionDiscord-title-23"
+msgstr "Click \"Sign\" to complete the verification. Pay attention to Message and URL on the popup dialog and make sure they are what you are expecting. It should be straight forward to verify the details because they are plain text and not encrypted. Be careful if the signature contains unreadable information!"
+
+#: sections/SectionDiscord.js:66
+msgid "sectionDiscord-title-24"
+msgstr "Once the verification is completed, your wallet address will be connected to your Discord account, and others will be able to see it too."
+
+#: sections/SectionETH.js:43
+msgid "sectionETH-content-10"
+msgstr "Ethereum is a blockchain"
+
+#: sections/SectionETH.js:46
+msgid "sectionETH-content-11"
+msgstr " Ethereum introduced the feature of Smart Contract. Simply put, developers can develop various applications based on smart contracts and protocols on Ethereum. NFT is one of the popular applications. Most of NFT projects are published on Ethereum network."
+
+#: sections/SectionETH.js:77
+msgid "sectionETH-content-12"
+msgstr "Ether (ETH) is its token"
+
+#: sections/SectionETH.js:80
+msgid "sectionETH-content-13"
+msgstr "Any operation or transaction performed on Ethereum requires Ether (ETH) to pay for the fees."
+
+#: sections/SectionETH.js:108
+msgid "sectionETH-content-14"
+msgstr "Since the blockchain is decentralized, all operations on the blockchain need to pay fees to the network service providers."
+
+#: sections/SectionETH.js:110
+msgid "sectionETH-content-15"
+msgstr "This fee is often called the Gas Fee (just like you need to burn gasoline when you drive)."
+
+#: sections/SectionCatalog.js:151
+#: sections/SectionETH.js:9
+msgid "sectionETH-title-10"
+msgstr "What are Ethereum and Ether (ETH)?"
+
+#: sections/SectionETH.js:10
+msgid "sectionETH-title-11"
+msgstr "In this section, we will introduce Ethereum and Ether (ETH)."
+
+#: sections/SectionETH.js:27
+msgid "sectionETH-title-12"
+msgstr "Ethereum is a community-driven technology that powers ether (ETH) the cryptocurrency and thousands of decentralized applications."
+
+#: sections/SectionGetETH.js:28
+msgid "sectionGetETH-content-10"
+msgstr "Log in to your preferred exchange and make a withdrawal (take Binance as an example)"
+
+#: sections/SectionGetETH.js:29
+msgid "sectionGetETH-content-11"
+msgstr "After logging in to the exchange, go to the spot asset page and click on digital currency withdrawal. Fill in your wallet address to choose the ERC20 network, and then the amount you wish to withdraw."
+
+#: sections/SectionGetETH.js:31
+msgid "sectionGetETH-content-12"
+msgstr "We recommend starting with a little amount of money for your initial withdrawal or transaction."
+
+#: sections/SectionGetETH.js:33
+msgid "sectionGetETH-content-13"
+msgstr "Confirm the withdrawal and await the completion of the transaction"
+
+#: sections/SectionGetETH.js:34
+msgid "sectionGetETH-content-14"
+msgstr "To confirm the withdrawal, click the 'Confirm' button, then input the appropriate verification code based on your security settings, then click the 'Submit' button."
+
+#: sections/SectionGetETH.js:36
+msgid "sectionGetETH-content-15"
+msgstr "After that, wait for the transaction to finish and verify that the funds have received."
+
+#: sections/SectionGetETH.js:38
+msgid "sectionGetETH-content-16"
+msgstr "The MetaMask wallet has been received the withdrawal, and you may begin using it by clicking the button below."
+
+#: sections/SectionGetETH.js:48
+msgid "sectionGetETH-content-17"
+msgstr "Contact your friends and say hi to them"
+
+#: sections/SectionGetETH.js:49
+msgid "sectionGetETH-content-18"
+msgstr "You can ask your pals what's going on in Web3 and what they're mostly doing. Then tell them you're interested in Web3 as well, and that you're working on My First NFT and plan to mint it."
+
+#: sections/SectionGetETH.js:51
+msgid "sectionGetETH-content-19"
+msgstr "Ask if they can assist you in exchanging some ETH"
+
+#: sections/SectionGetETH.js:53
+msgid "sectionGetETH-content-20"
+msgstr "You can send them money by using bank transfer, etc. for the same amount of ETH. The current ETH-USD price may be seen at"
+
+#: sections/SectionGetETH.js:61
+msgid "sectionGetETH-content-21"
+msgstr "."
+
+#: sections/SectionGetETH.js:63
+msgid "sectionGetETH-content-22"
+msgstr "Send them your wallet address. Free NFT is estimated to cost no more than 0.05 ETH (depending on Gas Fee). It is recommended that you prepare 0.1 ETH if at all possible."
+
+#: sections/SectionGetETH.js:71
+msgid "sectionGetETH-content-23"
+msgstr "The following are two popular approaches. Choose one that best suits your needs:"
+
+#: sections/SectionGetETH.js:73
+msgid "sectionGetETH-content-24"
+msgstr "Use a credit card to top up your account"
+
+#: sections/SectionGetETH.js:74
+msgid "sectionGetETH-content-25"
+msgstr "You can use MetaMask's Buy function to make a credit card purchase right away."
+
+#: sections/SectionGetETH.js:76
+msgid "sectionGetETH-content-26"
+msgstr "Credit card purchases are subject to a service fee and are only available in specific countries and regions. However, it is easy and convenient, making it ideal for little deposits."
+
+#: sections/SectionGetETH.js:80
+msgid "sectionGetETH-content-27"
+msgstr "There are numerous cryptocurrency exchange platforms, and most of them offer a range of deposit channels through which you can deposit and exchange ETH."
+
+#: sections/SectionGetETH.js:82
+msgid "sectionGetETH-content-28"
+msgstr "Exchanges that are commonly used include, but are not limited to:"
+
+#: sections/SectionGetETH.js:84
+msgid "sectionGetETH-content-29"
+msgstr "Binance"
+
+#: sections/SectionGetETH.js:121
+msgid "sectionGetETH-content-30"
+msgstr "Caution:"
+
+#: sections/SectionGetETH.js:123
+msgid "sectionGetETH-content-31"
+msgstr "Always double-check the exchange URL to make sure it's valid."
+
+#: sections/SectionGetETH.js:125
+msgid "sectionGetETH-content-32"
+msgstr "When enrolling new users, the exchange frequently accepts invitation codes. You can ask your Web3 friends for invitation codes to register so that you can take advantage of the benefits."
+
+#: sections/SectionGetETH.js:129
+msgid "sectionGetETH-content-33"
+msgstr "For more options, please visit: "
+
+#: sections/SectionCatalog.js:202
+#: sections/SectionGetETH.js:145
+msgid "sectionGetETH-content-34"
+msgstr "Step 3. Get ETH"
+
+#: sections/SectionGetETH.js:146
+msgid "sectionGetETH-content-35"
+msgstr "In this section, wee will be introducing how to get ETH to your wallet."
+
+#: sections/SectionGetETH.js:156
+msgid "sectionGetETH-content-36"
+msgstr "We will be introducing different ways to get ETH to your wallet and you will be able to choose the one that is most convenient for you."
+
+#: sections/SectionGetETH.js:170
+msgid "sectionGetETH-content-37"
+msgstr "Do you have any ETH in any exchange?"
+
+#: sections/SectionGetETH.js:183
+msgid "sectionGetETH-content-38"
+msgstr "Yes, I do token exchange"
+
+#: sections/SectionGetETH.js:188
+msgid "sectionGetETH-content-39"
+msgstr "No"
+
+#: sections/SectionGetETH.js:194
+msgid "sectionGetETH-content-40"
+msgstr "Do you know friends who are engaged in Web3?"
+
+#: sections/SectionGetETH.js:206
+msgid "sectionGetETH-content-41"
+msgstr "Yes, I have Web3 friends"
+
+#: sections/SectionGetETH.js:211
+msgid "sectionGetETH-content-42"
+msgstr "No"
+
+#: sections/SectionGetETH.js:164
+msgid "sectionGetETH-legal-notice"
+msgstr "(Risk warning: Please operate in accordance with your country's laws and regulations.)"
+
+#: sections/SectionGetETH.js:78
+msgid "sectionGetETH-new-content-1"
+msgstr "Register with an exchange"
+
+#: sections/SectionCatalog.js:166
+#: sections/SectionNFT.js:11
+msgid "sectionNFT-title-10"
+msgstr "Fungible Token & Non-fungible Token"
+
+#: sections/SectionNFT.js:12
+msgid "sectionNFT-title-11"
+msgstr "In this section, we will talk about the difference between fungible token and non-fungible token."
+
+#: sections/SectionNFT.js:24
+msgid "sectionNFT-title-12"
+msgstr "Fungible token is a currency-like token that can be exchanged at any time."
+
+#: sections/SectionNFT.js:33
+msgid "sectionNFT-title-13"
+msgstr "Non-fungible token is a unique and non-interchangeable unit of data stored on a blockchain."
+
+#: sections/SectionNFTValue.js:162
+msgid "sectionNFTValue-content-10"
+msgstr "NFT in the future"
+
+#: sections/SectionNFTValue.js:198
+msgid "sectionNFTValue-content-11"
+msgstr "Copyright confirmation"
+
+#: sections/SectionNFTValue.js:210
+msgid "sectionNFTValue-content-12"
+msgstr "Buy and sell properties"
+
+#: sections/SectionNFTValue.js:222
+msgid "sectionNFTValue-content-13"
+msgstr "Art collections"
+
+#: sections/SectionNFTValue.js:234
+msgid "sectionNFTValue-content-14"
+msgstr "Item exchanges"
+
+#: sections/SectionNFTValue.js:246
+msgid "sectionNFTValue-content-15"
+msgstr "NFT as Pass"
+
+#: sections/SectionNFTValue.js:253
+msgid "sectionNFTValue-content-16"
+msgstr "At present (no NFT)"
+
+#: sections/SectionNFTValue.js:256
+msgid "sectionNFTValue-content-17"
+msgstr "Requiring massive documents and records, it's hard to confirm the rights when piracy occurs. This has resulted in a lot small piracy events and no efficient actions can be taken."
+
+#: sections/SectionNFTValue.js:260
+msgid "sectionNFTValue-content-18"
+msgstr "Future (with NFT)"
+
+#: sections/SectionNFTValue.js:263
+msgid "sectionNFTValue-content-19"
+msgstr "NFT cannot prevent piracy, but the confirmation of the ownership takes only a few seconds, comparing to the difficulty of traditional piracy lawsuit. It's also easy to confirm who created the item. "
+
+#: sections/SectionNFTValue.js:266
+msgid "sectionNFTValue-content-20"
+msgstr "In the future, the genuine business will be much easier to confirm if you are the creator."
+
+#: sections/SectionNFTValue.js:273
+msgid "sectionNFTValue-content-21"
+msgstr "At present (no NFT)"
+
+#: sections/SectionNFTValue.js:276
+msgid "sectionNFTValue-content-22"
+msgstr "For sales of properties, it is necessary to have lawyers and other parties to involve and the documents (titles, LIMs, etc.) certified by the city council are required to confirm the ownership. This costs time, money and a trusted third party to complete a transaction."
+
+#: sections/SectionNFTValue.js:280
+msgid "sectionNFTValue-content-23"
+msgstr "Future (with NFT)"
+
+#: sections/SectionNFTValue.js:283
+msgid "sectionNFTValue-content-24"
+msgstr "Once NFT is legally recognized as the representative of your property, it will take only a few minutes to transfer the NFT and have the property settled."
+
+#: sections/SectionNFTValue.js:290
+msgid "sectionNFTValue-content-25"
+msgstr "At present (no NFT)"
+
+#: sections/SectionNFTValue.js:293
+msgid "sectionNFTValue-content-26"
+msgstr "Traditional artworks are usually real items, which need safekeeping to avoid theft or damage. Transportation and security jobs may be required with high cost to display."
+
+#: sections/SectionNFTValue.js:297
+msgid "sectionNFTValue-content-27"
+msgstr "Future (with NFT)"
+
+#: sections/SectionNFTValue.js:300
+msgid "sectionNFTValue-content-28"
+msgstr "NFT artworks are virtual and secured by NFT technologies. As long as the wallet is safe, there is no theft or damage. The artworks can be shown and displayed in Metaverse as wished."
+
+#: sections/SectionNFTValue.js:308
+msgid "sectionNFTValue-content-29"
+msgstr "Want to experience the Metaverse NFT Art Exhibition as an early bird? Visit"
+
+#: sections/SectionNFTValue.js:323
+msgid "sectionNFTValue-content-30"
+msgstr "At present (no NFT)"
+
+#: sections/SectionNFTValue.js:326
+msgid "sectionNFTValue-content-31"
+msgstr "Considering the high cost of building the trust for trades and exchanges, trusted thirty party is involved as guarantee, which means extra cost on both time and money"
+
+#: sections/SectionNFTValue.js:330
+msgid "sectionNFTValue-content-32"
+msgstr "Future (with NFT)"
+
+#: sections/SectionNFTValue.js:333
+msgid "sectionNFTValue-content-33"
+msgstr "With blockchain and NFT technologies, the transaction history of NFT can be seen easily to determine the source and authenticity. Trades and exchanges are directly done via technologies like Smart Contract, which can avoid fraud and disputes, reduce the cost of building the trust between traders."
+
+#: sections/SectionNFTValue.js:340
+msgid "sectionNFTValue-content-34"
+msgstr "At present (no NFT)"
+
+#: sections/SectionNFTValue.js:343
+msgid "sectionNFTValue-content-35"
+msgstr "Tickets, cards and passes issued by different systems are not interchangeable."
+
+#: sections/SectionNFTValue.js:347
+msgid "sectionNFTValue-content-36"
+msgstr "Future (with NFT)"
+
+#: sections/SectionNFTValue.js:350
+msgid "sectionNFTValue-content-37"
+msgstr "Tickets, cards and passes issued via NFT technologies work for all systems. Identities binding to wallets, systems recognize you accurately and promptly and provide your customized services."
+
+#: sections/SectionNFTValue.js:362
+msgid "sectionNFTValue-content-38"
+msgstr "NFT in real world"
+
+#: sections/SectionNFTValue.js:384
+msgid "sectionNFTValue-content-39"
+msgstr "NFT is still in very early stage"
+
+#: sections/SectionNFTValue.js:387
+msgid "sectionNFTValue-content-40"
+msgstr "NFT started booming in 2021, the global NFT market size is around $18 billion currently. The market is expected to reach $82.43 billion in 2026 at a CAGR of 40.2%."
+
+#: sections/SectionNFTValue.js:400
+msgid "sectionNFTValue-content-41"
+msgstr "A lot of celebrities and brands also started stepping into NFT world and launching their NFTs, including: Snoop Dogg, Gucci, D&G, Adidas, and etc."
+
+#: sections/SectionNFTValue.js:444
+msgid "sectionNFTValue-content-42"
+msgstr "Currently, most NFTs are avatars"
+
+#: sections/SectionNFTValue.js:447
+msgid "sectionNFTValue-content-43"
+msgstr "Since NFT is abstractive and represents items in virtual world, the most common-seen and popular NFT projects are artworks, such as avatars, paintings, 3D artworks, photos and so on."
+
+#: sections/SectionNFTValue.js:450
+msgid "sectionNFTValue-content-44"
+msgstr "More projects and new applications start to appear, for example, NFT as pass for communities."
+
+#: sections/SectionNFTValue.js:478
+msgid "sectionNFTValue-content-45"
+msgstr "Overall, NFT is still in a very early stage, and the quality of the artworks varies. So when participating in the purchase of NFT, DYOR is a must."
+
+#: sections/SectionNFTValue.js:258
+msgid "sectionNFTValue-content-46"
+msgstr "Game"
+
+#: sections/SectionNFTValue.js:369
+msgid "sectionNFTValue-content-47"
+msgstr "At present (no NFT)"
+
+#: sections/SectionNFTValue.js:372
+msgid "sectionNFTValue-content-48"
+msgstr "The virtual assets in the game are limited to the current game and cannot be circulated between games and are limited by the rules of the game platform, so it is difficult for players to buy and sell freely. Also the game account is not owned by you, once it is blocked you will lose all game assets."
+
+#: sections/SectionNFTValue.js:372
+msgid "sectionNFTValue-content-49"
+msgstr "Future (with NFT)"
+
+#: sections/SectionNFTValue.js:379
+msgid "sectionNFTValue-content-50"
+msgstr "Combining blockchain and NFT technologies, developers can design game virtual assets with uniqueness and fully attributed to individuals, such as accounts, weapons, tools, houses, pets, etc., and players can freely trade and circulate game assets."
+
+#: sections/SectionNFTValue.js:120
+msgid "sectionNFTValue-subtitle-1"
+msgstr "So, what we can get from NFT and Blockchain technologies?"
+
+#: sections/SectionNFTValue.js:29
+msgid "sectionNFTValue-title-10"
+msgstr "Unique, indivisible"
+
+#: sections/SectionNFTValue.js:30
+msgid "sectionNFTValue-title-11"
+msgstr "Every NFT is indivisible and unique. Can't be exchanged equivalently."
+
+#: sections/SectionNFTValue.js:41
+msgid "sectionNFTValue-title-12"
+msgstr "Immutable and transparent"
+
+#: sections/SectionNFTValue.js:42
+msgid "sectionNFTValue-title-13"
+msgstr "NFT is based on blockchain technology, it's public and immutable."
+
+#: sections/SectionNFTValue.js:65
+msgid "sectionNFTValue-title-14"
+msgstr "Full Control"
+
+#: sections/SectionNFTValue.js:66
+msgid "sectionNFTValue-title-15"
+msgstr "The owners have permanent and full control of NFT, which cannot be deprived."
+
+#: sections/SectionNFTValue.js:77
+msgid "sectionNFTValue-title-16"
+msgstr "Low cost on confirming the right"
+
+#: sections/SectionNFTValue.js:78
+msgid "sectionNFTValue-title-17"
+msgstr "The cost is extremely low to verify if someone owns an NFT, which means the copy right can be confirmed quickly."
+
+#: sections/SectionNFTValue.js:53
+msgid "sectionNFTValue-title-18"
+msgstr "Everything can be NFT"
+
+#: sections/SectionNFTValue.js:54
+msgid "sectionNFTValue-title-19"
+msgstr "NFT can be the representative of any non-currency entity in the virtual world."
+
+#: sections/SectionNFTValue.js:90
+msgid "sectionNFTValue-title-20"
+msgstr "Infinite Imagination"
+
+#: sections/SectionNFTValue.js:91
+msgid "sectionNFTValue-title-21"
+msgstr "The functions and rules of NFT are defined by the participants, which means the imagination is infinite."
+
+#: sections/SectionCatalog.js:171
+#: sections/SectionNFTValue.js:108
+msgid "sectionNFTValue-title-22"
+msgstr "Features and values of NFT"
+
+#: sections/SectionNFTValue.js:109
+msgid "sectionNFTValue-title-23"
+msgstr "In this section, we will be introducing features of NFT and value behind it"
+
+#: sections/SectionNext.js:28
+#~ msgid "sectionNext-content-10"
+#~ msgstr "sectionNext-content-10"
+
+#: sections/SectionNext.js:29
+#~ msgid "sectionNext-content-11"
+#~ msgstr "sectionNext-content-11"
+
+#: sections/SectionNext.js:36
+#~ msgid "sectionNext-content-12"
+#~ msgstr "sectionNext-content-12"
+
+#: sections/SectionNext.js:37
+#~ msgid "sectionNext-content-13"
+#~ msgstr "sectionNext-content-13"
+
+#: sections/SectionNext.js:41
+#~ msgid "sectionNext-content-14"
+#~ msgstr "sectionNext-content-14"
+
+#: sections/SectionNext.js:42
+#~ msgid "sectionNext-content-15"
+#~ msgstr "sectionNext-content-15"
+
+#: sections/SectionNext.js:47
+#~ msgid "sectionNext-content-16"
+#~ msgstr "sectionNext-content-16"
+
+#: sections/SectionNext.js:48
+#~ msgid "sectionNext-content-17"
+#~ msgstr "sectionNext-content-17"
+
+#: sections/SectionNext.js:52
+#~ msgid "sectionNext-content-18"
+#~ msgstr "sectionNext-content-18"
+
+#: sections/SectionNext.js:53
+#~ msgid "sectionNext-content-19"
+#~ msgstr "sectionNext-content-19"
+
+#: sections/SectionNext.js:58
+#~ msgid "sectionNext-content-20"
+#~ msgstr "sectionNext-content-20"
+
+#: sections/SectionNext.js:59
+#~ msgid "sectionNext-content-21"
+#~ msgstr "sectionNext-content-21"
+
+#: sections/SectionNext.js:64
+#~ msgid "sectionNext-content-22"
+#~ msgstr "sectionNext-content-22"
+
+#: sections/SectionNext.js:65
+#~ msgid "sectionNext-content-23"
+#~ msgstr "sectionNext-content-23"
+
+#: sections/SectionNext.js:69
+#~ msgid "sectionNext-content-24"
+#~ msgstr "sectionNext-content-24"
+
+#: sections/SectionNext.js:70
+#~ msgid "sectionNext-content-25"
+#~ msgstr "sectionNext-content-25"
+
+#: sections/SectionNext.js:74
+#~ msgid "sectionNext-content-26"
+#~ msgstr "sectionNext-content-26"
+
+#: sections/SectionNext.js:75
+#~ msgid "sectionNext-content-27"
+#~ msgstr "sectionNext-content-27"
+
+#: sections/SectionNext.js:79
+#~ msgid "sectionNext-content-28"
+#~ msgstr "sectionNext-content-28"
+
+#: sections/SectionNext.js:80
+#~ msgid "sectionNext-content-29"
+#~ msgstr "sectionNext-content-29"
+
+#: sections/SectionNext.js:84
+#~ msgid "sectionNext-content-30"
+#~ msgstr "sectionNext-content-30"
+
+#: sections/SectionNext.js:85
+#~ msgid "sectionNext-content-31"
+#~ msgstr "sectionNext-content-31"
+
+#: sections/SectionNext.js:90
+#~ msgid "sectionNext-content-32"
+#~ msgstr "sectionNext-content-32"
+
+#: sections/SectionNext.js:91
+#~ msgid "sectionNext-content-33"
+#~ msgstr "sectionNext-content-33"
+
+#: sections/SectionNext.js:95
+#~ msgid "sectionNext-content-34"
+#~ msgstr "sectionNext-content-34"
+
+#: sections/SectionNext.js:96
+#~ msgid "sectionNext-content-35"
+#~ msgstr "sectionNext-content-35"
+
+#: sections/SectionNext.js:101
+#~ msgid "sectionNext-content-36"
+#~ msgstr "sectionNext-content-36"
+
+#: sections/SectionNext.js:102
+#~ msgid "sectionNext-content-37"
+#~ msgstr "sectionNext-content-37"
+
+#: sections/SectionNext.js:106
+#~ msgid "sectionNext-content-38"
+#~ msgstr "sectionNext-content-38"
+
+#: sections/SectionNext.js:107
+#~ msgid "sectionNext-content-39"
+#~ msgstr "sectionNext-content-39"
+
+#: sections/SectionNext.js:112
+#~ msgid "sectionNext-content-40"
+#~ msgstr "sectionNext-content-40"
+
+#: sections/SectionNext.js:113
+#~ msgid "sectionNext-content-41"
+#~ msgstr "sectionNext-content-41"
+
+#: sections/SectionNext.js:301
+msgid "sectionNext-content-42"
+msgstr "These are donation AD, we will not check or verify donation AD, because this is part of the tutorial."
+
+#: sections/SectionNext.js:148
+#~ msgid "sectionNext-content-43"
+#~ msgstr "How to donate?"
+
+#: sections/SectionNext.js:308
+msgid "sectionNext-content-44"
+msgstr "Please DO YOUR OWN RESEARCH."
+
+#: sections/SectionNext.js:400
+#~ msgid "sectionNext-content-45"
+#~ msgstr "sectionNext-content-45"
+
+#: sections/SectionNext.js:295
+msgid "sectionNext-title-10"
+msgstr "What's Next? You can start from the following"
+
+#: sections/SectionNext.js:296
+msgid "sectionNext-title-11"
+msgstr "sectionNext-title-11"
+
+#: sections/SectionPartners.js:64
+msgid "sectionPartners-des-1"
+msgstr "Thanks to the following communities for their great support"
+
+#: sections/SectionSecurity.js:47
+msgid "sectionSecurity-content-10"
+msgstr "Some common Web3 attack methods"
+
+#: sections/SectionSecurity.js:50
+msgid "sectionSecurity-content-11"
+msgstr "Wallet recovery phrase, private key leaked or lost"
+
+#: sections/SectionSecurity.js:54
+msgid "sectionSecurity-content-12"
+msgstr "Since Web3 is decentralized, it doesn't have password retrieval, account locking, and other functions like Web2. Therefore, you must take good care of the recovery phrase and private key. Once leaked or lost, the assets in the wallet will be extremely difficult to retrieve!"
+
+#: sections/SectionSecurity.js:63
+msgid "sectionSecurity-content-13"
+msgstr "Common leaks and loss cases:"
+
+#: sections/SectionSecurity.js:67
+msgid "sectionSecurity-content-14"
+msgstr "Proactively tell others (including spouse), leaked or maliciously attacked by the other party;"
+
+#: sections/SectionSecurity.js:71
+msgid "sectionSecurity-content-15"
+msgstr "Written on the paper and found by others or the paper is lost, the handwriting is blurred and indistinguishable;"
+
+#: sections/SectionSecurity.js:75
+msgid "sectionSecurity-content-16"
+msgstr "Computer or mobile phone infected, stolen while using wallet;"
+
+#: sections/SectionSecurity.js:79
+msgid "sectionSecurity-content-17"
+msgstr "Computer or mobile phone is damaged, and didn't backup on time;"
+
+#: sections/SectionSecurity.js:83
+msgid "sectionSecurity-content-18"
+msgstr "Copy-paste recover phrase and private key, result in them to be uploaded to the cloud by malware or typing software;"
+
+#: sections/SectionSecurity.js:87
+msgid "sectionSecurity-content-19"
+msgstr "Set up special recovery phrase or private key memory rules, but forgot the rules;"
+
+#: sections/SectionSecurity.js:98
+msgid "sectionSecurity-content-20"
+msgstr "Well-known Cases"
+
+#: sections/SectionSecurity.js:104
+msgid "sectionSecurity-content-21"
+msgstr "An estimated 3 million BTC were lost due to various reasons"
+
+#: sections/SectionSecurity.js:112
+msgid "sectionSecurity-content-22"
+msgstr "Data Sources"
+
+#: sections/SectionSecurity.js:122
+msgid "sectionSecurity-content-23"
+msgstr "The total amount of hacking losses on blockchain is about 26 billion US dollars"
+
+#: sections/SectionSecurity.js:127
+msgid "sectionSecurity-content-24"
+msgstr "Data Sources"
+
+#: sections/SectionSecurity.js:142
+msgid "sectionSecurity-content-25"
+msgstr "Solution"
+
+#: sections/SectionSecurity.js:148
+msgid "sectionSecurity-content-26"
+msgstr "Use a professional password management tool to manage recovery phrase and private keys. Low start-up cost, better security, full platform synchronization, suitable for newbies. Recommended"
+
+#: sections/SectionSecurity.js:156
+msgid "sectionSecurity-content-27"
+msgstr "or"
+
+#: sections/SectionSecurity.js:170
+msgid "sectionSecurity-content-28"
+msgstr "When saving or forwarding recovery phrase or private keys, using different methods such as segmented copy + manual input + disconnect network to reduce the overall leakage risk;"
+
+#: sections/SectionSecurity.js:174
+msgid "sectionSecurity-content-29"
+msgstr "Use a hardware wallet. This is a good choice for users with significant assets and extensive cryptocurrency experience"
+
+#: sections/SectionSecurity.js:178
+msgid "sectionSecurity-content-30"
+msgstr "Maintain good computer and phone usage habits and do not install software of unknown origin."
+
+#: sections/SectionSecurity.js:186
+msgid "sectionSecurity-content-31"
+msgstr "Phishing attacks"
+
+#: sections/SectionSecurity.js:190
+msgid "sectionSecurity-content-32"
+msgstr "Phishing attack is the most common type of attack. It works by luring you in by forging official websites, agreements or attacking official accounts to post fake information, and then asking you to transfer money or buy fake NFTs, etc."
+
+#: sections/SectionSecurity.js:199
+msgid "sectionSecurity-content-33"
+msgstr "Common attack methods and examples:"
+
+#: sections/SectionSecurity.js:203
+msgid "sectionSecurity-content-34"
+msgstr "Any transaction or operation on blockchain requires you to sign a message to execute. The attacker will replace or forge the protocol for you to sign (Sign Message), but the actual agreement is a malicious transfer, etc. (You need to be very careful with unidentified signed messages like the following)"
+
+#: sections/SectionSecurity.js:214
+msgid "sectionSecurity-content-35"
+msgstr "Phishing email attacks: you will probably receive fake emails with links to phishing websites for you to buy or transfer money."
+
+#: sections/SectionSecurity.js:218
+msgid "sectionSecurity-content-36"
+msgstr "On NFT marketplace (e.g. OpenSea), attackers create items with similar names or avatars to fool you and then buy them."
+
+#: sections/SectionSecurity.js:222
+msgid "sectionSecurity-content-37"
+msgstr "Download the wallet plugin from a third-party website, the attacker replaces or inserts malicious code."
+
+#: sections/SectionSecurity.js:226
+msgid "sectionSecurity-content-38"
+msgstr "Social media phishing attacks. The 'enthusiastic' friend/follower may pretend to be nice and send you 'official websites' or send you modified plugins, mobile APPs, etc. However, they are modified malware."
+
+#: sections/SectionSecurity.js:242
+msgid "sectionSecurity-content-39"
+msgstr "Well-known Cases"
+
+#: sections/SectionSecurity.js:248
+msgid "sectionSecurity-content-40"
+msgstr "NFTs worth 1.7 million USD were stolen from OpenSea by phishing attack"
+
+#: sections/SectionSecurity.js:256
+msgid "sectionSecurity-content-41"
+msgstr "Link"
+
+#: sections/SectionSecurity.js:264
+msgid "sectionSecurity-content-42"
+msgstr "Jay Chou's NFT of over 3 million RMB stolen by phishing on April Fool's Day"
+
+#: sections/SectionSecurity.js:303
+msgid "sectionSecurity-content-43"
+msgstr "Solutions"
+
+#: sections/SectionSecurity.js:307
+msgid "sectionSecurity-content-44"
+msgstr "Always be wary of any message sent to you from anyone. Even if it's a good friend or an official channel (because their account may have been hacked)."
+
+#: sections/SectionSecurity.js:311
+msgid "sectionSecurity-content-45"
+msgstr "If not necessary, please reduce the operations and do not click everything. The more you operate, the more likely you would be hacked."
+
+#: sections/SectionSecurity.js:315
+msgid "sectionSecurity-content-46"
+msgstr "Distribute your assets and plan the use of your wallets. Similar to your bank account, use the savings account for saving and transferring only. Put only a small amount of assets in the daily use account."
+
+#: sections/SectionSecurity.js:319
+msgid "sectionSecurity-content-47"
+msgstr "Consult an experienced friend or check the smart contract before claiming airdrops or participating new projects to make sure there are no problems."
+
+#: sections/SectionSecurity.js:327
+msgid "sectionSecurity-content-48"
+msgstr "Browser plug-in attacks"
+
+#: sections/SectionSecurity.js:331
+msgid "sectionSecurity-content-49"
+msgstr "Usually we would install some browser extensions or plug-ins to enhance the experience. In fact, browser plug-ins have high privileges and can modify the frontend code to replace or tamper the normal contract, thus initiating phishing attacks"
+
+#: sections/SectionSecurity.js:341
+msgid "sectionSecurity-content-50"
+msgstr "Well-known Cases"
+
+#: sections/SectionSecurity.js:345
+msgid "sectionSecurity-content-51"
+msgstr "There is no actual case, only theoretical risk and possibility"
+
+#: sections/SectionSecurity.js:356
+msgid "sectionSecurity-content-52"
+msgstr "Solution"
+
+#: sections/SectionSecurity.js:362
+msgid "sectionSecurity-content-53"
+msgstr "Create a new Chrome Profile and only install the MetaMask plugin. When you need to interact with your wallet, use this Chrome Profile to do so. For more information on the usage of Chrome Profile, please refer to: "
+
+#: sections/SectionSecurity.js:390
+msgid "sectionSecurity-content-54"
+msgstr "Two general security recommendations"
+
+#: sections/SectionSecurity.js:405
+msgid "sectionSecurity-content-55"
+msgstr "Distribute your assets and make a plan on how to use your wallets"
+
+#: sections/SectionSecurity.js:409
+msgid "sectionSecurity-content-56"
+msgstr "Hold a small amount of assets in your daily use hot wallet, and create different wallets with different recovery phrases."
+
+#: sections/SectionSecurity.js:413
+msgid "sectionSecurity-content-57"
+msgstr "Set up cold wallets for savings and transferring. Reduce interaction and usage of your cold wallet."
+
+#: sections/SectionSecurity.js:417
+msgid "sectionSecurity-content-58"
+msgstr "Periodically create new wallets for asset transfers."
+
+#: sections/SectionSecurity.js:422
+msgid "sectionSecurity-content-59"
+msgstr "The approach of many veterans is to put assets into a hardware wallet, recreate a new wallet every time they need to interact externally, and dispose of them when they finish."
+
+#: sections/SectionSecurity.js:453
+msgid "sectionSecurity-content-60"
+msgstr "Be alert to any messages you see"
+
+#: sections/SectionSecurity.js:457
+msgid "sectionSecurity-content-61"
+msgstr "Learn how to properly find official websites, announcements, programs, etc. Don't download and install software from third-party sites"
+
+#: sections/SectionSecurity.js:461
+msgid "sectionSecurity-content-62"
+msgstr "Double check when you see information. Even if it is an official release, it could be due to the official account being hacked sometimes"
+
+#: sections/SectionSecurity.js:491
+msgid "sectionSecurity-content-63"
+msgstr "Again, please note: Due to the distributed and anonymous nature of Web3, it will be very difficult to recover assets if they are stolen, so pay attention to security issues!"
+
+#: sections/SectionSecurity.js:493
+msgid "sectionSecurity-content-64"
+msgstr "If you want to learn more about safety, we recommend you to read the following articles:"
+
+#: sections/SectionSecurity.js:501
+msgid "sectionSecurity-content-65"
+msgstr "Blockchain Dark Forest Self-Help Manual"
+
+#: sections/SectionSecurity.js:511
+msgid "sectionSecurity-content-66"
+msgstr "Web3 生存指南之防骗反诈安全手册V1.0 (Chinese only)"
+
+#: sections/SectionSecurity.js:230
+msgid "sectionSecurity-content-dc"
+msgstr "DM (Direct Message) phishing attack on Discord. Attackers will imitate the project's official account and send you a direct message about the project's whitelist, lottery or mint information, usually with a phishing website link."
+
+#: sections/SectionSecurity.js:411
+#~ msgid "sectionSecurity-content-dc-solution"
+#~ msgstr "sectionSecurity-content-dc-solution"
+
+#: sections/SectionSecurity.js:281
+msgid "sectionSecurity-other-example-1"
+msgstr "DM (Direct Message) phishing attack on Discord: "
+
+#: sections/SectionSecurity.js:289
+msgid "sectionSecurity-other-example-1-link"
+msgstr "Link"
+
+#: sections/SectionSecurity.js:275
+msgid "sectionSecurity-other-examples-title"
+msgstr "Other Cases"
+
+#: sections/SectionCatalog.js:197
+#: sections/SectionSecurity.js:19
+msgid "sectionSecurity-title-10"
+msgstr "Step 2: Understanding the Security of Web3"
+
+#: sections/SectionSecurity.js:20
+msgid "sectionSecurity-title-11"
+msgstr "Introducing security related knowledge of Web3"
+
+#: public/images/SectionSecurity.js:24
+#~ msgid "sectionSecurity-title-12"
+#~ msgstr "Congrats! You have got your ETH wallet!"
+
+#: public/images/SectionSecurity.js:25
+#~ msgid "sectionSecurity-title-13"
+#~ msgstr "Please remember, that private keys and keywords are your most important secrets. Once others get it, you will lose everything in that wallet!"
+
+#: sections/SectionSecurity.js:31
+msgid "sectionSecurity-title-14"
+msgstr "Before getting ETH, it's important to learn the basics of Web3 security to avoid financial loss."
+
+#: sections/SectionTeam.js:564
+msgid "sectionTeam-content-10"
+msgstr "This project was initiated by the GCLX NFT community, and was built by a number of contributors."
+
+#: sections/SectionTeam.js:572
+msgid "sectionTeam-content-11"
+msgstr "Core contributors"
+
+#: sections/SectionTeam.js:589
+msgid "sectionTeam-content-12"
+msgstr "Contributors"
+
+#: sections/SectionTeam.js:76
+#~ msgid "sectionTeam-partners-10"
+#~ msgstr "sectionTeam-partners-10"
+
+#: sections/SectionTeam.js:81
+#~ msgid "sectionTeam-partners-11"
+#~ msgstr "sectionTeam-partners-11"
+
+#: sections/SectionTeam.js:87
+#~ msgid "sectionTeam-partners-12"
+#~ msgstr "sectionTeam-partners-12"
+
+#: sections/SectionTeam.js:96
+#~ msgid "sectionTeam-partners-13"
+#~ msgstr "sectionTeam-partners-13"
+
+#: sections/SectionTeam.js:101
+#~ msgid "sectionTeam-partners-14"
+#~ msgstr "sectionTeam-partners-14"
+
+#: sections/SectionTeam.js:107
+#~ msgid "sectionTeam-partners-15"
+#~ msgstr "sectionTeam-partners-15"
+
+#: sections/SectionTeam.js:553
+msgid "sectionTeam-title-10"
+msgstr "Team behind the screen"
+
+#: sections/SectionTeam.js:554
+msgid "sectionTeam-title-11"
+msgstr "sectionTeam-title-11"
+
+#: sections/SectionWallet.js:38
+msgid "sectionWallet-content-10"
+msgstr "Install the Chrome browser extension"
+
+#: sections/SectionWallet.js:40
+msgid "sectionWallet-content-11"
+msgstr "Open the official download page of MetaMask website "
+
+#: sections/SectionWallet.js:138
+msgid "sectionWallet-content-111"
+msgstr "What is the relationship between mnemonics and wallets?"
+
+#: sections/SectionWallet.js:141
+msgid "sectionWallet-content-112"
+msgstr "The mnemonic of Ethereum is composed of 12 random words and based on these mnemonics, many public and private key pairs (wallets) can be generated. Therefore, if the mnemonic is lost, the wallets based on these mnemonics will be lost. If the private key of a single wallet is leaked, only the corresponding wallet will be affected."
+
+#: sections/SectionWallet.js:151
+msgid "sectionWallet-content-113"
+msgstr "What is the relationship between mnemonics and MetaMask?"
+
+#: sections/SectionWallet.js:154
+msgid "sectionWallet-content-114"
+msgstr "There are protocols and standards for the generation rules of mnemonics. The latest Ethereum network uses the BIP39 standard to generate mnemonics, and MetaMask also supports the BIP39 standard. Therefore, MetaMask can generate Ethereum's mnemonic and wallet based on BIP39. Want to experience BIP39 for yourself? Check out "
+
+#: sections/SectionWallet.js:49
+msgid "sectionWallet-content-12"
+msgstr "Click the \"Install MetaMask for Chrome\" button."
+
+#: sections/SectionWallet.js:53
+msgid "sectionWallet-content-13"
+msgstr "Then, in the Chrome Web Store, click the \"Add to Chrome\" button to install MetaMask."
+
+#: sections/SectionWallet.js:57
+msgid "sectionWallet-content-14"
+msgstr "Create a wallet"
+
+#: sections/SectionWallet.js:59
+msgid "sectionWallet-content-15"
+msgstr "After you've installed the MetaMask plugin, you'll be redirected to a page where you can learn how to create a wallet. Select \"Create a wallet\" from the drop-down menu."
+
+#: sections/SectionWallet.js:63
+msgid "sectionWallet-content-16"
+msgstr "Click the \"Create\" button after entering the password."
+
+#: sections/SectionWallet.js:67
+msgid "sectionWallet-content-17"
+msgstr "Save your recovery phrase since it will be the MOST CRITICAL information. If you forget the recovery word, you'll lose your wallet!! In the next section, we'll go over security protection knowledge."
+
+#: sections/SectionWallet.js:71
+msgid "sectionWallet-content-18"
+msgstr "The Ethereum wallet is created after you click Next and confirm your recovery phrase."
+
+#: sections/SectionWallet.js:74
+msgid "sectionWallet-content-19"
+msgstr "Your wallet's address and other details"
+
+#: sections/SectionWallet.js:76
+msgid "sectionWallet-content-20"
+msgstr "Click MetaMask when the wallet has been successfully created, and you will see the wallet UI as below. The wallet shows the current blockchain network (Ethereum Mainnet), account name (Account 1), wallet address (0xd12...C7D5), current balance, and a few typical operation buttons, among other things."
+
+#: sections/SectionWallet.js:80
+msgid "sectionWallet-content-21"
+msgstr "Your wallet address is the most commonly used information, you can copy your full wallet address by clicking \"Account 1.\""
+
+#: sections/SectionWallet.js:88
+msgid "sectionWallet-content-22"
+msgstr "The wallet address in this case is 0xd12CBe2A0dA6610aa68332f98d8E2489531bC7D5, which is the Ethereum wallet address. In cryptography, it is calculated from the private key to generate the public key and processed through some algorithms. This information is public."
+
+#: sections/SectionWallet.js:91
+msgid "sectionWallet-content-23"
+msgstr "This address is frequently used in Ethereum interactions and operations. When a friend transfers ETH to you, for example, you will need the wallet address. You can think of it as the card number of your bank account."
+
+#: sections/SectionWallet.js:94
+msgid "sectionWallet-content-24"
+msgstr "Private key (Optional)"
+
+#: sections/SectionWallet.js:96
+msgid "sectionWallet-content-25"
+msgstr "The wallet's private key, which is similar to the bank account's password, is only used in exceptional circumstances. This information is NOT TO BE SHARED!!"
+
+#: sections/SectionWallet.js:99
+msgid "sectionWallet-content-26"
+msgstr "Click \"...\" in the upper right corner of the wallet and select \"Account details\" to get the information."
+
+#: sections/SectionWallet.js:103
+msgid "sectionWallet-content-27"
+msgstr "Then click \"Export Private Key\" and enter the password, you can get a string like 7c91dcb23c4244a78...3b421dc710a310df, which is the private key of your wallet, which can be simply analogized to the bank card password."
+
+#: sections/SectionWallet.js:108
+msgid "sectionWallet-content-28"
+msgstr "You now have an Ethereum wallet and understand how to get information about it."
+
+#: sections/SectionWallet.js:119
+msgid "sectionWallet-content-29"
+msgstr "Let's take a look back at what just happened"
+
+#: sections/SectionWallet.js:123
+msgid "sectionWallet-content-30"
+msgstr "Install the MetaMask extension first, then create a MetaMask password. Please note that this is not your wallet password; rather, it is the password used to access MetaMask."
+
+#: sections/SectionWallet.js:126
+msgid "sectionWallet-content-31"
+msgstr "After that, we used MetaMask to create a new wallet and generate a 12-word recovery phrase randomly. Please don't tell anyone about this recovery phrase because it will be your most valuable asset."
+
+#: sections/SectionWallet.js:129
+msgid "sectionWallet-content-32"
+msgstr "Finally, MetaMask creates a wallet using the recovery phrase by default. One recovery phrase can create unlimited wallets, a wallet address (public key) and a private key will be included in each wallet. The private key cannot be revealed, but the wallet address can be."
+
+#: sections/SectionWallet.js:166
+msgid "sectionWallet-content-33"
+msgstr "Is it possible that somebody else has the same recovery phrase as I do?"
+
+#: sections/SectionWallet.js:169
+msgid "sectionWallet-content-34"
+msgstr "Theoretically, this could happen, but in practice the probability of this happening is extremely low. The following graph is the difficulty of guessing a specific 256 bit private key."
+
+#: sections/SectionCatalog.js:192
+#: sections/SectionWallet.js:14
+msgid "sectionWallet-title-10"
+msgstr "Step 1: Get Ethereum Wallet"
+
+#: sections/SectionWallet.js:15
+msgid "sectionWallet-title-11"
+msgstr "Introducing how to get the first Ethereum wallet"
+
+#: sections/SectionWallet.js:19
+#~ msgid "sectionWallet-title-12"
+#~ msgstr "Congrats! You have got your ETH wallet!"
+
+#: sections/SectionWallet.js:20
+#~ msgid "sectionWallet-title-13"
+#~ msgstr "Please remember, that private keys and keywords are your most important secrets. Once others get it, you will lose everything in that wallet!"
+
+#: sections/SectionWallet.js:30
+msgid "sectionWallet-title-14"
+msgstr "The most popular Ethereum wallet is MetaMask("
+
+#: sections/SectionWallet.js:34
+msgid "sectionWallet-title-15"
+msgstr "), here's how to install and setup a wallet. Chrome is recommended."
+
+#: components/FixedTools/Progress.js:89
+#: pages/index.js:106
+#: sections/SectionCatalog.js:131
+msgid "sectiontitle-10"
+msgstr "Crypto 101"
+
+#: components/FixedTools/Progress.js:94
+#: pages/index.js:116
+#: sections/SectionCatalog.js:161
+msgid "sectiontitle-11"
+msgstr "What is NFT?"
+
+#: components/FixedTools/Progress.js:99
+#: pages/index.js:125
+#: sections/SectionCatalog.js:186
+msgid "sectiontitle-12"
+msgstr "Mint my first NFT"
+
+#: components/TopShare.js:42
+msgid "share-body"
+msgstr "Hi guys, I just found a non-profit instructional project MyFirstNFT @mfnft_official http://myfirstnft.info/. You can get a FREE NFT while learning about Web3, underlying values of NFT, and security principles. Please take a look."
+
+#: components/shareDialog.js:25
+msgid "shareDialog-content-10"
+msgstr "Share this project"
+
+#: components/shareDialog.js:73
+msgid "shareDialog-content-11"
+msgstr "Copy"
+
+#: components/shareDialog.js:92
+msgid "shareDialog-content-12"
+msgstr "Share via Twitter"
+
+#: sections/TopSection.js:26
+msgid "topSection-title-1"
+msgstr "Welcome to My First NFT, you will"
+
+#: sections/TopSection.js:42
+msgid "topSection-title-2"
+msgstr "learn about Web3"
+
+#: sections/TopSection.js:43
+msgid "topSection-title-3"
+msgstr "understand what NFT is"
+
+#: sections/TopSection.js:44
+msgid "topSection-title-4"
+msgstr "get a FREE NFT"
+
+#: sections/TopSection.js:61
+msgid "topSection-title-5"
+msgstr "Est. 1 hour (depending on your past experience)"
+
+#: sections/TopSection.js:63
+msgid "topSection-title-6"
+msgstr "Buidl in LXDAO with ❤️"
+
+#: components/PFPMaker/PFPMaker.js:109
+msgid "trait-category-1"
+msgstr "Hairstyle"
+
+#: components/PFPMaker/PFPMaker.js:110
+msgid "trait-category-2"
+msgstr "Eye"
+
+#: components/PFPMaker/PFPMaker.js:111
+msgid "trait-category-3"
+msgstr "Nose"
+
+#: components/PFPMaker/PFPMaker.js:112
+msgid "trait-category-4"
+msgstr "Mouth"
+
+#: components/PFPMaker/PFPMaker.js:113
+msgid "trait-category-5"
+msgstr "Face Decorations"
+
+#: components/PFPMaker/PFPMaker.js:114
+msgid "trait-category-6"
+msgstr "Eye Decorations"
+
+#: components/PFPMaker/PFPMaker.js:115
+msgid "trait-category-7"
+msgstr "Hair Decorations"
+
+#: components/PFPMaker/PFPMaker.js:116
+msgid "trait-category-8"
+msgstr "Laser Eye"

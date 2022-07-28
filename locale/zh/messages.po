@@ -1,0 +1,1885 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2022-03-31 23:33+1300\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: zh_CN\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
+
+#: pages/examples.js:14
+msgid "Connect Wallet"
+msgstr "链接钱包"
+
+#: sections/SectionWrapper.js:179
+#: sections/SectionWrapper.js:259
+msgid "Mark-done"
+msgstr "标记完成"
+
+#: sections/SectionWrapper.js:179
+#: sections/SectionWrapper.js:259
+msgid "Marked"
+msgstr "再次学习"
+
+#: components/Header/Header.js:32
+#: layouts/Main/index.js:67
+msgid "My First NFT"
+msgstr "我的第一个 NFT"
+
+#: pages/index.js:36
+#~ msgid "Next Step"
+#~ msgstr "下一步"
+
+#: components/FixedTools/Discord.js:45
+msgid "discord-content-10"
+msgstr "有问题和建议？"
+
+#: components/FixedTools/Discord.js:48
+msgid "discord-content-11"
+msgstr "请加入官方"
+
+#: sections/SectionMint.js:139
+msgid "mint-record-not-found"
+msgstr "没有找到本地铸造记录"
+
+#: sections/SectionMint.js:140
+msgid "mint-record-not-found-tip1"
+msgstr "请先在上面铸造一个 NFT。或者去"
+
+#: sections/SectionMint.js:148
+msgid "mint-record-not-found-tip2"
+msgstr "查看钱包里的 NFT。"
+
+#: sections/SectionMint.js:28
+msgid "mintRecord-content-10"
+msgstr "我刚刚在《我的第一个 NFT》 @mfnft_official http://myfirstnft.info/ 网站上学习什么是 Web3 和 NFT，并且铸造了一个 NFT 来当头像。有兴趣的可以一起来学习铸造一个～ "
+
+#: sections/SectionMint.js:60
+msgid "mintRecord-content-11"
+msgstr "查看我的 NFT"
+
+#: sections/SectionMint.js:68
+msgid "mintRecord-content-12"
+msgstr "下载图片"
+
+#: sections/SectionMint.js:76
+msgid "mintRecord-content-13"
+msgstr "在 Etherscan 上查看"
+
+#: sections/SectionMint.js:83
+msgid "mintRecord-content-14"
+msgstr "在 OpenSea 上查看"
+
+#: sections/SectionMint.js:93
+msgid "mintRecord-content-15"
+msgstr "分享你的 NFT 给朋友"
+
+#: sections/SectionCatalog.js:212
+#: sections/SectionMint.js:164
+msgid "mintRecord-content-16"
+msgstr "Step5: 铸造我的第一个 NFT"
+
+#: sections/SectionMint.js:165
+msgid "mintRecord-content-17"
+msgstr "在本节，你将开始铸造第一个 NFT"
+
+#: sections/SectionMint.js:176
+msgid "mintRecord-content-20"
+msgstr "终于，万事俱备，你可以开始铸造第一个 NFT 了。"
+
+#: sections/SectionMint.js:179
+msgid "mintRecord-content-21"
+msgstr "制作你想要铸造的 NFT 头像并且铸造"
+
+#: sections/SectionMint.js:181
+msgid "mintRecord-content-22"
+msgstr "本 NFT 为简笔画风格头像类 NFT，支持按照你的个人喜好在线制作。免费不限量铸造。原始图片素材来自于【国产良心 NFT】项目"
+
+#: sections/SectionMint.js:186
+msgid "mintRecord-content-23"
+msgstr "我们为什么可以使用其他 NFT 项目的素材？因为【国产良心 NFT】项目采用了 CC0 协议发布，即图片素材不保留任何权利任意使用，因此我们可以使用。但是图片相同并不表示你持有国产良心 NFT，并且享有国产良心持有人的权利。"
+
+#: sections/SectionMint.js:194
+msgid "mintRecord-content-24"
+msgstr "了解更多 CC0？"
+
+#: sections/SectionMint.js:201
+msgid "mintRecord-content-25"
+msgstr "为什么可以用？"
+
+#: sections/SectionMint.js:207
+msgid "mintRecord-content-26"
+msgstr "想要添加或优化素材？请联系"
+
+#: sections/SectionMint.js:217
+msgid "mintRecord-content-27"
+msgstr "在 MetaMask 确认价格并进行铸造"
+
+#: sections/SectionMint.js:229
+msgid "mintRecord-content-28"
+msgstr "不是说免费吗？为什么还要钱？"
+
+#: sections/SectionMint.js:232
+msgid "mintRecord-content-29"
+msgstr "任何在区块链网络中的操作，都需要支付一笔手续费（Gas Fee）给区块链矿工来维持去中心化网络运行。"
+
+#: sections/SectionMint.js:239
+msgid "mintRecord-content-30"
+msgstr "本 NFT 项目为免费项目，但是铸造的过程是需要网络矿工帮你完成，因此你需要支付一笔"
+
+#: sections/SectionMint.js:242
+msgid "mintRecord-content-31"
+msgstr "值得注意的是，"
+
+#: sections/SectionMint.js:243
+msgid "mintRecord-content-32"
+msgstr "Gas Fee 是浮动的"
+
+#: sections/SectionMint.js:244
+msgid "mintRecord-content-33"
+msgstr "你可以看到 MetaMask 的 Gas Fee 部分在不断刷新。这是为什么呢？"
+
+#: sections/SectionMint.js:247
+msgid "mintRecord-content-34"
+msgstr "这是因为每一个区块的容量都是有限的，不是所有交易都会被及时打包完成。"
+
+#: sections/SectionMint.js:248
+msgid "mintRecord-content-35"
+msgstr "越高的 Gas Fee 越容易让矿工优先打包你的交易，完成的速度越快。"
+
+#: sections/SectionMint.js:255
+msgid "mintRecord-content-36"
+msgstr "建议你可以选择"
+
+#: sections/SectionMint.js:256
+msgid "mintRecord-content-37"
+msgstr "等到 Gas Fee 低一些的时候再铸造"
+
+#: sections/SectionMint.js:257
+msgid "mintRecord-content-38"
+msgstr "这样可以节约一些钱。你可以在"
+
+#: sections/SectionMint.js:265
+msgid "mintRecord-content-39"
+msgstr "看到当前的 Gas Fee。建议等到 15 - 40 Gwei 的区间进行铸造。"
+
+#: sections/SectionMint.js:283
+msgid "mintRecord-content-40"
+msgstr "查看铸造结果并使用、分享我的第一个 NFT！"
+
+#: components/PFPMaker/PFPMaker.js:463
+msgid "pfpmaker-add-laser-eye"
+msgstr "添加激光眼？"
+
+#: components/PFPMaker/PFPMaker.js:220
+msgid "pfpmaker-contract-not-ready"
+msgstr "尚未开启铸造"
+
+#: components/PFPMaker/PFPMaker.js:306
+msgid "pfpmaker-mint-confirm-etherscan"
+msgstr "在 Etherscan 查看交易"
+
+#: components/PFPMaker/PFPMaker.js:369
+msgid "pfpmaker-mint-confirm-minted"
+msgstr "铸造成功"
+
+#: components/PFPMaker/PFPMaker.js:377
+msgid "pfpmaker-mint-confirm-text"
+msgstr "确认"
+
+#: components/PFPMaker/PFPMaker.js:282
+msgid "pfpmaker-mint-confirm-title"
+msgstr "请最终确认要铸造的图片"
+
+#: components/PFPMaker/PFPMaker.js:254
+#: components/PFPMaker/PFPMaker.js:357
+msgid "pfpmaker-mint-failed"
+msgstr "铸造失败"
+
+#: components/PFPMaker/PFPMaker.js:267
+msgid "pfpmaker-mint-text"
+msgstr "铸造（Mint）"
+
+#: components/PFPMaker/PFPMaker.js:507
+msgid "pfpmaker-mint-tips"
+msgstr "注意：每个钱包仅支持铸造 1 个，没有稀有度和属性设置，总量不限，仅作为教学和纪念，不具备投资属性。"
+
+#: components/PFPMaker/PFPMaker.js:266
+msgid "pfpmaker-minted"
+msgstr "该地址已经铸造过了"
+
+#: components/PFPMaker/PFPMaker.js:311
+msgid "pfpmaker-minting-tip"
+msgstr "铸造中，请不要关闭当前弹窗和页面"
+
+#: components/PFPMaker/PFPMaker.js:485
+msgid "pfpmaker-random-generate"
+msgstr "随机生成"
+
+#: components/PFPMaker/PFPMaker.js:474
+msgid "pfpmaker-random-generate-tip"
+msgstr "随机生成也可以在左侧修改个别部件哦"
+
+#: components/PFPMaker/PFPMaker.js:489
+msgid "pfpmaker-reset"
+msgstr "重置"
+
+#: components/PFPMaker/PFPMaker.js:310
+msgid "pfpmaker-success-tip"
+msgstr "你可以在下面看到你铸造过的 NFT"
+
+#: components/PFPMaker/PFPMaker.js:264
+msgid "pfpmaker-uploading"
+msgstr "上传中..."
+
+#: components/FixedTools/Progress.js:43
+#~ msgid "progress-tip"
+#~ msgstr "当前完成进度"
+
+#: components/Donation.js:180
+msgid "section-donate-button"
+msgstr "捐赠"
+
+#: components/Donation.js:45
+msgid "section-donate-content-1"
+msgstr "非常感谢您的支持。我们将使用捐赠来继续维护和创建更多这样的非盈利项目。"
+
+#: components/Donation.js:141
+msgid "section-donate-content-10"
+msgstr "请联系我们并提供信息，我们将把您列入捐赠广告名单中。"
+
+#: components/Donation.js:142
+msgid "section-donate-content-11"
+msgstr "联系方式和信息，请参考"
+
+#: components/Donation.js:147
+msgid "section-donate-content-13"
+msgstr "关于我的第一个 NFT ☝"
+
+#: components/Donation.js:149
+msgid "section-donate-content-14"
+msgstr "。谢谢！"
+
+#: components/Donation.js:48
+msgid "section-donate-content-2"
+msgstr "有关我们将如何使用捐赠的更多详细信息："
+
+#: components/Donation.js:53
+msgid "section-donate-content-3"
+msgstr "关于我的第一个 NFT ☝"
+
+#: components/Donation.js:57
+msgid "section-donate-content-4"
+msgstr "您可以使用以下表单进行捐赠："
+
+#: components/Donation.js:67
+msgid "section-donate-content-5"
+msgstr "我想捐赠"
+
+#: components/Donation.js:98
+msgid "section-donate-content-6"
+msgstr "确认"
+
+#: components/Donation.js:107
+msgid "section-donate-content-7"
+msgstr "在 Etherscan 上查看 transactions："
+
+#: components/Donation.js:118
+msgid "section-donate-content-8"
+msgstr "或者手动捐赠 ETH 到我们官方钱包地址："
+
+#: components/Donation.js:138
+msgid "section-donate-content-9"
+msgstr "捐赠之后"
+
+#: components/Donation.js:36
+msgid "section-donation-title"
+msgstr "捐赠须知"
+
+#: sections/SectionNext.js:252
+#~ msgid "section-title-10"
+#~ msgstr ""
+
+#: sections/SectionNext.js:253
+#~ msgid "section-title-11"
+#~ msgstr ""
+
+#: sections/SectionNext.js:257
+#~ msgid "section-title-12"
+#~ msgstr ""
+
+#: sections/SectionNext.js:261
+#~ msgid "section-title-13"
+#~ msgstr ""
+
+#: sections/SectionNext.js:264
+#~ msgid "section-title-14"
+#~ msgstr ""
+
+#: sections/SectionBTC.js:123
+msgid "sectionBTC-FQA-10"
+msgstr "比特币有什么价值？"
+
+#: sections/SectionBTC.js:124
+msgid "sectionBTC-FQA-11"
+msgstr "它具有货币的属性，按照白皮书的设计，不会通胀。同时根据区块链的特性它还具备以下特点：账户匿名、交易公开透明、不可篡改、完全在虚拟网络中，相比跨境转账结算等场景要方便许多。因此具备了一定的使用价值。"
+
+#: sections/SectionBTC.js:127
+msgid "sectionBTC-FQA-12"
+msgstr "为什么比特币会有如此高且不稳定的价格？"
+
+#: sections/SectionBTC.js:128
+msgid "sectionBTC-FQA-13"
+msgstr "它的价格由供需决定，与大白菜、股票、货币没有区别。只不过没有监管和限制，容易受到热点新闻的影响出现大幅度波动。"
+
+#: sections/SectionBTC.js:131
+msgid "sectionBTC-FQA-14"
+msgstr "区块链如何实现交易公开透明同时保护隐私并且匿名呢？"
+
+#: sections/SectionBTC.js:132
+msgid "sectionBTC-FQA-15"
+msgstr "在整个网络中，你的交易将通过一个随机生成的钱包地址完成，与这个钱包地址相关的交易等在网络上全部是公开透明的。匿名是因为别人不知道你跟这个钱包有关联。如果你在社交媒体发布过这个钱包地址，那么就可以将其跟你联系在一起。"
+
+#: sections/SectionBTC.js:135
+msgid "sectionBTC-FQA-16"
+msgstr "比特币有什么缺点？"
+
+#: sections/SectionBTC.js:136
+msgid "sectionBTC-FQA-17"
+msgstr "匿名和自由有利也有弊。弊端在于难以追踪和限制，所以经常被黑产利用，进行洗钱等违法犯罪活动。由于每打包一个区块需要约 10 分钟，因此也会影响交易的实时性。每个区块的存储数据也是有限的。不过，越来越多的新区块链技术正在优化和解决这些问题。"
+
+#: sections/SectionBTC.js:64
+msgid "sectionBTC-content-10"
+msgstr "节点可以得到奖励"
+
+#: sections/SectionBTC.js:67
+msgid "sectionBTC-content-11"
+msgstr "网络节点服务提供商（以下简称为网络服务提供商）可以得到奖励。不同的网络服务提供商可以得到不同的代币奖励，比如：比特币。"
+
+#: sections/SectionBTC.js:88
+msgid "sectionBTC-content-12"
+msgstr "比特币具备了货币属性"
+
+#: sections/SectionBTC.js:91
+msgid "sectionBTC-content-13"
+msgstr "根据比特币的设计，它仅有有限的供应量，而且可以自由转账。因此具备了货币的特性，成为了加密货币。"
+
+#: sections/SectionBTC.js:14
+#: sections/SectionCatalog.js:141
+msgid "sectionBTC-title-10"
+msgstr "什么是比特币（BTC）？"
+
+#: sections/SectionBTC.js:15
+msgid "sectionBTC-title-11"
+msgstr "本节将介绍什么是比特币，以及为什么需要比特币。"
+
+#: sections/SectionBTC.js:27
+msgid "sectionBTC-title-12"
+msgstr "去中心化和分布式网络很好，可是为什么会有人愿意提供这项服务呢？"
+
+#: sections/SectionBTC.js:36
+msgid "sectionBTC-title-13"
+msgstr "因为他们可以因此得到奖励："
+
+#: sections/SectionBTC.js:49
+msgid "sectionBTC-title-14"
+msgstr "比特币"
+
+#: sections/SectionBlockchain.js:48
+msgid "sectionBlockchain-content-1"
+msgstr "这是一个区块"
+
+#: sections/SectionBlockchain.js:146
+msgid "sectionBlockchain-content-10"
+msgstr "区块链"
+
+#: sections/SectionBlockchain.js:170
+msgid "sectionBlockchain-content-11"
+msgstr "由此得出区块链特性"
+
+#: sections/SectionBlockchain.js:202
+msgid "sectionBlockchain-content-12"
+msgstr "不可篡改"
+
+#: sections/SectionBlockchain.js:205
+msgid "sectionBlockchain-content-13"
+msgstr "你无法改变历史信息，因为每个区块包含了上一个区块的摘要并串联起来，如果你修改了历史的区块，你将必须修改后面的全部区块。"
+
+#: sections/SectionBlockchain.js:239
+msgid "sectionBlockchain-content-14"
+msgstr "公开透明、匿名"
+
+#: sections/SectionBlockchain.js:242
+msgid "sectionBlockchain-content-15"
+msgstr "在区块链上的信息全部公开透明。每个人都可以顺着区块和链找到历史上所有的记录来查看你的钱包余额。但是没人知道这是你的钱包。"
+
+#: sections/SectionBlockchain.js:276
+msgid "sectionBlockchain-content-16"
+msgstr "快速交易"
+
+#: sections/SectionBlockchain.js:279
+msgid "sectionBlockchain-content-17"
+msgstr "无论金额多少以及你在什么地方，只要你的交易记录被打包在区块链中，交易就自动完成。相比传统的跨国汇款非常快速便捷。"
+
+#: sections/SectionBlockchain.js:288
+msgid "sectionBlockchain-content-18"
+msgstr "那么如何来确保历史交易记录真的没有被篡改而且可信呢？"
+
+#: sections/SectionBlockchain.js:296
+msgid "sectionBlockchain-content-19"
+msgstr "分布式记账！"
+
+#: sections/SectionBlockchain.js:56
+msgid "sectionBlockchain-content-2"
+msgstr "每一个区块包括两个部分：交易记录等一些信息, 和之前的区块摘要（哈希）。"
+
+#: sections/SectionBlockchain.js:312
+msgid "sectionBlockchain-content-20"
+msgstr "一个区块链网络中有非常多的节点（矿机）来记账，每个节点都会记录完整的、相同的区块链信息！"
+
+#: sections/SectionBlockchain.js:320
+msgid "sectionBlockchain-content-21"
+msgstr "有了分布式网络之后，区块链有了新特性"
+
+#: sections/SectionBlockchain.js:352
+msgid "sectionBlockchain-content-22"
+msgstr "去中心化"
+
+#: sections/SectionBlockchain.js:355
+msgid "sectionBlockchain-content-23"
+msgstr "区块链网络通常分布在全球，每个节点都将会存储一份相同的区块链数据。没有人能够控制全部的节点，因此这份区块链数据将会一直存在。"
+
+#: sections/SectionBlockchain.js:389
+msgid "sectionBlockchain-content-24"
+msgstr "真正的不可篡改"
+
+#: sections/SectionBlockchain.js:392
+msgid "sectionBlockchain-content-25"
+msgstr "区块链网络通常分布在全球，一个人控制大部分节点几乎不可能，因此即便有人修改了部分节点的区块链数据，只要被修改记录的节点不超过 51%，这个改动将不会被认可。"
+
+#: sections/SectionBlockchain.js:60
+msgid "sectionBlockchain-content-3"
+msgstr "每一个区块只有有限的存储容量。"
+
+#: sections/SectionBlockchain.js:64
+msgid "sectionBlockchain-content-4"
+msgstr "每个区块会在一定时间内打包，例如大概 10 分钟打包生成一个。"
+
+#: sections/SectionBlockchain.js:92
+msgid "sectionBlockchain-content-5"
+msgstr "这是一条链"
+
+#: sections/SectionBlockchain.js:100
+msgid "sectionBlockchain-content-6"
+msgstr "一条链只可以链接两个区块。"
+
+#: sections/SectionBlockchain.js:104
+msgid "sectionBlockchain-content-7"
+msgstr "只有一条链。"
+
+#: sections/SectionBlockchain.js:108
+msgid "sectionBlockchain-content-8"
+msgstr "区块按照顺序依次串联。"
+
+#: sections/SectionBlockchain.js:132
+msgid "sectionBlockchain-content-9"
+msgstr "合并在一起就是："
+
+#: sections/SectionBlockchain.js:31
+msgid "sectionBlockchain-subtitle-1"
+msgstr "在介绍加密货币之前，我们不得不提到加密货币的底层技术——区块链。"
+
+#: sections/SectionBlockchain.js:19
+#: sections/SectionCatalog.js:136
+msgid "sectionBlockchain-title-1"
+msgstr "区块链是什么？"
+
+#: sections/SectionBlockchain.js:20
+msgid "sectionBlockchain-title-2"
+msgstr "本节我们讲介绍区块链是什么？如何理解区块链？"
+
+#: sections/SectionComponents.js:45
+msgid "sectionComponents-content-10"
+msgstr "去中心化的网络和区块链"
+
+#: sections/SectionComponents.js:49
+msgid "sectionComponents-content-11"
+msgstr "区块链将会有一条链来记录全部的信息，这条链将存在对应的去中心化网络中。"
+
+#: sections/SectionComponents.js:53
+msgid "sectionComponents-content-12"
+msgstr "去中心化的网络，将由无数节点提供服务来维持网络运行。这种操作称之为挖矿。"
+
+#: sections/SectionComponents.js:86
+msgid "sectionComponents-content-13"
+msgstr "维持网络运行的代币激励"
+
+#: sections/SectionComponents.js:90
+msgid "sectionComponents-content-14"
+msgstr "去中心化的网络由无数节点提供服务来维持网络运行，这种操作称之为挖矿。维持这些服务的人一般称之为矿工。矿工们维持网络运行需要奖励，就像你工作需要工资，在区块链中对矿工的奖励一般是代币，你经常听说的 Gas Fee 就是矿工们的「工资」。"
+
+#: sections/SectionComponents.js:94
+msgid "sectionComponents-content-15"
+msgstr "你使用这个网络进行交易、转账、铸造 NFT等等，均需要支付代币。如果你没有代币又想使用这个区块链网络服务，则需要进行代币之间交换或者法币交换。"
+
+#: sections/SectionComponents.js:124
+msgid "sectionComponents-content-16"
+msgstr "一条区块链如何运行起来呢？"
+
+#: sections/SectionComponents.js:140
+msgid "sectionComponents-content-17"
+msgstr "由于区块链结点的存在，让区块链技术与特性得以维持，从而聚集了大量的开发者基于此来研发应用，有了项目就能让用户聚集与活跃，由此产生的交易代币滋养了区块链结点。"
+
+#: sections/SectionCatalog.js:146
+#: sections/SectionComponents.js:17
+msgid "sectionComponents-title-10"
+msgstr "区块链的核心组成部分"
+
+#: sections/SectionComponents.js:18
+msgid "sectionComponents-title-11"
+msgstr "本节，我们将总结一下区块链的核心组成部分。"
+
+#: sections/SectionComponents.js:29
+msgid "sectionComponents-title-12"
+msgstr "由上面区块链和比特币内容我们可以得知区块链由两个核心组成"
+
+#: sections/SectionConnectWallet.js:41
+msgid "sectionConnectWallet-content-10"
+msgstr "请点击下面按钮链接你的钱包"
+
+#: sections/SectionConnectWallet.js:59
+msgid "sectionConnectWallet-content-11"
+msgstr "刚刚发生了什么？什么是链接钱包？"
+
+#: sections/SectionConnectWallet.js:74
+msgid "sectionConnectWallet-content-12"
+msgstr "链接钱包是 Web3 应用的重要特征"
+
+#: sections/SectionConnectWallet.js:78
+msgid "sectionConnectWallet-content-13"
+msgstr "当你看到网站上有“Connect Wallet”按钮时，就说明这是一个 Web3 APP"
+
+#: sections/SectionConnectWallet.js:82
+msgid "sectionConnectWallet-content-14"
+msgstr "链接钱包相当于登录网站 APP，登录之后，网站将有权限读取你的钱包信息以及区块链上你的资产"
+
+#: sections/SectionConnectWallet.js:86
+msgid "sectionConnectWallet-content-15"
+msgstr "由于区块链是公开透明的，网站将可以读取你的全部在区块链上的信息"
+
+#: sections/SectionConnectWallet.js:90
+msgid "sectionConnectWallet-content-16"
+msgstr "你的钱包就是你的账户，而且是匿名的，你无需填写密码或者任何联系信息"
+
+#: sections/SectionCatalog.js:207
+#: sections/SectionConnectWallet.js:29
+msgid "sectionConnectWallet-title-10"
+msgstr "Step4: 链接钱包"
+
+#: sections/SectionConnectWallet.js:30
+msgid "sectionConnectWallet-title-11"
+msgstr "介绍链接钱包是什么意思？如何链接钱包"
+
+#: sections/SectionConnectWallet.js:30
+#~ msgid "sectionConnectWallet-title-12"
+#~ msgstr "Congrats! You have got your ETH wallet!"
+
+#: sections/SectionConnectWallet.js:31
+#~ msgid "sectionConnectWallet-title-13"
+#~ msgstr "Please remember, that private keys and keywords are your most important secrets. Once others get it, you will lose everything in that wallet!"
+
+#: sections/SectionDYOR.js:34
+msgid "sectionDYOR-content-10"
+msgstr "在决定购买 NFT 之前，您需要考虑清楚你为什么购买？"
+
+#: sections/SectionDYOR.js:44
+msgid "sectionDYOR-content-11"
+msgstr "因为这个艺术品跟你产生了共鸣？你非常想要收藏拥有它？"
+
+#: sections/SectionDYOR.js:57
+msgid "sectionDYOR-content-12"
+msgstr "因为你看好这个 NFT 背后的社区和文化，想要加入他们？"
+
+#: sections/SectionDYOR.js:70
+msgid "sectionDYOR-content-13"
+msgstr "因为你研究分析认为这个项目方非常有实力，未来会有升值空间？"
+
+#: sections/SectionDYOR.js:83
+msgid "sectionDYOR-content-14"
+msgstr "因为看到群里和网上有很多人宣称这个肯定赚钱 FOMO 了，不管怎样自己一定要买!"
+
+#: sections/SectionDYOR.js:88
+msgid "sectionDYOR-content-15"
+msgstr "你需要尽可能多的了解这个 NFT 项目的一切"
+
+#: sections/SectionDYOR.js:90
+msgid "sectionDYOR-content-16"
+msgstr "你需要尽可能多的了解这个项目的一切信息，包括但不限于："
+
+#: sections/SectionDYOR.js:93
+msgid "sectionDYOR-content-17"
+msgstr "作品预览效果（sneak-peaks）"
+
+#: sections/SectionDYOR.js:94
+msgid "sectionDYOR-content-18"
+msgstr "项目组成员和背景"
+
+#: sections/SectionDYOR.js:95
+msgid "sectionDYOR-content-19"
+msgstr "项目未来规划和落实的可能性"
+
+#: sections/SectionDYOR.js:96
+msgid "sectionDYOR-content-20"
+msgstr "你朋友的看法"
+
+#: sections/SectionDYOR.js:100
+msgid "sectionDYOR-content-21"
+msgstr "评估当前价格对于你是否合理"
+
+#: sections/SectionDYOR.js:102
+msgid "sectionDYOR-content-22"
+msgstr "NFT 由于其限量且独一无二的特性，非常容易被炒作。为了避免不必要的损失，建议你对于价格进行预估。"
+
+#: sections/SectionDYOR.js:105
+msgid "sectionDYOR-content-23"
+msgstr "你认为这个 NFT 项目具备什么价值？纪念价值？艺术价值？工具价值？社区价值？"
+
+#: sections/SectionDYOR.js:106
+msgid "sectionDYOR-content-24"
+msgstr "你愿意为此付出多少钱？"
+
+#: sections/SectionDYOR.js:117
+msgid "sectionDYOR-content-25"
+msgstr "请时刻问自己："
+
+#: sections/SectionDYOR.js:118
+msgid "sectionDYOR-content-26"
+msgstr "你愿意随便给一个陌生人送钱吗？"
+
+#: sections/SectionDYOR.js:120
+msgid "sectionDYOR-content-27"
+msgstr "如果不愿意，请 DYOR。"
+
+#: sections/SectionDYOR.js:123
+msgid "sectionDYOR-content-28"
+msgstr "FOMO，全称 Fear of missing out，意思是害怕失去机会。在这种情绪下，往往会高价接盘，容易被套牢。"
+
+#: sections/SectionDYOR.js:124
+msgid "sectionDYOR-content-29"
+msgstr "FUD，全称 Fear, uncertainty, and doubt，意思是害怕猜疑不确定。在这种情绪下，往往会低价出货，容易卖飞了。"
+
+#: sections/SectionCatalog.js:176
+#: sections/SectionDYOR.js:15
+msgid "sectionDYOR-title-10"
+msgstr "什么是 DYOR？如何做 DYOR？"
+
+#: sections/SectionDYOR.js:16
+msgid "sectionDYOR-title-11"
+msgstr "本节，我们将会介绍什么是 DYOR，如何做 DYOR。"
+
+#: sections/SectionDYOR.js:31
+msgid "sectionDYOR-title-12"
+msgstr "在 Web3 你会随处可见 DYOR。它的全称是 Do your own research，意思是你要自己做研究来决定是否购买，是一个免责声明。那么如何做 DYOR？"
+
+#: sections/SectionDYOR.js:127
+msgid "sectionDYOR-web3-glossary"
+msgstr "更多 Web3 '黑话' 请参考查阅这些链接："
+
+#: sections/SectionDYOR.js:134
+msgid "sectionDYOR-web3-glossary-link-1"
+msgstr "@punk6529 Tweet"
+
+#: sections/SectionDYOR.js:141
+msgid "sectionDYOR-web3-glossary-link-2"
+msgstr "The Web3 Glossary"
+
+#: sections/SectionCatalog.js:217
+#: sections/SectionDiscord.js:16
+msgid "sectionDiscord-title-10"
+msgstr "Step6: 加入 Discord 社群"
+
+#: sections/SectionDiscord.js:17
+msgid "sectionDiscord-title-11"
+msgstr "介绍如何加入我们的 Discord 社群"
+
+#: sections/SectionDiscord.js:21
+#~ msgid "sectionDiscord-title-12"
+#~ msgstr "真棒！"
+
+#: sections/SectionDiscord.js:25
+#~ msgid "sectionDiscord-title-13"
+#~ msgstr "你已完成 加入 Discord 社群。"
+
+#: sections/SectionDiscord.js:28
+#~ msgid "sectionDiscord-title-14"
+#~ msgstr "继续加油！"
+
+#: sections/SectionDiscord.js:28
+msgid "sectionDiscord-title-15"
+msgstr "目前 Discord 是在 Web3 最常用的社区管理工具，因此我们也准备了一个社群"
+
+#: sections/SectionDiscord.js:37
+msgid "sectionDiscord-title-16"
+msgstr "你可以加入咨询问题并且讨论反馈建议，下面是 Discord 的常见操作教程"
+
+#: sections/SectionDiscord.js:41
+msgid "sectionDiscord-title-17"
+msgstr "通过下面邀请链接加入 Discord"
+
+#: sections/SectionDiscord.js:43
+msgid "sectionDiscord-title-18"
+msgstr "官方 Discord 链接："
+
+#: sections/SectionDiscord.js:49
+msgid "sectionDiscord-title-19"
+msgstr "如果这是你第一次使用 Discord 可能需要注册一个账号。通常不需要下载客户端，在浏览器使用 Web 版本即可。"
+
+#: sections/SectionDiscord.js:52
+msgid "sectionDiscord-title-20"
+msgstr "链接钱包，验证资产"
+
+#: sections/SectionDiscord.js:54
+msgid "sectionDiscord-title-21"
+msgstr "Web3 的 Discord 社群通常会有一个 Verify 频道支持绑定你的钱包地址并读取你的 NFT。通常使用 Callab.Land 机器人实现。"
+
+#: sections/SectionDiscord.js:58
+msgid "sectionDiscord-title-22"
+msgstr "点击 “Let's go!” 按钮，机器人会发送一个链接给你，你需要打开链接然后选择 MetaMask 进行签约授权。"
+
+#: sections/SectionDiscord.js:62
+msgid "sectionDiscord-title-23"
+msgstr "点击 “Sign” 进行签名。请注意观察签名界面的地址和 Message 信息，可以看到这个 Message 是明文，风险较低。如果签名内容为无法阅读的信息，请务必小心！"
+
+#: sections/SectionDiscord.js:66
+msgid "sectionDiscord-title-24"
+msgstr "链接完成之后，Discord 社群将会绑定你的钱包地址到你的账号上，别人也将会看到。"
+
+#: sections/SectionETH.js:43
+msgid "sectionETH-content-10"
+msgstr "以太坊是一条区块链"
+
+#: sections/SectionETH.js:46
+msgid "sectionETH-content-11"
+msgstr "以太坊推出了智能合约的功能，简单的说，开发者可以在以太坊上基于智能合约和协议开发各类应用。其中 NFT 就是一个重要的应用，而且主流的 NFT 项目大部分在以太坊网络发布。"
+
+#: sections/SectionETH.js:77
+msgid "sectionETH-content-12"
+msgstr "以太币（ETH）是其代币"
+
+#: sections/SectionETH.js:80
+msgid "sectionETH-content-13"
+msgstr "在以太坊上进行的任何操作或者交易，需要使用以太币（ETH）来支付相关费用。"
+
+#: sections/SectionETH.js:108
+msgid "sectionETH-content-14"
+msgstr "由于区块链是去中心化的，因此在区块链上的操作都需要支付手续费给网络服务提供商。"
+
+#: sections/SectionETH.js:110
+msgid "sectionETH-content-15"
+msgstr "这个手续费通常称为 Gas Fee（正如你开车到达目的地时，需要燃烧汽油一样）。"
+
+#: sections/SectionCatalog.js:151
+#: sections/SectionETH.js:9
+msgid "sectionETH-title-10"
+msgstr "以太坊和以太币（ETH）是什么？"
+
+#: sections/SectionETH.js:10
+msgid "sectionETH-title-11"
+msgstr "本节，我们将介绍以太坊和以太币是什么？"
+
+#: sections/SectionETH.js:27
+msgid "sectionETH-title-12"
+msgstr "以太坊是由社区驱动的技术，为加密货币以太币（ETH）和成千上万的去中心化应用程序提供动力。"
+
+#: sections/SectionGetETH.js:28
+msgid "sectionGetETH-content-10"
+msgstr "登录到你常用的交易所，并且提现（以币安为例）"
+
+#: sections/SectionGetETH.js:29
+msgid "sectionGetETH-content-11"
+msgstr "登录交易所之后，在现货资产页面，点击数字货币提现，并填入你的钱包地址选择 ERC20 网络，之后填入你要提取的金额。"
+
+#: sections/SectionGetETH.js:31
+msgid "sectionGetETH-content-12"
+msgstr "我们建议第一次提现或者交易，先使用小额资金测试，可以成功收到之后，再按照相同的方式提现大额资金。"
+
+#: sections/SectionGetETH.js:33
+msgid "sectionGetETH-content-13"
+msgstr "确认提现，并等待交易完成"
+
+#: sections/SectionGetETH.js:34
+msgid "sectionGetETH-content-14"
+msgstr "点击确认提现并按照你的安全设置输入相关验证码，点击“提交”按钮。"
+
+#: sections/SectionGetETH.js:36
+msgid "sectionGetETH-content-15"
+msgstr "之后等待交易完成，并且查询资金是否已经到账。"
+
+#: sections/SectionGetETH.js:38
+msgid "sectionGetETH-content-16"
+msgstr "可以看到 MetaMask 钱包已经到账了，下面就可以开始使用了。"
+
+#: sections/SectionGetETH.js:48
+msgid "sectionGetETH-content-17"
+msgstr "联系一下你的朋友，问个好"
+
+#: sections/SectionGetETH.js:49
+msgid "sectionGetETH-content-18"
+msgstr "你可以咨询一下朋友近况以及主要在 Web3 做什么。然后告诉他你也对 Web3 有兴趣，并且正在《我的第一个 NFT》上学习并且打算铸造我的第一个 NFT。"
+
+#: sections/SectionGetETH.js:51
+msgid "sectionGetETH-content-19"
+msgstr "表明来意，希望他可以帮忙兑换一点 ETH"
+
+#: sections/SectionGetETH.js:53
+msgid "sectionGetETH-content-20"
+msgstr "你可以跟他用银行转账、发红包以及请客吃饭等方式兑换等额的 ETH。你可以在"
+
+#: sections/SectionGetETH.js:61
+msgid "sectionGetETH-content-21"
+msgstr "查看当前 ETH-USD 的价格。"
+
+#: sections/SectionGetETH.js:63
+msgid "sectionGetETH-content-22"
+msgstr "如果他同意，请发送你的钱包地址给他。铸造免费的 NFT 预计需要不超过 0.05 ETH（视 Gas Fee 情况）。如果有条件的话，建议准备 0.1 ETH。"
+
+#: sections/SectionGetETH.js:71
+msgid "sectionGetETH-content-23"
+msgstr "下面是两种比较常见的方式，请按照你的个人情况选择："
+
+#: sections/SectionGetETH.js:73
+msgid "sectionGetETH-content-24"
+msgstr "使用信用卡充值"
+
+#: sections/SectionGetETH.js:74
+msgid "sectionGetETH-content-25"
+msgstr "你可以直接使用 MetaMask 的 Buy 功能，直接通过信用卡购买。"
+
+#: sections/SectionGetETH.js:76
+msgid "sectionGetETH-content-26"
+msgstr "通过信用卡购买将会需要支付一定的手续费，而且仅支持部分国家和地区。但是比较简单方便，适合小额入金。"
+
+#: sections/SectionGetETH.js:80
+msgid "sectionGetETH-content-27"
+msgstr "目前有非常多的加密货币交易所，在交易所中通常会提供多种入金渠道方便你进行入金和兑换 ETH。"
+
+#: sections/SectionGetETH.js:82
+msgid "sectionGetETH-content-28"
+msgstr "常用的交易所包括但不限于："
+
+#: sections/SectionGetETH.js:84
+msgid "sectionGetETH-content-29"
+msgstr "Binance"
+
+#: sections/SectionGetETH.js:121
+msgid "sectionGetETH-content-30"
+msgstr "请注意："
+
+#: sections/SectionGetETH.js:123
+msgid "sectionGetETH-content-31"
+msgstr "务必仔细检查交易所网址是否正确。"
+
+#: sections/SectionGetETH.js:125
+msgid "sectionGetETH-content-32"
+msgstr "交易所注册新用户时通常支持邀请码，可以联系你的 Web3 朋友获取邀请码注册，这样可以得到一些好处并且交朋友。"
+
+#: sections/SectionGetETH.js:129
+msgid "sectionGetETH-content-33"
+msgstr "更多入金方法请参见"
+
+#: sections/SectionCatalog.js:202
+#: sections/SectionGetETH.js:145
+msgid "sectionGetETH-content-34"
+msgstr "Step3: 获取 ETH"
+
+#: sections/SectionGetETH.js:146
+msgid "sectionGetETH-content-35"
+msgstr "本节将介绍如何充值 ETH 到你的新钱包"
+
+#: sections/SectionGetETH.js:156
+msgid "sectionGetETH-content-36"
+msgstr "我们将按照你的个人情况为你推荐几种获取 ETH 的方式"
+
+#: sections/SectionGetETH.js:170
+msgid "sectionGetETH-content-37"
+msgstr "你是否在交易所有 ETH？"
+
+#: sections/SectionGetETH.js:183
+msgid "sectionGetETH-content-38"
+msgstr "是的，我平时炒币"
+
+#: sections/SectionGetETH.js:188
+msgid "sectionGetETH-content-39"
+msgstr "没有"
+
+#: sections/SectionGetETH.js:194
+msgid "sectionGetETH-content-40"
+msgstr "你是否认识搞 Web3 的朋友？"
+
+#: sections/SectionGetETH.js:206
+msgid "sectionGetETH-content-41"
+msgstr "是的，有朋友在玩"
+
+#: sections/SectionGetETH.js:211
+msgid "sectionGetETH-content-42"
+msgstr "没有"
+
+#: sections/SectionGetETH.js:164
+msgid "sectionGetETH-legal-notice"
+msgstr "（风险提示：请遵循当地法律法规进行操作。）"
+
+#: sections/SectionGetETH.js:78
+msgid "sectionGetETH-new-content-1"
+msgstr "注册交易所账号并在市场兑换"
+
+#: sections/SectionCatalog.js:166
+#: sections/SectionNFT.js:11
+msgid "sectionNFT-title-10"
+msgstr "同质化代币（FT）和非同质化代币（NFT）区别？"
+
+#: sections/SectionNFT.js:12
+msgid "sectionNFT-title-11"
+msgstr "本节将介绍同质化代币（FT）和非同质化代币（NFT）的区别。"
+
+#: sections/SectionNFT.js:24
+msgid "sectionNFT-title-12"
+msgstr "同质化代币（FT，全称 Fungible Token）是可以被任意交换的代币，就像钱一样。"
+
+#: sections/SectionNFT.js:33
+msgid "sectionNFT-title-13"
+msgstr "非同质化代币（NFT，全称 Non-fungible Token）则是独一无二、完全不同，难以用来平等交换的代币。"
+
+#: sections/SectionNFTValue.js:162
+msgid "sectionNFTValue-content-10"
+msgstr "NFT 在未来世界的应用"
+
+#: sections/SectionNFTValue.js:198
+msgid "sectionNFTValue-content-11"
+msgstr "版权确认"
+
+#: sections/SectionNFTValue.js:210
+msgid "sectionNFTValue-content-12"
+msgstr "买卖房产"
+
+#: sections/SectionNFTValue.js:222
+msgid "sectionNFTValue-content-13"
+msgstr "艺术品收藏"
+
+#: sections/SectionNFTValue.js:234
+msgid "sectionNFTValue-content-14"
+msgstr "交换物品"
+
+#: sections/SectionNFTValue.js:246
+msgid "sectionNFTValue-content-15"
+msgstr "通行证"
+
+#: sections/SectionNFTValue.js:253
+msgid "sectionNFTValue-content-16"
+msgstr "现状"
+
+#: sections/SectionNFTValue.js:256
+msgid "sectionNFTValue-content-17"
+msgstr "被盗版之后，很难确权，需要准备大量文件和记录。导致小规模盗版事件频发也无可奈何。"
+
+#: sections/SectionNFTValue.js:260
+msgid "sectionNFTValue-content-18"
+msgstr "未来"
+
+#: sections/SectionNFTValue.js:263
+msgid "sectionNFTValue-content-19"
+msgstr "NFT 并不能解决盗版问题，但是相比传统的盗版艰难的反侵权诉讼而言，仅需要几秒即可确定你是否拥有版权。也非常容易确认谁最先创造了这个物品。"
+
+#: sections/SectionNFTValue.js:266
+msgid "sectionNFTValue-content-20"
+msgstr "未来正规商业公司在采用素材时，非常容易确认谁是所有者，提升商业合作效率降低风险和盗版事情的发生。"
+
+#: sections/SectionNFTValue.js:273
+msgid "sectionNFTValue-content-21"
+msgstr "现状"
+
+#: sections/SectionNFTValue.js:276
+msgid "sectionNFTValue-content-22"
+msgstr "买卖房产需要聘请律师，通过政府信用背书的房产证等资料来确认房产所有者，甚至需要由政府档案处管理资料。这要付出时间、金钱、和一个可信任的第三方才能完成交易。"
+
+#: sections/SectionNFTValue.js:280
+msgid "sectionNFTValue-content-23"
+msgstr "未来"
+
+#: sections/SectionNFTValue.js:283
+msgid "sectionNFTValue-content-24"
+msgstr "如果未来 NFT 得到了法律认可，代表了你的房产，那么只需要几分钟转移 NFT 即可完成房产所有权交割。"
+
+#: sections/SectionNFTValue.js:290
+msgid "sectionNFTValue-content-25"
+msgstr "现状"
+
+#: sections/SectionNFTValue.js:293
+msgid "sectionNFTValue-content-26"
+msgstr "艺术品通常为实物，需要妥善保管避免被盗和损坏。展示时需要较大成本来运输和做安保工作。"
+
+#: sections/SectionNFTValue.js:297
+msgid "sectionNFTValue-content-27"
+msgstr "未来"
+
+#: sections/SectionNFTValue.js:300
+msgid "sectionNFTValue-content-28"
+msgstr "艺术品为虚拟物品，基于 NFT 技术确保艺术品的安全性。在钱包安全的情况下，无需担心艺术品被盗火者损坏。在元宇宙中可以任意展示你的藏品或者举办艺术展。"
+
+#: sections/SectionNFTValue.js:308
+msgid "sectionNFTValue-content-29"
+msgstr "想要提前体验一下元宇宙 NFT 艺术展？可以访问"
+
+#: sections/SectionNFTValue.js:323
+msgid "sectionNFTValue-content-30"
+msgstr "现状"
+
+#: sections/SectionNFTValue.js:326
+msgid "sectionNFTValue-content-31"
+msgstr "交易和交换的信任成本很高，往往需要引入第三方可信平台作为担保执行。需要一定的时间和金钱成本。"
+
+#: sections/SectionNFTValue.js:330
+msgid "sectionNFTValue-content-32"
+msgstr "未来"
+
+#: sections/SectionNFTValue.js:333
+msgid "sectionNFTValue-content-33"
+msgstr "通过区块链和 NFT 技术，可以很轻松的查看到过去的交易记录来确定物品的来源和真实性。通过智能合约等技术，可以直接实现交易和交换。减少诈骗、交易纠纷和信任成本。"
+
+#: sections/SectionNFTValue.js:340
+msgid "sectionNFTValue-content-34"
+msgstr "现状"
+
+#: sections/SectionNFTValue.js:343
+msgid "sectionNFTValue-content-35"
+msgstr "不同的系统的门票、会员卡、员工卡、通行证不互通无法相互使用，每个系统需要自己准备系统门票和会员卡等。"
+
+#: sections/SectionNFTValue.js:347
+msgid "sectionNFTValue-content-36"
+msgstr "未来"
+
+#: sections/SectionNFTValue.js:350
+msgid "sectionNFTValue-content-37"
+msgstr "所有系统门票、会员卡、员工卡、通行证均通过 NFT 技术实现。每个人的身份与其钱包绑定，不同的系统可以非常快速准确的识别你的身份，并为你提供定制化的服务。"
+
+#: sections/SectionNFTValue.js:362
+msgid "sectionNFTValue-content-38"
+msgstr "NFT 的现状"
+
+#: sections/SectionNFTValue.js:384
+msgid "sectionNFTValue-content-39"
+msgstr "NFT 还处于非常早期的阶段"
+
+#: sections/SectionNFTValue.js:387
+msgid "sectionNFTValue-content-40"
+msgstr "NFT 在 2021 年开始爆发，目前大概市场规模在 180 亿美元。市场预期在 2026 年到达 820 亿美元的规模。"
+
+#: sections/SectionNFTValue.js:400
+msgid "sectionNFTValue-content-41"
+msgstr "诸多知名品牌和明星，例如：周杰伦、余文乐、阿迪达斯、古驰等等，也在开始试水发行或者购买 NFT。"
+
+#: sections/SectionNFTValue.js:444
+msgid "sectionNFTValue-content-42"
+msgstr "目前大部分 NFT 是头像类型的项目"
+
+#: sections/SectionNFTValue.js:447
+msgid "sectionNFTValue-content-43"
+msgstr "由于 NFT 所代表的是虚拟网络的物品，比较抽象。因此目前比较常见的火爆的 NFT 项目是一些艺术作品，包括头像、画作、3D 艺术品、照片等等。"
+
+#: sections/SectionNFTValue.js:450
+msgid "sectionNFTValue-content-44"
+msgstr "也开始逐步出现更多 NFT 的玩法和项目，比如社区通行证、游戏道具、门票等。"
+
+#: sections/SectionNFTValue.js:478
+msgid "sectionNFTValue-content-45"
+msgstr "整体而言，NFT 市场处于非常早期的阶段，作品质量参差不齐鱼龙混杂。所以在参与购买 NFT 的时候，需要 DYOR。"
+
+#: sections/SectionNFTValue.js:258
+msgid "sectionNFTValue-content-46"
+msgstr "游戏"
+
+#: sections/SectionNFTValue.js:369
+msgid "sectionNFTValue-content-47"
+msgstr "现状"
+
+#: sections/SectionNFTValue.js:372
+msgid "sectionNFTValue-content-48"
+msgstr "游戏里的虚拟资产仅限于当前游戏，无法在游戏之间流通，且受限于游戏平台规则，所以玩家很难进行自由买卖。另外游戏账号也并非被你拥有，一旦被封号你将失去所有游戏资产。"
+
+#: sections/SectionNFTValue.js:376
+msgid "sectionNFTValue-content-49"
+msgstr "未来"
+
+#: sections/SectionNFTValue.js:379
+msgid "sectionNFTValue-content-50"
+msgstr "结合区块链和 NFT 技术，开发者可以设计出具有唯一性的游戏虚拟资产，且完全归属于个人，例如账号、武器、工具、房屋、宠物等，玩家可以自由的进行游戏资产的交易和流通。"
+
+#: sections/SectionNFTValue.js:120
+msgid "sectionNFTValue-subtitle-1"
+msgstr "那么我们能从基于区块链技术的 NFT 得到什么呢？"
+
+#: sections/SectionNFTValue.js:29
+msgid "sectionNFTValue-title-10"
+msgstr "独一无二，不可分割"
+
+#: sections/SectionNFTValue.js:30
+msgid "sectionNFTValue-title-11"
+msgstr "每一个 NFT 都不可分割，独一无二，无法等价交换。"
+
+#: sections/SectionNFTValue.js:41
+msgid "sectionNFTValue-title-12"
+msgstr "不可篡改，公开透明"
+
+#: sections/SectionNFTValue.js:42
+msgid "sectionNFTValue-title-13"
+msgstr "NFT 基于区块链技术，任何人都可以查看且不可篡改。"
+
+#: sections/SectionNFTValue.js:65
+msgid "sectionNFTValue-title-14"
+msgstr "完全控制权"
+
+#: sections/SectionNFTValue.js:66
+msgid "sectionNFTValue-title-15"
+msgstr "NFT 所有者将对其拥有永久、完全的控制权，不可被剥夺。（大部分数字藏品并不算真正的 NFT，因为不在公链上，可以被平台控制）"
+
+#: sections/SectionNFTValue.js:77
+msgid "sectionNFTValue-title-16"
+msgstr "确权成本低"
+
+#: sections/SectionNFTValue.js:78
+msgid "sectionNFTValue-title-17"
+msgstr "验证某人是否拥有某个 NFT 的成本非常低，可以快速确认版权归属。"
+
+#: sections/SectionNFTValue.js:53
+msgid "sectionNFTValue-title-18"
+msgstr "万物皆可 NFT"
+
+#: sections/SectionNFTValue.js:54
+msgid "sectionNFTValue-title-19"
+msgstr "NFT 可以在虚拟世界代表任意非钱币的实体。"
+
+#: sections/SectionNFTValue.js:90
+msgid "sectionNFTValue-title-20"
+msgstr "无限想象空间"
+
+#: sections/SectionNFTValue.js:91
+msgid "sectionNFTValue-title-21"
+msgstr "NFT 的具体功能和玩法由参与者定义，具有无限想象空间。"
+
+#: sections/SectionCatalog.js:171
+#: sections/SectionNFTValue.js:108
+msgid "sectionNFTValue-title-22"
+msgstr "NFT 特性和价值"
+
+#: sections/SectionNFTValue.js:109
+msgid "sectionNFTValue-title-23"
+msgstr "本节我们介绍和总结 NFT 的特性和价值"
+
+#: sections/SectionNext.js:28
+#~ msgid "sectionNext-content-10"
+#~ msgstr "尊贵且独一无二的限量 1000 份【国产良心】NFT，专为中国人准备！"
+
+#: sections/SectionNext.js:29
+#~ msgid "sectionNext-content-11"
+#~ msgstr "国产良心 NFT"
+
+#: sections/SectionNext.js:36
+#~ msgid "sectionNext-content-12"
+#~ msgstr "Excepteur sint occaecat cupidatat non proident"
+
+#: sections/SectionNext.js:37
+#~ msgid "sectionNext-content-13"
+#~ msgstr "Consectetur adipiscing elit"
+
+#: sections/SectionNext.js:41
+#~ msgid "sectionNext-content-14"
+#~ msgstr "Eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+
+#: sections/SectionNext.js:42
+#~ msgid "sectionNext-content-15"
+#~ msgstr "Labore et dolore magna aliqua"
+
+#: sections/SectionNext.js:47
+#~ msgid "sectionNext-content-16"
+#~ msgstr "Sed ut perspiciatis unde omnis iste natus error sit voluptatem"
+
+#: sections/SectionNext.js:48
+#~ msgid "sectionNext-content-17"
+#~ msgstr "Eiusmod tempor incididunt"
+
+#: sections/SectionNext.js:52
+#~ msgid "sectionNext-content-18"
+#~ msgstr "At vero eos et accusamus et iusto odio dignissimos ducimus"
+
+#: sections/SectionNext.js:53
+#~ msgid "sectionNext-content-19"
+#~ msgstr "Sed ut perspiciatis"
+
+#: sections/SectionNext.js:58
+#~ msgid "sectionNext-content-20"
+#~ msgstr "Qui blanditiis praesentium voluptatum deleniti atque corrupti"
+
+#: sections/SectionNext.js:59
+#~ msgid "sectionNext-content-21"
+#~ msgstr "Unde omnis iste natus"
+
+#: sections/SectionNext.js:64
+#~ msgid "sectionNext-content-22"
+#~ msgstr "On the other hand, we denounce with righteous indignation and dislike"
+
+#: sections/SectionNext.js:65
+#~ msgid "sectionNext-content-23"
+#~ msgstr "Sit voluptatem"
+
+#: sections/SectionNext.js:69
+#~ msgid "sectionNext-content-24"
+#~ msgstr "Quos dolores et quas molestias excepturi"
+
+#: sections/SectionNext.js:70
+#~ msgid "sectionNext-content-25"
+#~ msgstr "Accusantium doloremque"
+
+#: sections/SectionNext.js:74
+#~ msgid "sectionNext-content-26"
+#~ msgstr "Et harum quidem rerum facilis est et expedita distinctio"
+
+#: sections/SectionNext.js:75
+#~ msgid "sectionNext-content-27"
+#~ msgstr "Totam rem aperiam"
+
+#: sections/SectionNext.js:79
+#~ msgid "sectionNext-content-28"
+#~ msgstr "Nam libero tempore, cum soluta nobis est eligendi optio"
+
+#: sections/SectionNext.js:80
+#~ msgid "sectionNext-content-29"
+#~ msgstr "Uae ab illo inventore"
+
+#: sections/SectionNext.js:84
+#~ msgid "sectionNext-content-30"
+#~ msgstr "Itaque earum rerum hic tenetur a sapiente delectus"
+
+#: sections/SectionNext.js:85
+#~ msgid "sectionNext-content-31"
+#~ msgstr "Beatae vitae dicta"
+
+#: sections/SectionNext.js:90
+#~ msgid "sectionNext-content-32"
+#~ msgstr "On the other hand, we denounce with righteous indignation and dislike"
+
+#: sections/SectionNext.js:91
+#~ msgid "sectionNext-content-33"
+#~ msgstr "Nemo enim ipsam"
+
+#: sections/SectionNext.js:95
+#~ msgid "sectionNext-content-34"
+#~ msgstr "Itaque earum rerum hic tenetur a sapiente delectus"
+
+#: sections/SectionNext.js:96
+#~ msgid "sectionNext-content-35"
+#~ msgstr "Beatae vitae dicta"
+
+#: sections/SectionNext.js:101
+#~ msgid "sectionNext-content-36"
+#~ msgstr "On the other hand, we denounce with righteous indignation and dislike"
+
+#: sections/SectionNext.js:102
+#~ msgid "sectionNext-content-37"
+#~ msgstr "Nemo enim ipsam"
+
+#: sections/SectionNext.js:106
+#~ msgid "sectionNext-content-38"
+#~ msgstr "Itaque earum rerum hic tenetur a sapiente delectus"
+
+#: sections/SectionNext.js:107
+#~ msgid "sectionNext-content-39"
+#~ msgstr "Beatae vitae dicta"
+
+#: sections/SectionNext.js:112
+#~ msgid "sectionNext-content-40"
+#~ msgstr "On the other hand, we denounce with righteous indignation and dislike"
+
+#: sections/SectionNext.js:113
+#~ msgid "sectionNext-content-41"
+#~ msgstr "Nemo enim ipsam"
+
+#: sections/SectionNext.js:301
+msgid "sectionNext-content-42"
+msgstr "以下为捐赠广告，我们将不会对捐赠广告审核背调和背书，因为这将是本教程的一部分。"
+
+#: sections/SectionNext.js:148
+#~ msgid "sectionNext-content-43"
+#~ msgstr "如何捐赠？"
+
+#: sections/SectionNext.js:308
+msgid "sectionNext-content-44"
+msgstr "还记得如何 DYOR 吗？"
+
+#: sections/SectionNext.js:400
+#~ msgid "sectionNext-content-45"
+#~ msgstr "查看全部"
+
+#: sections/SectionNext.js:295
+msgid "sectionNext-title-10"
+msgstr "下一步做什么？可以从研究下列项目开始"
+
+#: sections/SectionNext.js:296
+msgid "sectionNext-title-11"
+msgstr "本节，我们将分享一些 NFT 项目"
+
+#: sections/SectionPartners.js:64
+msgid "sectionPartners-des-1"
+msgstr "感谢以下社区的大力支持"
+
+#: sections/SectionSecurity.js:47
+msgid "sectionSecurity-content-10"
+msgstr "常见 Web3 产生损失的案例"
+
+#: sections/SectionSecurity.js:50
+msgid "sectionSecurity-content-11"
+msgstr "钱包助记词、私钥泄漏或者丢失"
+
+#: sections/SectionSecurity.js:54
+msgid "sectionSecurity-content-12"
+msgstr "Web3 由于是去中心化的，因此并不会像 Web2 的产品和服务一样拥有密码找回、账号风险锁定等功能。因此，你必须十分妥善的保管好助记词和私钥。一旦泄漏或者丢失，钱包内的资产将极难找回！"
+
+#: sections/SectionSecurity.js:63
+msgid "sectionSecurity-content-13"
+msgstr "常见泄漏或者丢失的情况："
+
+#: sections/SectionSecurity.js:67
+msgid "sectionSecurity-content-14"
+msgstr "主动告诉别人（包括你的配偶），由对方无意泄漏或恶意攻击。"
+
+#: sections/SectionSecurity.js:71
+msgid "sectionSecurity-content-15"
+msgstr "写在纸上被别人发现或者纸张遗失、字迹模糊无法辨别。"
+
+#: sections/SectionSecurity.js:75
+msgid "sectionSecurity-content-16"
+msgstr "电脑或者手机中毒，在使用钱包时被窃取。"
+
+#: sections/SectionSecurity.js:79
+msgid "sectionSecurity-content-17"
+msgstr "电脑手机设备损坏，没有及时备份。"
+
+#: sections/SectionSecurity.js:83
+msgid "sectionSecurity-content-18"
+msgstr "复制粘贴助记词、密钥，导致被恶意软件或者输入法上传云端。"
+
+#: sections/SectionSecurity.js:87
+msgid "sectionSecurity-content-19"
+msgstr "自己设置了特殊的助记词、密钥记忆规则，结果忘记了规则。"
+
+#: sections/SectionSecurity.js:98
+msgid "sectionSecurity-content-20"
+msgstr "知名案例"
+
+#: sections/SectionSecurity.js:104
+msgid "sectionSecurity-content-21"
+msgstr "预估有 300 万个比特币由于种种原因丢失。"
+
+#: sections/SectionSecurity.js:112
+msgid "sectionSecurity-content-22"
+msgstr "数据来源"
+
+#: sections/SectionSecurity.js:122
+msgid "sectionSecurity-content-23"
+msgstr "区块链被黑损失总金额约 260 亿美元。"
+
+#: sections/SectionSecurity.js:127
+msgid "sectionSecurity-content-24"
+msgstr "数据来源"
+
+#: sections/SectionSecurity.js:142
+msgid "sectionSecurity-content-25"
+msgstr "应对方式"
+
+#: sections/SectionSecurity.js:148
+msgid "sectionSecurity-content-26"
+msgstr "使用专业密码管理器管理助记词和私钥。上手成本较低，安全性较好，全平台同步，适用于新手。推荐"
+
+#: sections/SectionSecurity.js:156
+msgid "sectionSecurity-content-27"
+msgstr "或"
+
+#: sections/SectionSecurity.js:170
+msgid "sectionSecurity-content-28"
+msgstr "保存、转发助记词或者密钥时，采用分段复制 + 手动输入 + 断网等多种方式，降低整体泄漏风险。"
+
+#: sections/SectionSecurity.js:174
+msgid "sectionSecurity-content-29"
+msgstr "使用硬件钱包。适用于有大量资产、丰富加密货币经验的用户。"
+
+#: sections/SectionSecurity.js:178
+msgid "sectionSecurity-content-30"
+msgstr "保持良好的电脑和手机使用习惯，不安装来历不明的软件。"
+
+#: sections/SectionSecurity.js:186
+msgid "sectionSecurity-content-31"
+msgstr "钓鱼攻击"
+
+#: sections/SectionSecurity.js:190
+msgid "sectionSecurity-content-32"
+msgstr "钓鱼攻击是最常见的攻击方式。它的原理是通过伪造官方网站、协议或者攻击官方账号发布虚假信息的方式引诱你上钩，然后让你转账或者购买虚假 NFT 等。"
+
+#: sections/SectionSecurity.js:199
+msgid "sectionSecurity-content-33"
+msgstr "常见的攻击方式有："
+
+#: sections/SectionSecurity.js:203
+msgid "sectionSecurity-content-34"
+msgstr "任何区块链的交易、操作均需你签署消息来执行协议。攻击者会替换或者伪造协议让你签署（Sign Message），然而实际协议内容是恶意转账等。（像下面这种不明签名 Message 的就需要十分小心）"
+
+#: sections/SectionSecurity.js:214
+msgid "sectionSecurity-content-35"
+msgstr "钓鱼邮件攻击，你将可能收到伪造的邮件，里面的链接为钓鱼网站链接让你购买或者转账。"
+
+#: sections/SectionSecurity.js:218
+msgid "sectionSecurity-content-36"
+msgstr "在交易平台（例如：OpenSea）上，攻击者创建相似名称或者头像的项目，让你误解然后购买。"
+
+#: sections/SectionSecurity.js:222
+msgid "sectionSecurity-content-37"
+msgstr "通过搜索从第三方网站下载钱包插件，攻击者会替换或者插入恶意代码。"
+
+#: sections/SectionSecurity.js:226
+msgid "sectionSecurity-content-38"
+msgstr "社交媒体钓鱼攻击。“热心”群友可能会假装好心的发给你“官方网站”，或者发给你被修改过的插件、手机 APPs 等帮你安装，实际上则是经过修改的恶意软件。"
+
+#: sections/SectionSecurity.js:242
+msgid "sectionSecurity-content-39"
+msgstr "知名案例"
+
+#: sections/SectionSecurity.js:248
+msgid "sectionSecurity-content-40"
+msgstr "OpenSea 上面 170 万美元的 NFT 被钓鱼攻击窃取。"
+
+#: sections/SectionSecurity.js:256
+msgid "sectionSecurity-content-41"
+msgstr "新闻链接"
+
+#: sections/SectionSecurity.js:264
+msgid "sectionSecurity-content-42"
+msgstr "周杰伦的 300 多万人民币的 NFT 在愚人节被钓鱼盗走。"
+
+#: sections/SectionSecurity.js:303
+msgid "sectionSecurity-content-43"
+msgstr "应对方式"
+
+#: sections/SectionSecurity.js:307
+msgid "sectionSecurity-content-44"
+msgstr "永远警惕任何人发给你的任何消息。即便是好朋友或者官方渠道（因为他们的账户可能被黑掉了）。"
+
+#: sections/SectionSecurity.js:311
+msgid "sectionSecurity-content-45"
+msgstr "如无必要，请减少操作，不要随便乱点。操作越多，越容易产生风险。"
+
+#: sections/SectionSecurity.js:315
+msgid "sectionSecurity-content-46"
+msgstr "分散资产，规划钱包用途。就像你的银行卡一样，储蓄账户减少操作，仅作存储和转账不操作和使用。日常高频使用账户仅放少量资产。"
+
+#: sections/SectionSecurity.js:319
+msgid "sectionSecurity-content-47"
+msgstr "在刷空投或者参与新项目时，最好咨询有经验的朋友或者查看合约代码等以确保没有问题再进行操作。"
+
+#: sections/SectionSecurity.js:327
+msgid "sectionSecurity-content-48"
+msgstr "浏览器插件攻击"
+
+#: sections/SectionSecurity.js:331
+msgid "sectionSecurity-content-49"
+msgstr "通常我们会安装一些浏览器扩展或者插件来增强浏览体验。实际上浏览器插件具备的权限比较高，可以修改网页代码替换、篡改正常的合约，从而实现钓鱼攻击。"
+
+#: sections/SectionSecurity.js:341
+msgid "sectionSecurity-content-50"
+msgstr "知名案例"
+
+#: sections/SectionSecurity.js:345
+msgid "sectionSecurity-content-51"
+msgstr "暂无实际案例，仅仅理论上具备这种风险和可能性。"
+
+#: sections/SectionSecurity.js:356
+msgid "sectionSecurity-content-52"
+msgstr "应对方式"
+
+#: sections/SectionSecurity.js:362
+msgid "sectionSecurity-content-53"
+msgstr "新开一个 Chrome Profile 仅仅安装 MetaMask 插件，不安装其他插件。需要使用钱包交互的时候，使用这个 Chrome Profile 进行操作。更多关于 Chrome Profile 的用法，请参考："
+
+#: sections/SectionSecurity.js:390
+msgid "sectionSecurity-content-54"
+msgstr "两点通用的安全建议"
+
+#: sections/SectionSecurity.js:405
+msgid "sectionSecurity-content-55"
+msgstr "分散资产，规划好钱包用途"
+
+#: sections/SectionSecurity.js:409
+msgid "sectionSecurity-content-56"
+msgstr "日常高频使用的热钱包存放少量资产，不同的钱包使用不同的助记词创建。"
+
+#: sections/SectionSecurity.js:413
+msgid "sectionSecurity-content-57"
+msgstr "设置冷钱包，用于储蓄和转账，减少交互和使用。"
+
+#: sections/SectionSecurity.js:417
+msgid "sectionSecurity-content-58"
+msgstr "周期性的创建新钱包进行资产转移。"
+
+#: sections/SectionSecurity.js:422
+msgid "sectionSecurity-content-59"
+msgstr "很多资深人士的做法是将资产放入硬件钱包，每次需要对外交互的时候，都重新创建一个新钱包，用完即废弃。"
+
+#: sections/SectionSecurity.js:453
+msgid "sectionSecurity-content-60"
+msgstr "警惕任何看到的消息"
+
+#: sections/SectionSecurity.js:457
+msgid "sectionSecurity-content-61"
+msgstr "学会正确的寻找官方网站、公告、项目等，不从第三方网站下载安装软件"
+
+#: sections/SectionSecurity.js:461
+msgid "sectionSecurity-content-62"
+msgstr "看到信息需要多加思考。即便是官方发布的消息，有时候也可能是因为官方账号被黑导致的"
+
+#: sections/SectionSecurity.js:491
+msgid "sectionSecurity-content-63"
+msgstr "再次提醒：由于 Web3 分布式和匿名的特性，一旦资产被盗，将很难追回，请务必注意安全问题！"
+
+#: sections/SectionSecurity.js:493
+msgid "sectionSecurity-content-64"
+msgstr "如果想要了解更多安全知识，推荐"
+
+#: sections/SectionSecurity.js:501
+msgid "sectionSecurity-content-65"
+msgstr "区块链黑暗森林自救手册"
+
+#: sections/SectionSecurity.js:511
+msgid "sectionSecurity-content-66"
+msgstr "Web3 生存指南之防骗反诈安全手册V1.0"
+
+#: sections/SectionSecurity.js:230
+msgid "sectionSecurity-content-dc"
+msgstr "Discord 上的 DM（私信） 钓鱼攻击。攻击者会仿造项目的官网账号，给你私信有关项目的白名单、抽奖或 mint 的信息，通常会附有钓鱼网站链接。"
+
+#: sections/SectionSecurity.js:411
+#~ msgid "sectionSecurity-content-dc-solution"
+#~ msgstr ""
+
+#: sections/SectionSecurity.js:281
+msgid "sectionSecurity-other-example-1"
+msgstr "Discord 上的 DM（私信） 钓鱼攻击："
+
+#: sections/SectionSecurity.js:289
+msgid "sectionSecurity-other-example-1-link"
+msgstr "案例链接"
+
+#: sections/SectionSecurity.js:275
+msgid "sectionSecurity-other-examples-title"
+msgstr "其他案例"
+
+#: sections/SectionCatalog.js:197
+#: sections/SectionSecurity.js:19
+msgid "sectionSecurity-title-10"
+msgstr "Step2: 了解必要的 Web3 安全知识"
+
+#: sections/SectionSecurity.js:20
+msgid "sectionSecurity-title-11"
+msgstr "介绍 Web3 安全相关知识"
+
+#: public/images/SectionSecurity.js:24
+#~ msgid "sectionSecurity-title-12"
+#~ msgstr "Congrats! You have got your ETH wallet!"
+
+#: public/images/SectionSecurity.js:25
+#~ msgid "sectionSecurity-title-13"
+#~ msgstr "Please remember, that private keys and keywords are your most important secrets. Once others get it, you will lose everything in that wallet!"
+
+#: sections/SectionSecurity.js:31
+msgid "sectionSecurity-title-14"
+msgstr "在获取 ETH 之前，有必要重点学习了解一下 Web3 的基础安全知识以免遭受经济损失。"
+
+#: sections/SectionTeam.js:564
+msgid "sectionTeam-content-10"
+msgstr "本项目由【国产良心 NFT】社区发起，多位贡献者合作共建完成。"
+
+#: sections/SectionTeam.js:572
+msgid "sectionTeam-content-11"
+msgstr "核心贡献者"
+
+#: sections/SectionTeam.js:589
+msgid "sectionTeam-content-12"
+msgstr "贡献者"
+
+#: sections/SectionTeam.js:76
+#~ msgid "sectionTeam-partners-10"
+#~ msgstr "Co-founder of GCLX NFT and My First NFT. Web3 Buidler. ETH to the moon!"
+
+#: sections/SectionTeam.js:81
+#~ msgid "sectionTeam-partners-11"
+#~ msgstr "At vero eos et accusamus et iusto odio dignissimos ducimus"
+
+#: sections/SectionTeam.js:87
+#~ msgid "sectionTeam-partners-12"
+#~ msgstr "Qui blanditiis praesentium voluptatum deleniti atque corrupti"
+
+#: sections/SectionTeam.js:96
+#~ msgid "sectionTeam-partners-13"
+#~ msgstr "Co-founder of GCLX NFT and My First NFT. Web3 Buidler. ETH to the moon!"
+
+#: sections/SectionTeam.js:101
+#~ msgid "sectionTeam-partners-14"
+#~ msgstr "At vero eos et accusamus et iusto odio dignissimos ducimus"
+
+#: sections/SectionTeam.js:107
+#~ msgid "sectionTeam-partners-15"
+#~ msgstr "Qui blanditiis praesentium voluptatum deleniti atque corrupti"
+
+#: sections/SectionTeam.js:553
+msgid "sectionTeam-title-10"
+msgstr "幕后团队"
+
+#: sections/SectionTeam.js:554
+msgid "sectionTeam-title-11"
+msgstr "介绍当前项目的背后的贡献者"
+
+#: sections/SectionTeam.js:371
+#~ msgid "sectionTeam-title-12"
+#~ msgstr "You have done 核心组成."
+
+#: sections/SectionWallet.js:38
+msgid "sectionWallet-content-10"
+msgstr "安装 Chrome 浏览器插件"
+
+#: sections/SectionWallet.js:40
+msgid "sectionWallet-content-11"
+msgstr "打开 MetaMask 官方下载页面"
+
+#: sections/SectionWallet.js:138
+msgid "sectionWallet-content-111"
+msgstr "助记词和钱包是什么关系？"
+
+#: sections/SectionWallet.js:141
+msgid "sectionWallet-content-112"
+msgstr "以太坊的助记词是由 12 个随机单词组成，基于这些助记词可以生成多个钱包的公钥和私钥对。每个公钥私钥都是一个钱包。因此，如果助记词丢失，全部钱包将会丢失。如果单个钱包私钥泄密，仅仅对应钱包受到影响。"
+
+#: sections/SectionWallet.js:151
+msgid "sectionWallet-content-113"
+msgstr "助记词和 MetaMask 是什么关系？"
+
+#: sections/SectionWallet.js:154
+msgid "sectionWallet-content-114"
+msgstr "助记词的生成规则是有协议和标准的，最新的以太坊网络使用了 BIP39 标准来生成助记词，而 MetaMask 也支持 BIP39 标准。因此 MetaMask 就可以基于 BIP39 生成以太坊的助记词和钱包。想亲自体验一下 BIP39？可以查看 "
+
+#: sections/SectionWallet.js:49
+msgid "sectionWallet-content-12"
+msgstr "选择 Chrome 并点击 “Install MetaMask for Chrome” 按钮。"
+
+#: sections/SectionWallet.js:53
+msgid "sectionWallet-content-13"
+msgstr "然后在 chrome web store 点击 “Add to Chrome” 按钮，安装 MetaMask。"
+
+#: sections/SectionWallet.js:57
+msgid "sectionWallet-content-14"
+msgstr "创建钱包"
+
+#: sections/SectionWallet.js:59
+msgid "sectionWallet-content-15"
+msgstr "安装完成之后，点击 MetaMask 插件会弹出来创建钱包的引导页面。我们在这里选择 “Create a wallet”。"
+
+#: sections/SectionWallet.js:63
+msgid "sectionWallet-content-16"
+msgstr "输入密码之后，点击 “Create” 按钮。"
+
+#: sections/SectionWallet.js:67
+msgid "sectionWallet-content-17"
+msgstr "妥善保管你的助记词，这将是你最重要的信息。丢失助记词将导致你的钱包丢失！！！我们将在下一节介绍安全防护知识。"
+
+#: sections/SectionWallet.js:71
+msgid "sectionWallet-content-18"
+msgstr "点击 Next 并且验证了你的助记词之后，以太坊钱包就创建完成了。"
+
+#: sections/SectionWallet.js:74
+msgid "sectionWallet-content-19"
+msgstr "获取钱包地址等信息"
+
+#: sections/SectionWallet.js:76
+msgid "sectionWallet-content-20"
+msgstr "钱包创建成功之后，点击 MetaMask 你将可以看到下面钱包界面。钱包展示了以下信息：当前区块链网络（Ethereum Mainnet，以太坊主网）、账号名称（Account 1）、钱包地址（0xd12...C7D5）、当前钱包的余额以及一些常用操作按钮等。"
+
+#: sections/SectionWallet.js:80
+msgid "sectionWallet-content-21"
+msgstr "比较常用关键的信息就是你的钱包地址，你可以点击 “Account 1” 来复制你的完整钱包地址。"
+
+#: sections/SectionWallet.js:88
+msgid "sectionWallet-content-22"
+msgstr "在本例中，钱包地址为 0xd12CBe2A0dA6610aa68332f98d8E2489531bC7D5，这就是以太坊钱包的地址。在密码学上，它是由私钥计算产生公钥并经过一些算法处理得出。这个信息是可以公开的。"
+
+#: sections/SectionWallet.js:91
+msgid "sectionWallet-content-23"
+msgstr "在以太坊的交互和操作中，会经常用到这个地址。比如当你朋友转账给你，就需要填写你的钱包地址。你可以简单的将其类比为银行卡号。"
+
+#: sections/SectionWallet.js:94
+msgid "sectionWallet-content-24"
+msgstr "获取钱包私钥（可选）"
+
+#: sections/SectionWallet.js:96
+msgid "sectionWallet-content-25"
+msgstr "钱包的私钥只在极少数的情况下才会被用到，而且相当于银行账号的密码，这个信息是不可以公开的！！"
+
+#: sections/SectionWallet.js:99
+msgid "sectionWallet-content-26"
+msgstr "获取方法如下，点击钱包右上角 “...” 并且选择 “Account details”。"
+
+#: sections/SectionWallet.js:103
+msgid "sectionWallet-content-27"
+msgstr "之后点击 “Export Private Key” 并输入密码，即可得到一串类似 7c91dcb23c4244a78...3b421dc710a310df 这样的字符串，这就是你钱包的私钥，可以简单类比为银行卡密码。"
+
+#: sections/SectionWallet.js:108
+msgid "sectionWallet-content-28"
+msgstr "至此，你将拥有了一个以太坊钱包，并且了解如何获取钱包相关信息。"
+
+#: sections/SectionWallet.js:119
+msgid "sectionWallet-content-29"
+msgstr "我们再来简单的回忆一下刚刚发生了什么"
+
+#: sections/SectionWallet.js:123
+msgid "sectionWallet-content-30"
+msgstr "首先，安装了 MetaMask 插件，设置了一个 MetaMask 密码。值得注意的是，这个密码并非你的钱包密码，只是打开 MetaMask 操作你钱包的密码。"
+
+#: sections/SectionWallet.js:126
+msgid "sectionWallet-content-31"
+msgstr "之后，我们使用 MetaMask 创建了一个新钱包，生成了一个 12 个单词组成的助记词。这个助记词将是你最重要的秘密，请勿泄露！"
+
+#: sections/SectionWallet.js:129
+msgid "sectionWallet-content-32"
+msgstr "最后，MetaMask 使用助记词默认生成了一个钱包。一个助记词可以创建无限个钱包，每个钱包将包含一个钱包地址（公钥）和一个私钥。钱包地址是可以公开的，但是私钥是不可以公开的。"
+
+#: sections/SectionWallet.js:166
+msgid "sectionWallet-content-33"
+msgstr "助记词随机产生，我可以创建无数个钱包，会不会有别人生成了跟我一样的助记词？"
+
+#: sections/SectionWallet.js:169
+msgid "sectionWallet-content-34"
+msgstr "这种情况在理论上是存在的，但实际中发生的概率非常小。下图为你猜中一个具体的 256 位私钥的难度。"
+
+#: sections/SectionCatalog.js:192
+#: sections/SectionWallet.js:14
+msgid "sectionWallet-title-10"
+msgstr "Step1: 获取以太坊钱包"
+
+#: sections/SectionWallet.js:15
+msgid "sectionWallet-title-11"
+msgstr "介绍如何获取第一个以太坊钱包"
+
+#: sections/SectionWallet.js:19
+#~ msgid "sectionWallet-title-12"
+#~ msgstr "Congrats! You have got your ETH wallet!"
+
+#: sections/SectionWallet.js:20
+#~ msgid "sectionWallet-title-13"
+#~ msgstr "Please remember, that private keys and keywords are your most important secrets. Once others get it, you will lose everything in that wallet!"
+
+#: sections/SectionWallet.js:30
+msgid "sectionWallet-title-14"
+msgstr "目前最流行的以太坊钱包是 MetaMask（"
+
+#: sections/SectionWallet.js:34
+msgid "sectionWallet-title-15"
+msgstr "），下面将介绍如何安装和创建钱包。推荐使用 Chrome 浏览器。"
+
+#: components/FixedTools/Progress.js:89
+#: pages/index.js:106
+#: sections/SectionCatalog.js:131
+msgid "sectiontitle-10"
+msgstr "加密货币基础"
+
+#: components/FixedTools/Progress.js:94
+#: pages/index.js:116
+#: sections/SectionCatalog.js:161
+msgid "sectiontitle-11"
+msgstr "什么是 NFT？"
+
+#: components/FixedTools/Progress.js:99
+#: pages/index.js:125
+#: sections/SectionCatalog.js:186
+msgid "sectiontitle-12"
+msgstr "铸造我的第一个 NFT"
+
+#: components/TopShare.js:42
+msgid "share-body"
+msgstr "我刚刚发现了一个免费公益的项目《我的第一个 NFT》 @mfnft_official http://myfirstnft.info/ 可以在上面学习 Web3 的概念、NFT 的价值和一些安全知识，最后可以铸造了一个免费的 NFT 来当头像，有兴趣的可以一起来学习铸造一个～"
+
+#: components/shareDialog.js:25
+msgid "shareDialog-content-10"
+msgstr "分享本项目"
+
+#: components/shareDialog.js:73
+msgid "shareDialog-content-11"
+msgstr "复制"
+
+#: components/shareDialog.js:92
+msgid "shareDialog-content-12"
+msgstr "分享到推特"
+
+#: sections/TopSection.js:26
+msgid "topSection-title-1"
+msgstr "欢迎来到《我的第一个 NFT》，在这里你可以"
+
+#: sections/TopSection.js:42
+msgid "topSection-title-2"
+msgstr "了解 Web3"
+
+#: sections/TopSection.js:43
+msgid "topSection-title-3"
+msgstr "理解 NFT 的价值"
+
+#: sections/TopSection.js:44
+msgid "topSection-title-4"
+msgstr "铸造一个免费的 NFT"
+
+#: sections/TopSection.js:61
+msgid "topSection-title-5"
+msgstr "预计完成时间 1 小时（因人而异）"
+
+#: sections/TopSection.js:63
+msgid "topSection-title-6"
+msgstr "Buidl in LXDAO with ❤️"
+
+#: components/PFPMaker/PFPMaker.js:109
+msgid "trait-category-1"
+msgstr "发型"
+
+#: components/PFPMaker/PFPMaker.js:110
+msgid "trait-category-2"
+msgstr "眼睛"
+
+#: components/PFPMaker/PFPMaker.js:111
+msgid "trait-category-3"
+msgstr "鼻子"
+
+#: components/PFPMaker/PFPMaker.js:112
+msgid "trait-category-4"
+msgstr "嘴巴"
+
+#: components/PFPMaker/PFPMaker.js:113
+msgid "trait-category-5"
+msgstr "面部装饰"
+
+#: components/PFPMaker/PFPMaker.js:114
+msgid "trait-category-6"
+msgstr "眼部装饰"
+
+#: components/PFPMaker/PFPMaker.js:115
+msgid "trait-category-7"
+msgstr "头发装饰"
+
+#: components/PFPMaker/PFPMaker.js:116
+msgid "trait-category-8"
+msgstr "激光眼"
