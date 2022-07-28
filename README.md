@@ -1,4 +1,4 @@
-# My First NFT
+# My First NFT Frontend
 
 MyFirstNFT is a non-profit instructional project for Web3 newbies. Get a FREE NFT while learning about Web3, NFT, and security. Buidl in [LXDAO](https://lxdao.io/).
 

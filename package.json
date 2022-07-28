@@ -1,5 +1,5 @@
 {
-  "name": "mfnft",
+  "name": "myfirstnft-frontend",
   "private": true,
   "scripts": {
     "dev": "next dev",
