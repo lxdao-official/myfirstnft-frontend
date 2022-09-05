@@ -97,8 +97,16 @@ export default [
     type: 'donation',
     image: '/donation/ch3coooh.png',
     title: 'ch3coooh',
-    description: ' 一个在寻找 web3 机会的大厂在职产品经理',
+    description: '一个在寻找 Web3 机会的大厂在职产品经理',
     twitter: 'https://twitter.com/ch3coooh/',
+    donation: 0.002,
+  },
+  {
+    type: 'donation',
+    image: '/donation/lvsao.jpeg',
+    title: 'lvsao',
+    description: '专注被割',
+    twitter: 'https://twitter.com/metalvsao/',
     donation: 0.002,
   },
   {
