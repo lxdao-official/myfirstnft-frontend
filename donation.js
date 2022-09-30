@@ -69,7 +69,7 @@ export default [
   },
   {
     type: 'donation',
-    image: '/donation/0xflipping.png',
+    image: '/donation/0xflipping.jpg',
     title: '0xflipping',
     description: 'WAGMI',
     twitter: 'https://twitter.com/zxxkill',
