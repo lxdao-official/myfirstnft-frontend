@@ -12,6 +12,11 @@ const communities = [
     title: 'GuoChanLiangXin',
   },
   {
+    img: '/images/mou-logo.png',
+    url: 'mou.club',
+    title: 'MOU Club',
+  },
+  {
     img: '/images/NextDAO-logo.png',
     url: 'https://twitter.com/theNextDAO',
     title: 'NextDAO',
@@ -59,7 +64,7 @@ export default function SectionTeam() {
       <Box display="flex" flexWrap="wrap" justifyContent={'center'}>
         {_.shuffle(communities).map((item, i) => (
           <Box
-            width="100px"
+            maxWidth="100px"
             marginBottom={{ xs: 2 }}
             marginRight={{ xs: 1, sm: 6, md: 12 }}
             key={i}
@@ -67,7 +72,6 @@ export default function SectionTeam() {
             <Link color={'inherit'} target="_blank" href={item.url}>
               <Box
                 component="img"
-                height={1}
                 width={1}
                 src={item.img}
                 alt={item.title}
