@@ -98,7 +98,7 @@ const coreContributors = [
     name: 'entheo.eth',
   },
   {
-    image: '/team/carver.png',
+    image: '/team/carver.jpg',
     description: 'Front-end developer/solidity, beginner/Web3 rover.',
     name: 'Carver',
   },
@@ -243,7 +243,7 @@ const activeContributors = [
     twitter: 'https://twitter.com/highfar1988',
   },
   {
-    image: '/team/yixinrock.png',
+    image: '/team/yixinrock.jpg',
     description: 'NFT Arbitrager, Web3 Developer.',
     name: 'yixinrock',
     twitter: 'https://twitter.com/yixinrock_',
@@ -306,7 +306,7 @@ const activeContributors = [
     name: 'Spider',
   },
   {
-    image: '/team/ooze.png',
+    image: '/team/ooze.jpg',
     description: 'This person is lazy@Left nothing',
     name: 'Ooze',
     twitter: 'https://twitter.com/0x0oze',
@@ -349,7 +349,7 @@ const activeContributors = [
     twitter: 'https://twitter.com/LeePerfect233',
   },
   {
-    image: '/team/clu.png',
+    image: '/team/clu.jpg',
     description:
       'Builder and Dreamer. | @theNextDAO. | Build worlds around dreams, Not dreams around worlds.',
     name: 'Clu',
