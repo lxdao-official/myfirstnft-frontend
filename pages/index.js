@@ -27,6 +27,8 @@ import SectionTeam from '../sections/SectionTeam';
 import SectionDiscord from '../sections/SectionDiscord';
 import SectionDYOR from '../sections/SectionDYOR';
 import SectionFooter from '../sections/SectionFooter';
+import { LXDAOIntroduction } from 'lxdao-ui';
+import { Box } from '@mui/system';
 
 export default function Home() {
   const progress = useProgress();
@@ -134,6 +136,10 @@ export default function Home() {
             <SectionNext />
             <SectionPartners />
             <SectionTeam />
+            <Box marginBottom={4} paddingX={5}>
+              <LXDAOIntroduction maxWidth="1240px" xsWidth="326px" />
+            </Box>
+
             <SectionFooter />
             <FixedTools />
           </Main>

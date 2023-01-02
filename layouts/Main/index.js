@@ -12,6 +12,8 @@ import { useWindowSize } from 'usehooks-ts';
 import Container from '../../components/Container';
 import Language from '../../components/Language';
 import TopShare from '../../components/TopShare';
+import Divider from '@mui/material/Divider';
+import { LXDAOLogo } from 'lxdao-ui';
 
 const Main = ({ children, colorInvert = false, bgcolor = 'transparent' }) => {
   const theme = useTheme();
@@ -49,6 +51,8 @@ const Main = ({ children, colorInvert = false, bgcolor = 'transparent' }) => {
             component="a"
             href="/"
             title="theFront"
+            flexDirection={{ xs: 'column', sm: 'row' }}
+            alignItems="center"
             sx={{ color: theme.palette.common.black, textDecoration: 'none' }}
           >
             <Typography
@@ -65,6 +69,18 @@ const Main = ({ children, colorInvert = false, bgcolor = 'transparent' }) => {
               <Box width="35px" component={'img'} src={'/icons/logo.svg'} />
               {t`My First NFT`}
             </Typography>
+            <Divider
+              orientation="vertical"
+              sx={{
+                borderColor: '#DADADA',
+                height: '18px',
+                marginInline: { xs: '5px', sm: '24px' },
+                display: { xs: 'none', sm: 'block' },
+              }}
+            />
+            <Box marginTop={{ xs: '10px', sm: 0 }}>
+              <LXDAOLogo />
+            </Box>
           </Box>
           <TopShare
             sx={{
