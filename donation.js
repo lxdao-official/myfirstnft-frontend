@@ -54,6 +54,13 @@ export default [
   },
   {
     type: 'donation',
+    image: '/donation/ppan.png',
+    title: 'Web3探索者',
+    website: 'https://twitter.com/wangmin22133146',
+    donation: 0.04,
+  },
+  {
+    type: 'donation',
     image: '/donation/su.jpeg',
     description: '良心家人',
     title: 'su007.eth',
@@ -116,13 +123,7 @@ export default [
     website: 'https://workshop.bilibili.com/live2d/15301',
     donation: 0.001,
   },
-  {
-    type: 'donation',
-    image: '/donation/ppan.png',
-    title: 'Web3探索者',
-    website: 'https://twitter.com/wangmin22133146',
-    donation: 0.04,
-  },
+
   {
     type: 'instruction',
   },
