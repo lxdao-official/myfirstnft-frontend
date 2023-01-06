@@ -4248,10 +4248,10 @@
   "resolved" "https://registry.npmjs.org/ltgt/-/ltgt-2.2.1.tgz"
   "version" "2.2.1"
 
-"lxdao-ui@^0.1.9":
-  "integrity" "sha512-fGZAVbV8lPtHgr2lF2CcgDikd315gJbhFjQktjzipoGZnNH96zixt0kY5VNtlDIRVpvkQtwJRF6IGpVqP6XTXg=="
-  "resolved" "https://registry.npmjs.org/lxdao-ui/-/lxdao-ui-0.1.9.tgz"
-  "version" "0.1.9"
+"lxdao-ui@^0.1.14":
+  "integrity" "sha512-RPSm+KlZR1zSlcl8js2qT8/DShqJV9J0dFSYgEtN5He45ScOiX60Lksw3O3BoDhJJkeDWAS6fRJY9E9kdDsM/w=="
+  "resolved" "https://mirrors.cloud.tencent.com/npm/lxdao-ui/-/lxdao-ui-0.1.14.tgz"
+  "version" "0.1.14"
 
 "make-error@^1", "make-error@^1.1.1":
   "integrity" "sha512-s8UhlNe7vPKomQhC1qFelMokr/Sc3AgNbso3n74mVPA5LTZwkB9NlXf4XPamLxJE8h0gh73rM94xvwRT2CVInw=="
