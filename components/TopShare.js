@@ -9,7 +9,7 @@ export default function TopShare(props) {
       <Typography
         target="_blank"
         component="a"
-        href="https://twitter.com/mfnft_official"
+        href="https://twitter.com/LXDAO_Official"
         color="primary"
         marginRight={2}
       >
