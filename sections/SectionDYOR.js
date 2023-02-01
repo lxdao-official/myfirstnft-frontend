@@ -133,10 +133,18 @@ export default function SectionDYOR() {
           </Link>
           <Link
             color="#377dff"
+            marginRight="10px"
             target="_blank"
             href={'https://unstoppabledomains.com/blog/the-web3-glossary'}
           >
             {t`sectionDYOR-web3-glossary-link-2`}
+          </Link>
+          <Link
+            color="#377dff"
+            target="_blank"
+            href={'https://github.com/WTFAcademy/WTF-gm'}
+          >
+            {t`sectionDYOR-web3-glossary-link-3`}
           </Link>
         </Typography>
       </Box>
