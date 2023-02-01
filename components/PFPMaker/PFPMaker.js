@@ -110,7 +110,7 @@ function PFPRTraits(props) {
         <Tab label={t`trait-category-8`} value="LaserEye" />
       </Tabs>
       <TraitsList>
-        {currentTraits.map((trait) => {
+        {currentTraits.map((trait, index) => {
           const selected = currentTraitSelection === trait.key;
           return (
             <PFPProperty
@@ -121,7 +121,7 @@ function PFPRTraits(props) {
                     [props.currentTab]: selected ? null : trait.key,
                   });
               }}
-              name={trait.name}
+              name={index + 1}
               key={trait.key}
               img={trait.img}
               selected={selected}
@@ -510,14 +510,20 @@ function getRandomTraits() {
     randomTraits[traitKey] = _.sample(TRAITS[traitKey]).key;
   });
 
-  const randomPercentage = Math.floor(Math.random() * 100);
-
-  if (randomPercentage < 80) {
+  if (Math.floor(Math.random() * 100) < 80) {
     randomTraits.EyeAccessories = null;
   }
 
-  if (randomPercentage < 60) {
+  if (Math.floor(Math.random() * 100) < 60) {
     randomTraits.Decoration = null;
+  }
+
+  if (Math.floor(Math.random() * 100) < 60) {
+    randomTraits['HairDecorations'] = null;
+  }
+
+  if (Math.floor(Math.random() * 100) < 60) {
+    randomTraits['FaceDecorations'] = null;
   }
 
   if (randomTraits['Decoration'] === 'Huzi') {
@@ -527,6 +533,8 @@ function getRandomTraits() {
   if (randomTraits['EyeAccessories'] === 'Mojing') {
     randomTraits['Eye'] = null;
   }
+
+  randomTraits['LaserEye'] = null;
 
   return randomTraits;
 }
