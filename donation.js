@@ -102,6 +102,14 @@ export default [
   },
   {
     type: 'donation',
+    image: '/donation/loxia.jpeg',
+    title: 'loxia.eth',
+    description: '@MetaDefender marketing executive/solidity dev',
+    twitter: 'https://twitter.com/Loxia_in_Tj',
+    donation: 0.003,
+  },
+  {
+    type: 'donation',
     image: '/donation/ch3coooh.png',
     title: 'ch3coooh',
     description: '一个在寻找 Web3 机会的大厂在职产品经理',
