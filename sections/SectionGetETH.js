@@ -91,12 +91,6 @@ export default function SectionGetETH() {
             </Link>
           </Typography>
           <Typography variant="body1">
-            - FTX{' '}
-            <Link target="_blank" color={'inherit'} href={'https://ftx.com/'}>
-              https://ftx.com/
-            </Link>
-          </Typography>
-          <Typography variant="body1">
             - Huobi{' '}
             <Link
               target="_blank"

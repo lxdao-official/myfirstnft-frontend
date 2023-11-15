@@ -374,6 +374,12 @@ const activeContributors = [
     name: '0xVision.eth',
     twitter: 'https://twitter.com/VisionLG0825',
   },
+  {
+    image: '/team/jomosis.jpg',
+    description: '',
+    name: 'Jomosis',
+    twitter: 'https://x.com/jomosis1997',
+  },
 ];
 
 function Contributor(props) {

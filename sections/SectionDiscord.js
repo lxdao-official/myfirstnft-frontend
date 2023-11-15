@@ -53,14 +53,17 @@ export default function SectionDiscord() {
           <Typography variant="body1" gutterBottom>
             {t`sectionDiscord-title-22`}
           </Typography>
-          <LightImage src="/images/callab-land.jpg" />
+          <LightImage src="/images/guild-xyz.jpg" />
           <Typography variant="body1" gutterBottom>
             {t`sectionDiscord-title-23`}
           </Typography>
-          <LightImage maxWidth={300} src="/images/sign-message.jpg" />
+          <LightImage maxWidth={2000} src="/images/visit-official-website.jpg" />
+          <LightImage maxWidth={2000} src="/images/sign-message.jpg" />
+          <LightImage maxWidth={2000} src="/images/click-to-join.jpg" />
           <Typography variant="body1" gutterBottom>
             {t`sectionDiscord-title-24`}
           </Typography>
+          <LightImage maxWidth={3000} src="/images/get-dc-identity.jpg" />
         </Step>
       </Box>
     </SectionWrapper>

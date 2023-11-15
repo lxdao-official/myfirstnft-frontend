@@ -2767,7 +2767,7 @@ eth-sig-util@^1.4.2:
   resolved "https://registry.npmjs.org/eth-sig-util/-/eth-sig-util-1.4.2.tgz"
   integrity sha1-jZWCAsftuq6Dlwf7pvCf8ydgYhA=
   dependencies:
-    ethereumjs-abi "^0.6.8"
+    ethereumjs-abi "git+https://github.com/ethereumjs/ethereumjs-abi.git"
     ethereumjs-util "^5.1.1"
 
 ethereum-common@0.2.0:
@@ -4039,10 +4039,10 @@ ltgt@~2.2.0:
   resolved "https://registry.npmjs.org/ltgt/-/ltgt-2.2.1.tgz"
   integrity sha1-81ypHEk/e3PaDgdJUwTxezH4fuU=
 
-lxdao-ui@^0.1.9:
-  version "0.1.9"
-  resolved "https://registry.npmjs.org/lxdao-ui/-/lxdao-ui-0.1.9.tgz"
-  integrity sha512-fGZAVbV8lPtHgr2lF2CcgDikd315gJbhFjQktjzipoGZnNH96zixt0kY5VNtlDIRVpvkQtwJRF6IGpVqP6XTXg==
+lxdao-ui@^0.1.15:
+  version "0.1.15"
+  resolved "https://registry.yarnpkg.com/lxdao-ui/-/lxdao-ui-0.1.15.tgz#ecf246284fc0f548877c84af1280173bb4fe1944"
+  integrity sha512-VakZoZG6ayCVn5KtgNz+Dl2JmFP8x70A3jP1OHZT1z9cZDOC2l0NPeIQr1zf9IT/Xvq7ZcFDlcfXrNvghdOeDw==
 
 make-error@^1, make-error@^1.1.1:
   version "1.3.6"
