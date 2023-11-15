@@ -376,7 +376,8 @@ const activeContributors = [
   },
   {
     image: '/team/jomosis.jpg',
-    description: '',
+    description:
+      'A developer, researcher and skater traveling around the world.',
     name: 'Jomosis',
     twitter: 'https://x.com/jomosis1997',
   },
