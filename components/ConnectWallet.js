@@ -19,7 +19,7 @@ export default function ConnectWallet(props) {
 
   useEffect(() => {
     if (chain?.id != CHAIN_ID && isConnected) {
-      // setVisible(true);
+      setVisible(true);
     } else {
       setVisible(false);
     }
