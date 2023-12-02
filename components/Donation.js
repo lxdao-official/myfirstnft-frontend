@@ -1,15 +1,15 @@
+'use client';
 import React, { useState, useContext } from 'react';
 import { Button, Link, Box, Typography, Input } from '@mui/material';
 import AddIcon from '@mui/icons-material/Add';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
-import { ethers } from 'ethers';
 import { t } from '@lingui/macro';
-
-import ConnectWallet, { connectWallet } from './ConnectWallet';
-import { WalletContext } from '../hooks/useWallet';
+import ConnectWallet from './ConnectWallet';
+import { useSendTransaction, usePrepareSendTransaction } from 'wagmi';
 import showMessage, { SimpleModal } from './showMessage';
 import { getEtherScanDomain } from '../common/utils';
-
+import { useAccount, useNetwork } from 'wagmi';
+import { parseEther } from 'viem';
 function NumberComponent(props) {
   return (
     <Input
@@ -29,8 +29,32 @@ function NumberComponent(props) {
 export function DonationModal(props) {
   const [amount, setAmount] = useState(0.1);
   const [tx, setTx] = useState(null);
-  const { fullAddress } = useContext(WalletContext);
-
+  const { address } = useAccount();
+  const { sendTransaction } = useSendTransaction({
+    to: '0x1b8556BDc549D20De33eCba674CF3Bbb88CfEd0A',
+    value: parseEther(amount.toString()),
+    onSuccess: (tx) => {
+      showMessage({
+        title: `Success to donate!`,
+        type: 'success',
+      });
+      setTx(tx);
+    },
+    onError: (error) => {
+      showMessage({
+        type: 'error',
+        title: 'Failed to donate',
+        body: () => {
+          if (error.toString().includes('rejected')) {
+            return 'User Rejected Request';
+          } else {
+            return 'Error';
+          }
+        },
+      });
+      console.error(error);
+    },
+  });
   return (
     <SimpleModal
       title={t`section-donation-title`}
@@ -73,26 +97,12 @@ export function DonationModal(props) {
               />{' '}
               ETH
             </Box>
-            {fullAddress ? (
+            {address ? (
               <Button
                 variant="outlined"
                 size="small"
                 onClick={async () => {
-                  try {
-                    const { signer } = await connectWallet();
-                    let txValue = {
-                      to: '0x1b8556BDc549D20De33eCba674CF3Bbb88CfEd0A',
-                      value: ethers.utils.parseEther(amount.toString()),
-                    };
-                    const tx = await signer.sendTransaction(txValue);
-                    setTx(tx);
-                  } catch (err) {
-                    showMessage({
-                      type: 'error',
-                      title: 'Failed to donate',
-                      body: err.message,
-                    });
-                  }
+                  sendTransaction?.();
                 }}
               >
                 {t`section-donate-content-6`}

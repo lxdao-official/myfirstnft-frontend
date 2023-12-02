@@ -1,3 +1,7 @@
 {
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "i18n-ally.localesPaths": [
+    "i18n",
+    "locale"
+  ]
 }

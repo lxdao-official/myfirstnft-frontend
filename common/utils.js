@@ -18,8 +18,8 @@ export function scrollToSection(id, offset = 0) {
 
 export function getEtherScanDomain() {
   return process.env.NEXT_PUBLIC_CHAIN_ID === '1'
-    ? 'etherscan.io'
-    : 'rinkeby.etherscan.io';
+    ? 'optimistic.etherscan.io'
+    : 'goerli-optimism.etherscan.io';
 }
 
 export function getOpenSeaDomain() {

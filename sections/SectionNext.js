@@ -11,7 +11,6 @@ import {
 } from '@mui/material';
 import { useTheme } from '@mui/material/styles';
 import { t } from '@lingui/macro';
-import AddIcon from '@mui/icons-material/Add';
 
 import DonationInstruction from '../components/Donation';
 import showMessage from '../components/showMessage';

@@ -4,7 +4,9 @@ import axios from 'axios';
 import { ethers } from 'ethers';
 import { t } from '@lingui/macro';
 import _, { throttle } from 'lodash';
-
+import { useAccount } from 'wagmi';
+import { useEthersSigner } from '../../hooks/useSigner';
+import contractABI from '../../abi.json';
 import {
   Box,
   Typography,
@@ -22,8 +24,7 @@ import {
   AlertTitle,
 } from '@mui/material';
 
-import ConnectWallet, { connectWallet } from '../ConnectWallet';
-import { WalletContext } from '../../hooks/useWallet';
+import ConnectWallet from '../ConnectWallet';
 import { MintDataContext } from '../../hooks/useMintData';
 import StyledToolTip from '../StyledToolTip';
 import { TRAITS } from './traits';
@@ -159,7 +160,7 @@ const loadImage = (src) =>
 
 function MintButton(props) {
   const [uploading, setUploading] = useState(null);
-  const { fullAddress } = useContext(WalletContext);
+  const { address } = useAccount();
   const { mintData, setMintData } = useContext(MintDataContext);
   const [visible, setVisible] = useState(false);
   const [mintParams, setMintParams] = useState(null);
@@ -167,37 +168,31 @@ function MintButton(props) {
   const [response, setResponse] = useState(null);
   const [minted, setMinted] = useState(false);
   const [contractStatus, setContractStatus] = useState(1);
-
+  const signer = useEthersSigner();
+  const [contract, setContract] = useState(null);
   useEffect(() => {
-    (async () => {
-      if (fullAddress) {
-        const { contract } = await connectWallet();
+    if (signer) {
+      setContract(
+        new ethers.Contract(
+          process.env.NEXT_PUBLIC_CONTRACT_ADDRESS ??
+            '0xc97F7f24393C9a787914A508383dB82FA506becD',
+          contractABI,
+          signer
+        )
+      );
+    }
+  }, [signer]);
+  useEffect(() => {
+    if (contract && address) handleStatus(address, contract);
+  }, [contract]);
+  async function handleStatus(address, contract) {
+    const numberMinted = await contract.numberMinted(address);
+    setMinted(parseInt(numberMinted));
+    const status = await contract.status();
+    setContractStatus(status);
+  }
 
-        const mintedHandler = throttle(async () => {
-          const numberMinted = await contract.numberMinted(fullAddress);
-          setMinted(parseInt(numberMinted));
-          const status = await contract.status();
-          setContractStatus(status);
-        }, 500);
-        contract.on('Minted', mintedHandler);
-
-        try {
-          const numberMinted = await contract.numberMinted(fullAddress);
-          setMinted(parseInt(numberMinted));
-          const status = await contract.status();
-          setContractStatus(status);
-        } catch (err) {
-          showMessage({
-            type: 'error',
-            title: 'Failed to connect contract',
-            body: err.message,
-          });
-        }
-      }
-    })();
-  }, [fullAddress]);
-
-  if (!fullAddress) {
+  if (!address) {
     return <ConnectWallet pfp={props.pfp} />;
   }
 
@@ -324,7 +319,7 @@ function MintButton(props) {
                       setResponse(null);
                       return;
                     }
-                    const { signer, contract } = await connectWallet();
+
                     const contractWithSigner = contract.connect(signer);
                     const value = ethers.utils.parseEther('0');
                     try {
@@ -346,6 +341,7 @@ function MintButton(props) {
                         tx: tx.hash,
                       };
                       setMintData([...mintData, newMintedItem]);
+                      handleStatus();
                     } catch (err) {
                       showMessage({
                         title: t`pfpmaker-mint-failed`,
