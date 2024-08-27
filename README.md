@@ -6,7 +6,7 @@ MyFirstNFT is a non-profit instructional project for Web3 newbies. Get a FREE NF
 - MyFirstNFT Twitter: <https://twitter.com/mfnft_official>
 - LXDAO Website: <https://lxdao.io/>
 - LXDAO Forum: <https://forum.lxdao.io/c/projects/001-mfnft/14>
-- LXDAO Discord: <https://discord.lxdao.io>
+- LXDAO Telegram: <https://t.me/LXDAO>
 - LXDAO Twitter: <https://twitter.com/LXDAO_Official>
 
 As it is a public goods, all of the source code are open sourced:
