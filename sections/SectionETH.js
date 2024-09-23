@@ -14,7 +14,7 @@ export default function SectionETH() {
       <Box>
         <Box
           component={'img'}
-          src="https://ethereum.org/static/28214bb68eb5445dcb063a72535bc90c/9019e/hero.webp"
+          src="https://ethereum.org/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Fhero.94a1ecc4.png&w=1920&q=75"
           width={1}
         />
         <Typography
