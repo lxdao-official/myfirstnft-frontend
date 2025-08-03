@@ -79,8 +79,8 @@ export default function ConnectWallet(props) {
             return;
           }
           const address = await signer.getAddress();
-          const ens = await provider.lookupAddress(address);
-          setAddress(ens || formatAddress(address));
+          //const ens = await provider.lookupAddress(address);
+          setAddress(formatAddress(address));
           setFullAddress(address);
         } catch (err) {
           await disconnectWallet();
@@ -120,8 +120,8 @@ export default function ConnectWallet(props) {
               return;
             }
             const address = await signer.getAddress();
-            const ens = await provider.lookupAddress(address);
-            setAddress(ens || formatAddress(address));
+            //const ens = await provider.lookupAddress(address);
+            setAddress(formatAddress(address));
             setFullAddress(address);
             web3Instance.on('accountsChanged', async (accounts) => {
               if (accounts.length === 0) {
@@ -130,8 +130,8 @@ export default function ConnectWallet(props) {
                 setFullAddress(null);
               } else {
                 const address = accounts[0];
-                const ens = await provider.lookupAddress(address);
-                setAddress(ens || formatAddress(address));
+                //const ens = await provider.lookupAddress(address);
+                setAddress(formatAddress(address));
                 setFullAddress(address);
               }
             });
