@@ -1,8 +1,7 @@
-const axios = require('axios');
-const dotenv = require('dotenv');
-const nc = require('next-connect');
-
-dotenv.config();
+import nc from 'next-connect';
+import createImage from '../../utils/createImage';
+import uploadToIPFS from '../../utils/uploadToIPFS';
+import generateSignature from '../../utils/generateSignature';
 
 const handler = nc({
   onError: (err, req, res, next) => {
@@ -13,13 +12,29 @@ const handler = nc({
     res.status(404).json({ error: 'API not found!' });
   },
 }).post(async (req, res) => {
-  // backend code https://github.com/GuoChanLiangXin/myfirstnft-backend
-  const response = await axios.post(
-    `${process.env.MFNFT_BACKEND_API}/mint`,
-    req.body
-  );
+  const { pfp, enableLaser } = req.body;
+  console.log('Received a new request with pfp: ', pfp);
 
-  res.json(response.data);
+  try {
+    const imageDataUrl = await createImage(pfp, enableLaser);
+    
+    const imageIPFSURI = await uploadToIPFS(imageDataUrl);
+    
+    const signature = await generateSignature(imageIPFSURI);
+
+    res.json({
+      success: true,
+      image: imageDataUrl,
+      imageIPFSURI: imageIPFSURI,
+      signature: signature,
+    });
+  } catch (err) {
+    console.error('Mint error:', err);
+    res.status(500).json({
+      success: false,
+      errorMessage: err.message,
+    });
+  }
 });
 
 export default handler;

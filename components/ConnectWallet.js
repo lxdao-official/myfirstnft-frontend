@@ -5,13 +5,13 @@ import Web3Modal from 'web3modal';
 import WalletConnectProvider from '@walletconnect/web3-provider';
 
 import { SimpleModal } from './showMessage';
-import contractABI from '../abi.json';
+import contractABI from '../abi-sepolia.json';
 import showMessage from './showMessage';
 import { formatAddress } from '../common/utils';
 import { WalletContext } from '../hooks/useWallet';
 
 const CHAIN_ID = process.env.NEXT_PUBLIC_CHAIN_ID;
-const NETWORK = CHAIN_ID === '1' ? 'mainnet' : 'rinkeby';
+const NETWORK = CHAIN_ID === '11155111' ? 'sepolia' : 'rinkeby';
 
 const providerOptions = {
   walletconnect: {
