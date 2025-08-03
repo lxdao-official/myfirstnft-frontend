@@ -38,8 +38,8 @@ const TraitItem = styled.div`
   margin: 5px;
   border: 1px solid
     ${(props) => {
-      return props.selected ? '#000' : '#ccc';
-    }};
+    return props.selected ? '#000' : '#ccc';
+  }};
 
   &:hover {
     border: 1px solid #000;
@@ -48,8 +48,8 @@ const TraitItem = styled.div`
   img {
     background: url('/traits/Lian.jpg') no-repeat;
     background-size: ${(props) => {
-      return props.width - 2;
-    }}px;
+    return props.width - 2;
+  }}px;
     width: 100%;
     display: block;
   }
@@ -257,8 +257,8 @@ function MintButton(props) {
         {uploading === true
           ? t`pfpmaker-uploading`
           : minted === 1
-          ? t`pfpmaker-minted`
-          : t`pfpmaker-mint-text`}
+            ? t`pfpmaker-minted`
+            : t`pfpmaker-mint-text`}
       </Button>
 
       <Dialog
@@ -494,9 +494,9 @@ function PFPCanvas(props) {
         <Link
           target="_blank"
           color={'inherit'}
-          href={`https://etherscan.io/address/0xe1d831ee54f88ef03fd7f5a15de943baa4d19070`}
+          href={`https://etherscan.io/address/0x3d0172a432A1E861Df1434E44F815D32E9bed5cC`}
         >
-          0xe1d831ee54f88ef03fd7f5a15de943baa4d19070
+          0x3d0172a432A1E861Df1434E44F815D32E9bed5cC
         </Link>
         . Open Source and Safe.
       </Box>
