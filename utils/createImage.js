@@ -1,5 +1,5 @@
 import path from 'path';
-import { createCanvas, loadImage } from 'canvas';
+import { createCanvas, loadImage } from '@napi-rs/canvas';
 
 // generate nft avatar
 export default async function createImage(pfp, enableLaser) {

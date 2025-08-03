@@ -11,17 +11,20 @@ export default async function generateSignature(imageIPFSURI) {
     [{ type: 'string' }],
     [imageIPFSURI]
   );
-  
+
   const hash = keccak256(encodedData);
 
   const account = privateKeyToAccount(process.env.SIGNER_WALLET_PRIVATE_KEY);
+
+  const rpcUrl = process.env.NEXT_PUBLIC_RPC_URL;
+
   const walletClient = createWalletClient({
     account,
-    transport: http()
+    transport: http(rpcUrl)
   });
 
   const signature = await walletClient.signMessage({
-    message: { raw: toHex(hash) }
+    message: { raw: (hash) }
   });
 
   return signature;
