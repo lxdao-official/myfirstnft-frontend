@@ -11,7 +11,19 @@ import { formatAddress } from '../common/utils';
 import { WalletContext } from '../hooks/useWallet';
 
 const CHAIN_ID = process.env.NEXT_PUBLIC_CHAIN_ID;
-const NETWORK = CHAIN_ID === '1' ? 'mainnet' : 'rinkeby';
+
+const getNetworkConfig = (chainId) => {
+  switch (chainId) {
+    case '1':
+      return 'mainnet';
+    case '11155111':
+      return 'sepolia';
+    default:
+      return 'sepolia';
+  }
+};
+
+const NETWORK = getNetworkConfig(CHAIN_ID);
 
 const providerOptions = {
   walletconnect: {
@@ -79,8 +91,8 @@ export default function ConnectWallet(props) {
             return;
           }
           const address = await signer.getAddress();
-          const ens = await provider.lookupAddress(address);
-          setAddress(ens || formatAddress(address));
+          //const ens = await provider.lookupAddress(address);
+          setAddress(formatAddress(address));
           setFullAddress(address);
         } catch (err) {
           await disconnectWallet();
@@ -120,8 +132,8 @@ export default function ConnectWallet(props) {
               return;
             }
             const address = await signer.getAddress();
-            const ens = await provider.lookupAddress(address);
-            setAddress(ens || formatAddress(address));
+            //const ens = await provider.lookupAddress(address);
+            setAddress(formatAddress(address));
             setFullAddress(address);
             web3Instance.on('accountsChanged', async (accounts) => {
               if (accounts.length === 0) {
@@ -130,8 +142,8 @@ export default function ConnectWallet(props) {
                 setFullAddress(null);
               } else {
                 const address = accounts[0];
-                const ens = await provider.lookupAddress(address);
-                setAddress(ens || formatAddress(address));
+                //const ens = await provider.lookupAddress(address);
+                setAddress(formatAddress(address));
                 setFullAddress(address);
               }
             });
@@ -178,8 +190,8 @@ export default function ConnectWallet(props) {
                     });
                     window.location.reload();
                   } catch (err) {
-                    if (err.code === 4902 && CHAIN_ID === '4') {
-                      alert('Please enable Rinkeby network first.');
+                    if (err.code === 4902 && CHAIN_ID === '11155111') {
+                      alert('Please enable Sepolia network first.');
                     }
                     showMessage({
                       type: 'error',
