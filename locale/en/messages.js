@@ -16,7 +16,7 @@
     'mintRecord-content-11': 'Check my NFT',
     'mintRecord-content-12': 'Download PFP',
     'mintRecord-content-13': 'Check on Etherscan',
-    'mintRecord-content-14': 'Check on OpenSea',
+    'mintRecord-content-14': 'Check on Marketplace',
     'mintRecord-content-15': 'Share your NFT with your friends',
     'mintRecord-content-16': 'Step 5: Mint my first NFT',
     'mintRecord-content-17':

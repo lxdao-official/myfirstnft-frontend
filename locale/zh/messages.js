@@ -15,7 +15,7 @@
     'mintRecord-content-11': '查看我的 NFT',
     'mintRecord-content-12': '下载图片',
     'mintRecord-content-13': '在 Etherscan 上查看',
-    'mintRecord-content-14': '在 OpenSea 上查看',
+    'mintRecord-content-14': '在交易市场上查看',
     'mintRecord-content-15': '分享你的 NFT 给朋友',
     'mintRecord-content-16': 'Step5: 铸造我的第一个 NFT',
     'mintRecord-content-17': '在本节，你将开始铸造第一个 NFT',

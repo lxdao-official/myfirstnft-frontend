@@ -74,7 +74,7 @@ msgstr "Check on Etherscan"
 
 #: sections/SectionMint.js:83
 msgid "mintRecord-content-14"
-msgstr "Check on OpenSea"
+msgstr "Check on marketplace"
 
 #: sections/SectionMint.js:93
 msgid "mintRecord-content-15"

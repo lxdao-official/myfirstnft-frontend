@@ -74,7 +74,7 @@ msgstr "在 Etherscan 上查看"
 
 #: sections/SectionMint.js:83
 msgid "mintRecord-content-14"
-msgstr "在 OpenSea 上查看"
+msgstr "在交易市场上查看"
 
 #: sections/SectionMint.js:93
 msgid "mintRecord-content-15"

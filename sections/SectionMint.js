@@ -78,7 +78,7 @@ function MintRecordItem(props) {
           <Link
             target="_blank"
             color={'inherit'}
-            href={`https://${getOpenSeaDomain()}/account`}
+            href={`${getOpenSeaDomain()}`}
           >
             {t`mintRecord-content-14`}
           </Link>

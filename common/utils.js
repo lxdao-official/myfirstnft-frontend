@@ -24,6 +24,6 @@ export function getEtherScanDomain() {
 
 export function getOpenSeaDomain() {
   return process.env.NEXT_PUBLIC_CHAIN_ID === '1'
-    ? 'opensea.io'
-    : 'testnets.opensea.io';
+    ? 'http://opensea.io/account'
+    : 'https://testnet.rarible.com/items/owned';
 }
