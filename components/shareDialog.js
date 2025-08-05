@@ -82,7 +82,7 @@ function SimpleModal(props) {
             href={
               'https://twitter.com/share?text=' +
               shareMsg +
-              '&url=https://myfirstnft.info/'
+              '&url=https://nft.myfirst.io/'
             }
           >
             <PurpleButton

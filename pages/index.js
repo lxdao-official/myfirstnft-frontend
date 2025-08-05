@@ -73,7 +73,7 @@ export default function Home() {
               content="My First NFT is a non-profit instructional project for Web3 newbies. Get a FREE NFT while learning about Web3, underlying
               values of NFT, and security principles."
             />
-            <meta property="og:url" content="https://myfirstnft.info/" />
+            <meta property="og:url" content="https://nft.myfirst.io/" />
 
             <link rel="preconnect" href="https://fonts.gstatic.com" />
             <link
