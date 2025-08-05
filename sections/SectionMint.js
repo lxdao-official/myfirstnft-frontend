@@ -258,9 +258,9 @@ export default function SectionMint() {
                       <Link
                         color="#377dff"
                         target="_blank"
-                        href={'https://etherscan.io/gastracker'}
+                        href={'https://sepolia.etherscan.io/gastracker'}
                       >
-                        https://etherscan.io/gastracker
+                        https://sepolia.etherscan.io/gastracker
                       </Link>{' '}
                       {t`mintRecord-content-39`}
                     </Typography>

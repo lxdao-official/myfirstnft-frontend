@@ -1,5 +1,7 @@
 const path = require('path');
-const { createCanvas, loadImage } = require('canvas');
+//const { createCanvas, loadImage } = require('canvas');
+import { createCanvas, loadImage } from '@napi-rs/canvas';
+
 
 // generate nft avatar
 module.exports = async function (pfp, enableLaser) {
