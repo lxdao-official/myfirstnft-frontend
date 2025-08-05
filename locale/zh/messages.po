@@ -58,7 +58,7 @@ msgstr "查看钱包里的 NFT。"
 
 #: sections/SectionMint.js:28
 msgid "mintRecord-content-10"
-msgstr "我刚刚在《我的第一个 NFT》 @mfnft_official http://myfirstnft.info/ 网站上学习什么是 Web3 和 NFT，并且铸造了一个 NFT 来当头像。有兴趣的可以一起来学习铸造一个～ "
+msgstr "我刚刚在《我的第一个 NFT》 @LXDAO_Official https://nft.myfirst.io/ 网站上学习什么是 Web3 和 NFT，并且铸造了一个 NFT 来当头像。有兴趣的可以一起来学习铸造一个～ "
 
 #: sections/SectionMint.js:60
 msgid "mintRecord-content-11"
@@ -1818,7 +1818,7 @@ msgstr "铸造我的第一个 NFT"
 
 #: components/TopShare.js:42
 msgid "share-body"
-msgstr "我刚刚发现了一个免费公益的项目《我的第一个 NFT》 @mfnft_official http://myfirstnft.info/ 可以在上面学习 Web3 的概念、NFT 的价值和一些安全知识，最后可以铸造了一个免费的 NFT 来当头像，有兴趣的可以一起来学习铸造一个～"
+msgstr "我刚刚发现了一个免费公益的项目《我的第一个 NFT》 @LXDAO_Official https://nft.myfirst.io/ 可以在上面学习 Web3 的概念、NFT 的价值和一些安全知识，最后可以铸造了一个免费的 NFT 来当头像，有兴趣的可以一起来学习铸造一个～"
 
 #: components/shareDialog.js:25
 msgid "shareDialog-content-10"

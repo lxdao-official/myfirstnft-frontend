@@ -123,9 +123,9 @@ export default function SectionTeam() {
                       <Link
                         target="_blank"
                         color={'inherit'}
-                        href={`https://twitter.com/mfnft_official`}
+                        href={`https://twitter.com/LXDAO_Official`}
                       >
-                        @mfnft_official
+                        @LXDAO_Official
                       </Link>
                     </Box>
                   </Box>

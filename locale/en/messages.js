@@ -12,7 +12,7 @@
       'Please mint one on the top. Or you can go to',
     'mint-record-not-found-tip2': 'to check NFTs in your wallet.',
     'mintRecord-content-10':
-      'Just finished "My First NFT" tutorial on @mfnft_official http://myfirstnft.info/ where I learnt the basis of Web3 and NFT. Minted a FREE NFT to be my profile picture. If you want to learn how to mint a FREE NFT for yourself, join me NOW!',
+      'Just finished "My First NFT" tutorial on @LXDAO_Official https://nft.myfirst.io/ where I learnt the basis of Web3 and NFT. Minted a FREE NFT to be my profile picture. If you want to learn how to mint a FREE NFT for yourself, join me NOW!',
     'mintRecord-content-11': 'Check my NFT',
     'mintRecord-content-12': 'Download PFP',
     'mintRecord-content-13': 'Check on Etherscan',
@@ -659,7 +659,7 @@
     'sectiontitle-11': 'What is NFT?',
     'sectiontitle-12': 'Mint my first NFT',
     'share-body':
-      'Hi guys, I just found a non-profit instructional project MyFirstNFT @mfnft_official http://myfirstnft.info/. You can get a FREE NFT while learning about Web3, underlying values of NFT, and security principles. Please take a look.',
+      'Hi guys, I just found a non-profit instructional project MyFirstNFT @LXDAO_Official https://nft.myfirst.io/. You can get a FREE NFT while learning about Web3, underlying values of NFT, and security principles. Please take a look.',
     'shareDialog-content-10': 'Share this project',
     'shareDialog-content-11': 'Copy',
     'shareDialog-content-12': 'Share via Twitter',

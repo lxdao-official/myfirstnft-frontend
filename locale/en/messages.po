@@ -58,7 +58,7 @@ msgstr "to check NFTs in your wallet."
 
 #: sections/SectionMint.js:28
 msgid "mintRecord-content-10"
-msgstr "Just finished \"My First NFT\" tutorial on @mfnft_official http://myfirstnft.info/ where I learnt the basis of Web3 and NFT. Minted a FREE NFT to be my profile picture. If you want to learn how to mint a FREE NFT for yourself, join me NOW!"
+msgstr "Just finished \"My First NFT\" tutorial on @LXDAO_Official https://nft.myfirst.io/ where I learnt the basis of Web3 and NFT. Minted a FREE NFT to be my profile picture. If you want to learn how to mint a FREE NFT for yourself, join me NOW!"
 
 #: sections/SectionMint.js:60
 msgid "mintRecord-content-11"
@@ -1814,7 +1814,7 @@ msgstr "Mint my first NFT"
 
 #: components/TopShare.js:42
 msgid "share-body"
-msgstr "Hi guys, I just found a non-profit instructional project MyFirstNFT @mfnft_official http://myfirstnft.info/. You can get a FREE NFT while learning about Web3, underlying values of NFT, and security principles. Please take a look."
+msgstr "Hi guys, I just found a non-profit instructional project MyFirstNFT @LXDAO_Official https://nft.myfirst.io/. You can get a FREE NFT while learning about Web3, underlying values of NFT, and security principles. Please take a look."
 
 #: components/shareDialog.js:25
 msgid "shareDialog-content-10"

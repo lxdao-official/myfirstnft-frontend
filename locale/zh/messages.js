@@ -11,7 +11,7 @@
     'mint-record-not-found-tip1': '请先在上面铸造一个 NFT。或者去',
     'mint-record-not-found-tip2': '查看钱包里的 NFT。',
     'mintRecord-content-10':
-      '我刚刚在《我的第一个 NFT》 @mfnft_official http://myfirstnft.info/ 网站上学习什么是 Web3 和 NFT，并且铸造了一个 NFT 来当头像。有兴趣的可以一起来学习铸造一个～ ',
+      '我刚刚在《我的第一个 NFT》 @LXDAO_Official https://nft.myfirst.io/ 网站上学习什么是 Web3 和 NFT，并且铸造了一个 NFT 来当头像。有兴趣的可以一起来学习铸造一个～ ',
     'mintRecord-content-11': '查看我的 NFT',
     'mintRecord-content-12': '下载图片',
     'mintRecord-content-13': '在 Etherscan 上查看',
@@ -626,7 +626,7 @@
     'sectiontitle-11': '什么是 NFT？',
     'sectiontitle-12': '铸造我的第一个 NFT',
     'share-body':
-      '我刚刚发现了一个免费公益的项目《我的第一个 NFT》 @mfnft_official http://myfirstnft.info/ 可以在上面学习 Web3 的概念、NFT 的价值和一些安全知识，最后可以铸造了一个免费的 NFT 来当头像，有兴趣的可以一起来学习铸造一个～',
+      '我刚刚发现了一个免费公益的项目《我的第一个 NFT》 @LXDAO_Official https://nft.myfirst.io/ 可以在上面学习 Web3 的概念、NFT 的价值和一些安全知识，最后可以铸造了一个免费的 NFT 来当头像，有兴趣的可以一起来学习铸造一个～',
     'shareDialog-content-10': '分享本项目',
     'shareDialog-content-11': '复制',
     'shareDialog-content-12': '分享到推特',
