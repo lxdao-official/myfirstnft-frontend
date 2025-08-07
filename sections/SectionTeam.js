@@ -388,6 +388,13 @@ const activeContributors = [
     name: 'segment7',
     twitter: 'https://x.com/segseven',
   },
+  {
+    image: '/team/0xhardman.jpg',
+    description:
+      'A non-typical freedom-seeking full-stack developer.',
+    name: '0xhardman',
+    twitter: 'https://x.com/0xhardman',
+  },
 ];
 
 function Contributor(props) {
