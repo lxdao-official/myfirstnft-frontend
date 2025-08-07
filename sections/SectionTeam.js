@@ -389,7 +389,7 @@ const activeContributors = [
     twitter: 'https://x.com/segseven',
   },
   {
-    image: '/team/0xhardman.jpg',
+    image: '/team/0xhardman.png',
     description:
       'A non-typical freedom-seeking full-stack developer.',
     name: '0xhardman',
