@@ -381,6 +381,13 @@ const activeContributors = [
     name: 'Jomosis',
     twitter: 'https://x.com/jomosis1997',
   },
+  {
+    image: '/team/segment7.jpg',
+    description:
+      'Anarchafeminist, hiking & indie gaming enthusiast.',
+    name: 'segment7',
+    twitter: 'https://x.com/segseven',
+  },
 ];
 
 function Contributor(props) {
