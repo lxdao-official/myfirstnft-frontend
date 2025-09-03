@@ -184,20 +184,46 @@ export default function ConnectWallet(props) {
                       method: 'wallet_switchEthereumChain',
                       params: [
                         {
-                          chainId: `0x${CHAIN_ID}`,
+                          chainId: `0x${parseInt(CHAIN_ID).toString(16)}`,
                         },
                       ],
                     });
                     window.location.reload();
                   } catch (err) {
+                    // If chain is not found (error 4902), try to add it
                     if (err.code === 4902 && CHAIN_ID === '11155111') {
-                      alert('Please enable Sepolia network first.');
+                      try {
+                        await window?.ethereum?.request({
+                          method: 'wallet_addEthereumChain',
+                          params: [
+                            {
+                              chainId: `0x${parseInt(CHAIN_ID).toString(16)}`,
+                              chainName: 'Sepolia Test Network',
+                              nativeCurrency: {
+                                name: 'Sepolia Ether',
+                                symbol: 'SEP',
+                                decimals: 18,
+                              },
+                              rpcUrls: ['https://rpc.sepolia.org'],
+                              blockExplorerUrls: ['https://sepolia.etherscan.io/'],
+                            },
+                          ],
+                        });
+                        window.location.reload();
+                      } catch (addErr) {
+                        showMessage({
+                          type: 'error',
+                          title: 'Failed to add network',
+                          body: addErr.message,
+                        });
+                      }
+                    } else {
+                      showMessage({
+                        type: 'error',
+                        title: 'Failed to switch network',
+                        body: err.message,
+                      });
                     }
-                    showMessage({
-                      type: 'error',
-                      title: 'Failed to switch network',
-                      body: err.message,
-                    });
                   }
                 }}
               >
