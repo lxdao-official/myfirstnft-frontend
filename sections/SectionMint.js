@@ -141,7 +141,7 @@ function MintRecord() {
         <Link
           target="_blank"
           color={'inherit'}
-          href={`https://${getOpenSeaDomain()}/account`}
+          href={`${getOpenSeaDomain()}/account`}
         >
           OpenSea
         </Link>{' '}
