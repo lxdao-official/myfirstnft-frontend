@@ -214,8 +214,8 @@ export default function SectionCatalog() {
                     color="#FBBD78"
                   />
                   <SectionSubtitle
-                    title={t`sectionDiscord-title-10`}
-                    id="section/discord"
+                    title={t`sectionTelegram-title-10`}
+                    id="section/telegram"
                     color="#FBBD78"
                   />
                 </CatalogItem>

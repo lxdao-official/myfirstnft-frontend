@@ -36,140 +36,148 @@ msgstr "我的第一个 NFT"
 #~ msgid "Next Step"
 #~ msgstr "下一步"
 
+#: sections/SectionMint.js:93
+msgid "View Image"
+msgstr ""
+
+#: sections/SectionMint.js:84
+msgid "View on Etherscan"
+msgstr ""
+
 #: components/FixedTools/Discord.js:44
-msgid "discord-content-10"
-msgstr "有问题和建议？"
+#~ msgid "discord-content-10"
+#~ msgstr "有问题和建议？"
 
 #: components/FixedTools/Discord.js:47
-msgid "discord-content-11"
-msgstr "请加入官方"
+#~ msgid "discord-content-11"
+#~ msgstr "请加入官方"
 
 #: sections/SectionMint.js:139
-msgid "mint-record-not-found"
-msgstr "没有找到本地铸造记录"
+#~ msgid "mint-record-not-found"
+#~ msgstr "没有找到本地铸造记录"
 
 #: sections/SectionMint.js:140
-msgid "mint-record-not-found-tip1"
-msgstr "请先在上面铸造一个 NFT。或者去"
+#~ msgid "mint-record-not-found-tip1"
+#~ msgstr "请先在上面铸造一个 NFT。或者去"
 
 #: sections/SectionMint.js:148
-msgid "mint-record-not-found-tip2"
-msgstr "查看钱包里的 NFT。"
+#~ msgid "mint-record-not-found-tip2"
+#~ msgstr "查看钱包里的 NFT。"
 
-#: sections/SectionMint.js:28
+#: sections/SectionMint.js:29
 msgid "mintRecord-content-10"
 msgstr "我刚刚在《我的第一个 NFT》 @LXDAO_Official https://nft.myfirst.io/ 网站上学习什么是 Web3 和 NFT，并且铸造了一个 NFT 来当头像。有兴趣的可以一起来学习铸造一个～ "
 
-#: sections/SectionMint.js:60
+#: sections/SectionMint.js:61
 msgid "mintRecord-content-11"
 msgstr "查看我的 NFT"
 
-#: sections/SectionMint.js:68
+#: sections/SectionMint.js:69
 msgid "mintRecord-content-12"
 msgstr "下载图片"
 
-#: sections/SectionMint.js:76
+#: sections/SectionMint.js:77
 msgid "mintRecord-content-13"
 msgstr "在 Etherscan 上查看"
 
 #: sections/SectionMint.js:83
-msgid "mintRecord-content-14"
-msgstr "在交易市场上查看"
+#~ msgid "mintRecord-content-14"
+#~ msgstr "在交易市场上查看"
 
-#: sections/SectionMint.js:93
+#: sections/SectionMint.js:104
 msgid "mintRecord-content-15"
 msgstr "分享你的 NFT 给朋友"
 
 #: sections/SectionCatalog.js:212
-#: sections/SectionMint.js:164
+#: sections/SectionMint.js:186
 msgid "mintRecord-content-16"
 msgstr "Step5: 铸造我的第一个 NFT"
 
-#: sections/SectionMint.js:165
+#: sections/SectionMint.js:187
 msgid "mintRecord-content-17"
 msgstr "在本节，你将开始铸造第一个 NFT"
 
-#: sections/SectionMint.js:176
+#: sections/SectionMint.js:198
 msgid "mintRecord-content-20"
 msgstr "终于，万事俱备，你可以开始铸造第一个 NFT 了。"
 
-#: sections/SectionMint.js:179
+#: sections/SectionMint.js:201
 msgid "mintRecord-content-21"
 msgstr "制作你想要铸造的 NFT 头像并且铸造"
 
-#: sections/SectionMint.js:181
+#: sections/SectionMint.js:203
 msgid "mintRecord-content-22"
 msgstr "本 NFT 为简笔画风格头像类 NFT，支持按照你的个人喜好在线制作。免费不限量铸造。原始图片素材来自于【国产良心 NFT】项目"
 
-#: sections/SectionMint.js:186
+#: sections/SectionMint.js:208
 msgid "mintRecord-content-23"
 msgstr "我们为什么可以使用其他 NFT 项目的素材？因为【国产良心 NFT】项目采用了 CC0 协议发布，即图片素材不保留任何权利任意使用，因此我们可以使用。但是图片相同并不表示你持有国产良心 NFT，并且享有国产良心持有人的权利。"
 
-#: sections/SectionMint.js:194
+#: sections/SectionMint.js:216
 msgid "mintRecord-content-24"
 msgstr "了解更多 CC0？"
 
-#: sections/SectionMint.js:201
+#: sections/SectionMint.js:223
 msgid "mintRecord-content-25"
 msgstr "为什么可以用？"
 
-#: sections/SectionMint.js:207
+#: sections/SectionMint.js:229
 msgid "mintRecord-content-26"
 msgstr "想要添加或优化素材？请联系"
 
-#: sections/SectionMint.js:217
+#: sections/SectionMint.js:239
 msgid "mintRecord-content-27"
 msgstr "在 MetaMask 确认价格并进行铸造"
 
-#: sections/SectionMint.js:229
+#: sections/SectionMint.js:251
 msgid "mintRecord-content-28"
 msgstr "不是说免费吗？为什么还要钱？"
 
-#: sections/SectionMint.js:232
+#: sections/SectionMint.js:254
 msgid "mintRecord-content-29"
 msgstr "任何在区块链网络中的操作，都需要支付一笔手续费（Gas Fee）给区块链矿工来维持去中心化网络运行。"
 
-#: sections/SectionMint.js:239
+#: sections/SectionMint.js:261
 msgid "mintRecord-content-30"
 msgstr "本 NFT 项目为免费项目，但是铸造的过程是需要网络矿工帮你完成，因此你需要支付一笔"
 
-#: sections/SectionMint.js:242
+#: sections/SectionMint.js:264
 msgid "mintRecord-content-31"
 msgstr "值得注意的是，"
 
-#: sections/SectionMint.js:243
+#: sections/SectionMint.js:265
 msgid "mintRecord-content-32"
 msgstr "Gas Fee 是浮动的"
 
-#: sections/SectionMint.js:244
+#: sections/SectionMint.js:266
 msgid "mintRecord-content-33"
 msgstr "你可以看到 MetaMask 的 Gas Fee 部分在不断刷新。这是为什么呢？"
 
-#: sections/SectionMint.js:247
+#: sections/SectionMint.js:269
 msgid "mintRecord-content-34"
 msgstr "这是因为每一个区块的容量都是有限的，不是所有交易都会被及时打包完成。"
 
-#: sections/SectionMint.js:248
+#: sections/SectionMint.js:270
 msgid "mintRecord-content-35"
 msgstr "越高的 Gas Fee 越容易让矿工优先打包你的交易，完成的速度越快。"
 
-#: sections/SectionMint.js:255
+#: sections/SectionMint.js:277
 msgid "mintRecord-content-36"
 msgstr "建议你可以选择"
 
-#: sections/SectionMint.js:256
+#: sections/SectionMint.js:278
 msgid "mintRecord-content-37"
 msgstr "等到 Gas Fee 低一些的时候再铸造"
 
-#: sections/SectionMint.js:257
+#: sections/SectionMint.js:279
 msgid "mintRecord-content-38"
 msgstr "这样可以节约一些钱。你可以在"
 
-#: sections/SectionMint.js:265
+#: sections/SectionMint.js:287
 msgid "mintRecord-content-39"
 msgstr "看到当前的 Gas Fee。建议等到 15 - 40 Gwei 的区间进行铸造。"
 
-#: sections/SectionMint.js:283
+#: sections/SectionMint.js:305
 msgid "mintRecord-content-40"
 msgstr "查看铸造结果并使用、分享我的第一个 NFT！"
 
@@ -695,22 +703,22 @@ msgstr "更多 Web3 '黑话' 请参考查阅这些链接："
 msgid "sectionDYOR-web3-glossary-link-1"
 msgstr "@punk6529 Tweet"
 
-#: sections/SectionDYOR.js:139
+#: sections/SectionDYOR.js:140
 msgid "sectionDYOR-web3-glossary-link-2"
 msgstr "The Web3 Glossary"
 
-#: sections/SectionDYOR.js:146
+#: sections/SectionDYOR.js:147
 msgid "sectionDYOR-web3-glossary-link-3"
 msgstr "WTF gm"
 
 #: sections/SectionCatalog.js:217
 #: sections/SectionDiscord.js:12
-msgid "sectionDiscord-title-10"
-msgstr "Step6: 加入 Discord 社群"
+#~ msgid "sectionDiscord-title-10"
+#~ msgstr "Step6: 加入 Discord 社群"
 
 #: sections/SectionDiscord.js:13
-msgid "sectionDiscord-title-11"
-msgstr "介绍如何加入我们的 Discord 社群"
+#~ msgid "sectionDiscord-title-11"
+#~ msgstr "介绍如何加入我们的 Discord 社群"
 
 #: sections/SectionDiscord.js:21
 #~ msgid "sectionDiscord-title-12"
@@ -725,44 +733,44 @@ msgstr "介绍如何加入我们的 Discord 社群"
 #~ msgstr "继续加油！"
 
 #: sections/SectionDiscord.js:24
-msgid "sectionDiscord-title-15"
-msgstr "目前 Discord 是在 Web3 最常用的社区管理工具，因此我们也准备了一个社群"
+#~ msgid "sectionDiscord-title-15"
+#~ msgstr "目前 Discord 是在 Web3 最常用的社区管理工具，因此我们也准备了一个社群"
 
 #: sections/SectionDiscord.js:33
-msgid "sectionDiscord-title-16"
-msgstr "你可以加入咨询问题并且讨论反馈建议，下面是 Discord 的常见操作教程"
+#~ msgid "sectionDiscord-title-16"
+#~ msgstr "你可以加入咨询问题并且讨论反馈建议，下面是 Discord 的常见操作教程"
 
 #: sections/SectionDiscord.js:37
-msgid "sectionDiscord-title-17"
-msgstr "通过下面邀请链接加入 Discord"
+#~ msgid "sectionDiscord-title-17"
+#~ msgstr "通过下面邀请链接加入 Discord"
 
 #: sections/SectionDiscord.js:39
-msgid "sectionDiscord-title-18"
-msgstr "官方 Discord 链接："
+#~ msgid "sectionDiscord-title-18"
+#~ msgstr "官方 Discord 链接："
 
 #: sections/SectionDiscord.js:45
-msgid "sectionDiscord-title-19"
-msgstr "如果这是你第一次使用 Discord 可能需要注册一个账号。通常不需要下载客户端，在浏览器使用 Web 版本即可。"
+#~ msgid "sectionDiscord-title-19"
+#~ msgstr "如果这是你第一次使用 Discord 可能需要注册一个账号。通常不需要下载客户端，在浏览器使用 Web 版本即可。"
 
 #: sections/SectionDiscord.js:48
-msgid "sectionDiscord-title-20"
-msgstr "链接钱包，验证资产"
+#~ msgid "sectionDiscord-title-20"
+#~ msgstr "链接钱包，验证资产"
 
 #: sections/SectionDiscord.js:50
-msgid "sectionDiscord-title-21"
-msgstr "Web3 的 Discord 社群通常会有一个 Verify 频道支持绑定你的钱包地址并读取你的 NFT。通常使用 Callab.Land 机器人实现。"
+#~ msgid "sectionDiscord-title-21"
+#~ msgstr "Web3 的 Discord 社群通常会有一个 Verify 频道支持绑定你的钱包地址并读取你的 NFT。通常使用 Callab.Land 机器人实现。"
 
 #: sections/SectionDiscord.js:54
-msgid "sectionDiscord-title-22"
-msgstr "点击 “Let's go!” 按钮，机器人会发送一个链接给你，你需要打开链接然后选择 MetaMask 进行签约授权。"
+#~ msgid "sectionDiscord-title-22"
+#~ msgstr "点击 “Let's go!” 按钮，机器人会发送一个链接给你，你需要打开链接然后选择 MetaMask 进行签约授权。"
 
 #: sections/SectionDiscord.js:58
-msgid "sectionDiscord-title-23"
-msgstr "点击 “Sign” 进行签名。请注意观察签名界面的地址和 Message 信息，可以看到这个 Message 是明文，风险较低。如果签名内容为无法阅读的信息，请务必小心！"
+#~ msgid "sectionDiscord-title-23"
+#~ msgstr "点击 “Sign” 进行签名。请注意观察签名界面的地址和 Message 信息，可以看到这个 Message 是明文，风险较低。如果签名内容为无法阅读的信息，请务必小心！"
 
 #: sections/SectionDiscord.js:62
-msgid "sectionDiscord-title-24"
-msgstr "链接完成之后，Discord 社群将会绑定你的钱包地址到你的账号上，别人也将会看到。"
+#~ msgid "sectionDiscord-title-24"
+#~ msgstr "链接完成之后，Discord 社群将会绑定你的钱包地址到你的账号上，别人也将会看到。"
 
 #: sections/SectionETH.js:43
 msgid "sectionETH-content-10"
@@ -881,60 +889,60 @@ msgstr "常用的交易所包括但不限于："
 msgid "sectionGetETH-content-29"
 msgstr "Binance"
 
-#: sections/SectionGetETH.js:121
+#: sections/SectionGetETH.js:115
 msgid "sectionGetETH-content-30"
 msgstr "请注意："
 
-#: sections/SectionGetETH.js:123
+#: sections/SectionGetETH.js:117
 msgid "sectionGetETH-content-31"
 msgstr "务必仔细检查交易所网址是否正确。"
 
-#: sections/SectionGetETH.js:125
+#: sections/SectionGetETH.js:119
 msgid "sectionGetETH-content-32"
 msgstr "交易所注册新用户时通常支持邀请码，可以联系你的 Web3 朋友获取邀请码注册，这样可以得到一些好处并且交朋友。"
 
-#: sections/SectionGetETH.js:129
+#: sections/SectionGetETH.js:123
 msgid "sectionGetETH-content-33"
 msgstr "更多入金方法请参见"
 
 #: sections/SectionCatalog.js:202
-#: sections/SectionGetETH.js:145
+#: sections/SectionGetETH.js:139
 msgid "sectionGetETH-content-34"
 msgstr "Step3: 获取 ETH"
 
-#: sections/SectionGetETH.js:146
+#: sections/SectionGetETH.js:140
 msgid "sectionGetETH-content-35"
 msgstr "本节将介绍如何充值 ETH 到你的新钱包"
 
-#: sections/SectionGetETH.js:156
+#: sections/SectionGetETH.js:150
 msgid "sectionGetETH-content-36"
 msgstr "我们将按照你的个人情况为你推荐几种获取 ETH 的方式"
 
-#: sections/SectionGetETH.js:170
+#: sections/SectionGetETH.js:164
 msgid "sectionGetETH-content-37"
 msgstr "你是否在交易所有 ETH？"
 
-#: sections/SectionGetETH.js:183
+#: sections/SectionGetETH.js:177
 msgid "sectionGetETH-content-38"
 msgstr "是的，我平时炒币"
 
-#: sections/SectionGetETH.js:188
+#: sections/SectionGetETH.js:182
 msgid "sectionGetETH-content-39"
 msgstr "没有"
 
-#: sections/SectionGetETH.js:194
+#: sections/SectionGetETH.js:188
 msgid "sectionGetETH-content-40"
 msgstr "你是否认识搞 Web3 的朋友？"
 
-#: sections/SectionGetETH.js:206
+#: sections/SectionGetETH.js:200
 msgid "sectionGetETH-content-41"
 msgstr "是的，有朋友在玩"
 
-#: sections/SectionGetETH.js:211
+#: sections/SectionGetETH.js:205
 msgid "sectionGetETH-content-42"
 msgstr "没有"
 
-#: sections/SectionGetETH.js:164
+#: sections/SectionGetETH.js:158
 msgid "sectionGetETH-legal-notice"
 msgstr "（风险提示：请遵循当地法律法规进行操作。）"
 
@@ -1312,7 +1320,7 @@ msgstr "本节我们介绍和总结 NFT 的特性和价值"
 #~ msgid "sectionNext-content-41"
 #~ msgstr "Nemo enim ipsam"
 
-#: sections/SectionNext.js:301
+#: sections/SectionNext.js:283
 msgid "sectionNext-content-42"
 msgstr "以下为捐赠广告，我们将不会对捐赠广告审核背调和背书，因为这将是本教程的一部分。"
 
@@ -1320,7 +1328,7 @@ msgstr "以下为捐赠广告，我们将不会对捐赠广告审核背调和背
 #~ msgid "sectionNext-content-43"
 #~ msgstr "如何捐赠？"
 
-#: sections/SectionNext.js:308
+#: sections/SectionNext.js:290
 msgid "sectionNext-content-44"
 msgstr "还记得如何 DYOR 吗？"
 
@@ -1328,11 +1336,11 @@ msgstr "还记得如何 DYOR 吗？"
 #~ msgid "sectionNext-content-45"
 #~ msgstr "查看全部"
 
-#: sections/SectionNext.js:295
+#: sections/SectionNext.js:277
 msgid "sectionNext-title-10"
 msgstr "下一步做什么？可以从研究下列项目开始"
 
-#: sections/SectionNext.js:296
+#: sections/SectionNext.js:278
 msgid "sectionNext-title-11"
 msgstr "本节，我们将分享一些 NFT 项目"
 
@@ -1569,12 +1577,16 @@ msgid "sectionSecurity-content-66"
 msgstr "Web3 生存指南之防骗反诈安全手册V1.0"
 
 #: sections/SectionSecurity.js:227
-msgid "sectionSecurity-content-dc"
-msgstr "Discord 上的 DM（私信） 钓鱼攻击。攻击者会仿造项目的官网账号，给你私信有关项目的白名单、抽奖或 mint 的信息，通常会附有钓鱼网站链接。"
+#~ msgid "sectionSecurity-content-dc"
+#~ msgstr "Discord 上的 DM（私信） 钓鱼攻击。攻击者会仿造项目的官网账号，给你私信有关项目的白名单、抽奖或 mint 的信息，通常会附有钓鱼网站链接。"
 
 #: sections/SectionSecurity.js:411
 #~ msgid "sectionSecurity-content-dc-solution"
 #~ msgstr ""
+
+#: sections/SectionSecurity.js:227
+msgid "sectionSecurity-content-tg"
+msgstr "Telegram 上的 DM（私信） 钓鱼攻击。攻击者会仿造项目的官网账号，给你私信有关项目的白名单、抽奖或 mint 的信息，通常会附有钓鱼网站链接。"
 
 #: sections/SectionSecurity.js:278
 msgid "sectionSecurity-other-example-1"
@@ -1609,15 +1621,15 @@ msgstr "介绍 Web3 安全相关知识"
 msgid "sectionSecurity-title-14"
 msgstr "在获取 ETH 之前，有必要重点学习了解一下 Web3 的基础安全知识以免遭受经济损失。"
 
-#: sections/SectionTeam.js:577
+#: sections/SectionTeam.js:598
 msgid "sectionTeam-content-10"
 msgstr "本项目由【国产良心 NFT】社区发起，多位贡献者合作共建完成。"
 
-#: sections/SectionTeam.js:585
+#: sections/SectionTeam.js:606
 msgid "sectionTeam-content-11"
 msgstr "核心贡献者"
 
-#: sections/SectionTeam.js:602
+#: sections/SectionTeam.js:623
 msgid "sectionTeam-content-12"
 msgstr "贡献者"
 
@@ -1645,17 +1657,34 @@ msgstr "贡献者"
 #~ msgid "sectionTeam-partners-15"
 #~ msgstr "Qui blanditiis praesentium voluptatum deleniti atque corrupti"
 
-#: sections/SectionTeam.js:566
+#: sections/SectionTeam.js:587
 msgid "sectionTeam-title-10"
 msgstr "幕后团队"
 
-#: sections/SectionTeam.js:567
+#: sections/SectionTeam.js:588
 msgid "sectionTeam-title-11"
 msgstr "介绍当前项目的背后的贡献者"
 
 #: sections/SectionTeam.js:371
 #~ msgid "sectionTeam-title-12"
 #~ msgstr "You have done 核心组成."
+
+#: sections/SectionCatalog.js:217
+#: sections/SectionTelegram.js:11
+msgid "sectionTelegram-title-10"
+msgstr "Step6: 加入 Telegram 社群"
+
+#: sections/SectionTelegram.js:12
+msgid "sectionTelegram-title-11"
+msgstr "介绍如何加入我们的 Telegram 社群"
+
+#: sections/SectionTelegram.js:17
+msgid "sectionTelegram-title-17"
+msgstr "通过下面邀请链接加入 Telegram"
+
+#: sections/SectionTelegram.js:19
+msgid "sectionTelegram-title-18"
+msgstr "官方 Telegram 链接： "
 
 #: sections/SectionWallet.js:37
 msgid "sectionWallet-content-10"
@@ -1816,7 +1845,7 @@ msgstr "什么是 NFT？"
 msgid "sectiontitle-12"
 msgstr "铸造我的第一个 NFT"
 
-#: components/TopShare.js:42
+#: components/TopShare.js:43
 msgid "share-body"
 msgstr "我刚刚发现了一个免费公益的项目《我的第一个 NFT》 @LXDAO_Official https://nft.myfirst.io/ 可以在上面学习 Web3 的概念、NFT 的价值和一些安全知识，最后可以铸造了一个免费的 NFT 来当头像，有兴趣的可以一起来学习铸造一个～"
 
@@ -1831,6 +1860,14 @@ msgstr "复制"
 #: components/shareDialog.js:92
 msgid "shareDialog-content-12"
 msgstr "分享到推特"
+
+#: components/FixedTools/Telegram.js:45
+msgid "telegram-content-10"
+msgstr "有问题和建议？"
+
+#: components/FixedTools/Telegram.js:48
+msgid "telegram-content-11"
+msgstr "请加入官方"
 
 #: sections/TopSection.js:26
 msgid "topSection-title-1"

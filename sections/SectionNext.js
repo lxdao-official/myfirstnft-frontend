@@ -93,16 +93,7 @@ function SmallAd(props) {
                   />
                 </Link>
               )}
-              {props.discord && (
-                <Link color={'inherit'} target="_blank" href={props.discord}>
-                  <Box
-                    width="40px"
-                    color="text.secondary"
-                    component="img"
-                    src="/icons/discord.svg"
-                  />
-                </Link>
-              )}
+
             </Box>
             <Box color="text.secondary" fontSize="14px">
               +{props.donation}ETH
@@ -264,16 +255,7 @@ function BigAd(props) {
                 />
               </Link>
             )}
-            {props.discord && (
-              <Link color={'inherit'} target="_blank" href={props.discord}>
-                <Box
-                  width="40px"
-                  color="text.secondary"
-                  component="img"
-                  src="/icons/discord.svg"
-                />
-              </Link>
-            )}
+
           </Box>
           <Box color="text.secondary" variant="h6">
             +{props.donation}ETH

@@ -36,140 +36,148 @@ msgstr "My First NFT"
 #~ msgid "Next Step"
 #~ msgstr "Next Step"
 
+#: sections/SectionMint.js:93
+msgid "View Image"
+msgstr "View Image"
+
+#: sections/SectionMint.js:84
+msgid "View on Etherscan"
+msgstr "View on Etherscan"
+
 #: components/FixedTools/Discord.js:44
-msgid "discord-content-10"
-msgstr "Any questions or suggestions? "
+#~ msgid "discord-content-10"
+#~ msgstr "Any questions or suggestions? "
 
 #: components/FixedTools/Discord.js:47
-msgid "discord-content-11"
-msgstr "Please feel free to join our "
+#~ msgid "discord-content-11"
+#~ msgstr "Please feel free to join our "
 
 #: sections/SectionMint.js:139
-msgid "mint-record-not-found"
-msgstr "No local mint records found"
+#~ msgid "mint-record-not-found"
+#~ msgstr "No local mint records found"
 
 #: sections/SectionMint.js:140
-msgid "mint-record-not-found-tip1"
-msgstr "Please mint one on the top. Or you can go to"
+#~ msgid "mint-record-not-found-tip1"
+#~ msgstr "Please mint one on the top. Or you can go to"
 
 #: sections/SectionMint.js:148
-msgid "mint-record-not-found-tip2"
-msgstr "to check NFTs in your wallet."
+#~ msgid "mint-record-not-found-tip2"
+#~ msgstr "to check NFTs in your wallet."
 
-#: sections/SectionMint.js:28
+#: sections/SectionMint.js:29
 msgid "mintRecord-content-10"
 msgstr "Just finished \"My First NFT\" tutorial on @LXDAO_Official https://nft.myfirst.io/ where I learnt the basis of Web3 and NFT. Minted a FREE NFT to be my profile picture. If you want to learn how to mint a FREE NFT for yourself, join me NOW!"
 
-#: sections/SectionMint.js:60
+#: sections/SectionMint.js:61
 msgid "mintRecord-content-11"
 msgstr "Check my NFT"
 
-#: sections/SectionMint.js:68
+#: sections/SectionMint.js:69
 msgid "mintRecord-content-12"
 msgstr "Download PFP"
 
-#: sections/SectionMint.js:76
+#: sections/SectionMint.js:77
 msgid "mintRecord-content-13"
 msgstr "Check on Etherscan"
 
 #: sections/SectionMint.js:83
-msgid "mintRecord-content-14"
-msgstr "Check on marketplace"
+#~ msgid "mintRecord-content-14"
+#~ msgstr "Check on marketplace"
 
-#: sections/SectionMint.js:93
+#: sections/SectionMint.js:104
 msgid "mintRecord-content-15"
 msgstr "Share your NFT with your friends"
 
 #: sections/SectionCatalog.js:212
-#: sections/SectionMint.js:164
+#: sections/SectionMint.js:186
 msgid "mintRecord-content-16"
 msgstr "Step 5: Mint my first NFT"
 
-#: sections/SectionMint.js:165
+#: sections/SectionMint.js:187
 msgid "mintRecord-content-17"
 msgstr "In this section, you will learn how to mint your first NFT"
 
-#: sections/SectionMint.js:176
+#: sections/SectionMint.js:198
 msgid "mintRecord-content-20"
 msgstr "Alright, at this point, you should be ready to mint your first NFT."
 
-#: sections/SectionMint.js:179
+#: sections/SectionMint.js:201
 msgid "mintRecord-content-21"
 msgstr "Pick traits you like to conduct an avatar and mint it as an NFT. "
 
-#: sections/SectionMint.js:181
+#: sections/SectionMint.js:203
 msgid "mintRecord-content-22"
 msgstr "The NFT collection is a simple stroke style PFP collection. You can choose any traits as you like and assemble them to an avatar.  We provide free and unlimited minting. All traits used in this project are originally created by GCLX NFT project. "
 
-#: sections/SectionMint.js:186
+#: sections/SectionMint.js:208
 msgid "mintRecord-content-23"
 msgstr "Why can we use traits from other NFT projects? The reason is GCLX NFT uses CC0 license when released, in the other word, the project doesn’t reserve any right of their assets and anyone can use them freely. However, creating and minting the “same” picture as an GCLX NFT doesn’t make you a GCLX NFT holder, nor bring you benefits of a GCLX NFT holder. "
 
-#: sections/SectionMint.js:194
+#: sections/SectionMint.js:216
 msgid "mintRecord-content-24"
 msgstr "Want to more about CC0 license?"
 
-#: sections/SectionMint.js:201
+#: sections/SectionMint.js:223
 msgid "mintRecord-content-25"
 msgstr "Why we can use these assets?"
 
-#: sections/SectionMint.js:207
+#: sections/SectionMint.js:229
 msgid "mintRecord-content-26"
 msgstr "Want to add more traits or optimize any trait? Please contact"
 
-#: sections/SectionMint.js:217
+#: sections/SectionMint.js:239
 msgid "mintRecord-content-27"
 msgstr "Confirm the total fee in MetaMask and approve the minting. "
 
-#: sections/SectionMint.js:229
+#: sections/SectionMint.js:251
 msgid "mintRecord-content-28"
 msgstr "Isn't this a free mint NFT? Why do I see a fee?"
 
-#: sections/SectionMint.js:232
+#: sections/SectionMint.js:254
 msgid "mintRecord-content-29"
 msgstr "Any transaction happens on the blockchain requires “Gas Fee” which is used to reward miners for maintaining the decentralized network."
 
-#: sections/SectionMint.js:239
+#: sections/SectionMint.js:261
 msgid "mintRecord-content-30"
 msgstr "The NFT project is a free mint project, however, minting an NFT still needs miners from blockchain to finish jobs such as executing, validating and etc. As a result, gas fee is unavoidable."
 
-#: sections/SectionMint.js:242
+#: sections/SectionMint.js:264
 msgid "mintRecord-content-31"
 msgstr "What needs to be mentioned is that "
 
-#: sections/SectionMint.js:243
+#: sections/SectionMint.js:265
 msgid "mintRecord-content-32"
 msgstr "the gas fee fluctuates all the time. "
 
-#: sections/SectionMint.js:244
+#: sections/SectionMint.js:266
 msgid "mintRecord-content-33"
 msgstr "You would notice that the “gas fee” section in MetaMask keeps refreshing. Why is that? "
 
-#: sections/SectionMint.js:247
+#: sections/SectionMint.js:269
 msgid "mintRecord-content-34"
 msgstr "This is because there’s a capacity limit on each block and not all the transactions will be packed in time. "
 
-#: sections/SectionMint.js:248
+#: sections/SectionMint.js:270
 msgid "mintRecord-content-35"
 msgstr "Miners would always pack transactions with higher gas fee first. Hence, the more gas fee you pay, the faster your transaction will be completed. "
 
-#: sections/SectionMint.js:255
+#: sections/SectionMint.js:277
 msgid "mintRecord-content-36"
 msgstr "We would recommend you "
 
-#: sections/SectionMint.js:256
+#: sections/SectionMint.js:278
 msgid "mintRecord-content-37"
 msgstr "to mint when the gas fee is low."
 
-#: sections/SectionMint.js:257
+#: sections/SectionMint.js:279
 msgid "mintRecord-content-38"
 msgstr "In this case, it will save you some ETH. You can check live gas fee on "
 
-#: sections/SectionMint.js:265
+#: sections/SectionMint.js:287
 msgid "mintRecord-content-39"
 msgstr "15 to 40 Gwei is a good gas fee range for minting. "
 
-#: sections/SectionMint.js:283
+#: sections/SectionMint.js:305
 msgid "mintRecord-content-40"
 msgstr "Check the mint result. Feel free to use your first NFT and share it with your friends!"
 
@@ -695,22 +703,22 @@ msgstr "Refer to these links for more Web3 glossary: "
 msgid "sectionDYOR-web3-glossary-link-1"
 msgstr "@punk6529 Tweet"
 
-#: sections/SectionDYOR.js:139
+#: sections/SectionDYOR.js:140
 msgid "sectionDYOR-web3-glossary-link-2"
 msgstr "The Web3 Glossary"
 
-#: sections/SectionDYOR.js:146
+#: sections/SectionDYOR.js:147
 msgid "sectionDYOR-web3-glossary-link-3"
 msgstr "WTF gm"
 
 #: sections/SectionCatalog.js:217
 #: sections/SectionDiscord.js:12
-msgid "sectionDiscord-title-10"
-msgstr "Step6: Join Community Discord Server"
+#~ msgid "sectionDiscord-title-10"
+#~ msgstr "Step6: Join Community Discord Server"
 
 #: sections/SectionDiscord.js:13
-msgid "sectionDiscord-title-11"
-msgstr "Instructions for joining our community Discord server"
+#~ msgid "sectionDiscord-title-11"
+#~ msgstr "Instructions for joining our community Discord server"
 
 #: sections/SectionDiscord.js:21
 #~ msgid "sectionDiscord-title-12"
@@ -725,44 +733,44 @@ msgstr "Instructions for joining our community Discord server"
 #~ msgstr "Keep the good work!"
 
 #: sections/SectionDiscord.js:24
-msgid "sectionDiscord-title-15"
-msgstr "Discord is the most popular community tool in the Web3 world. Of course, we have one too."
+#~ msgid "sectionDiscord-title-15"
+#~ msgstr "Discord is the most popular community tool in the Web3 world. Of course, we have one too."
 
 #: sections/SectionDiscord.js:33
-msgid "sectionDiscord-title-16"
-msgstr "Join the server, have conversations, ask any question, provide feedback... Follow the steps below to join"
+#~ msgid "sectionDiscord-title-16"
+#~ msgstr "Join the server, have conversations, ask any question, provide feedback... Follow the steps below to join"
 
 #: sections/SectionDiscord.js:37
-msgid "sectionDiscord-title-17"
-msgstr "Click the link to join our Discord server"
+#~ msgid "sectionDiscord-title-17"
+#~ msgstr "Click the link to join our Discord server"
 
 #: sections/SectionDiscord.js:39
-msgid "sectionDiscord-title-18"
-msgstr "Official Discord server link: "
+#~ msgid "sectionDiscord-title-18"
+#~ msgstr "Official Discord server link: "
 
 #: sections/SectionDiscord.js:45
-msgid "sectionDiscord-title-19"
-msgstr "You will need to create a Discord account if this is your first time using it. Using Discord with your browser is just as convenient as with desktop/mobile app, you don't have to download anything if you don't want to."
+#~ msgid "sectionDiscord-title-19"
+#~ msgstr "You will need to create a Discord account if this is your first time using it. Using Discord with your browser is just as convenient as with desktop/mobile app, you don't have to download anything if you don't want to."
 
 #: sections/SectionDiscord.js:48
-msgid "sectionDiscord-title-20"
-msgstr "Connect wallet, verify account ownership"
+#~ msgid "sectionDiscord-title-20"
+#~ msgstr "Connect wallet, verify account ownership"
 
 #: sections/SectionDiscord.js:50
-msgid "sectionDiscord-title-21"
-msgstr "Discord servers for Web3 usually have a dedicated channel for verifying your wallet address and getting access for information about your existing NFTs. This channel is often powered by a bot called Collab.Land."
+#~ msgid "sectionDiscord-title-21"
+#~ msgstr "Discord servers for Web3 usually have a dedicated channel for verifying your wallet address and getting access for information about your existing NFTs. This channel is often powered by a bot called Collab.Land."
 
 #: sections/SectionDiscord.js:54
-msgid "sectionDiscord-title-22"
-msgstr "Click \"Let's go!\", and you should receive a link from the bot. Open the link and select MetaMask for verification."
+#~ msgid "sectionDiscord-title-22"
+#~ msgstr "Click \"Let's go!\", and you should receive a link from the bot. Open the link and select MetaMask for verification."
 
 #: sections/SectionDiscord.js:58
-msgid "sectionDiscord-title-23"
-msgstr "Click \"Sign\" to complete the verification. Pay attention to Message and URL on the popup dialog and make sure they are what you are expecting. It should be straight forward to verify the details because they are plain text and not encrypted. Be careful if the signature contains unreadable information!"
+#~ msgid "sectionDiscord-title-23"
+#~ msgstr "Click \"Sign\" to complete the verification. Pay attention to Message and URL on the popup dialog and make sure they are what you are expecting. It should be straight forward to verify the details because they are plain text and not encrypted. Be careful if the signature contains unreadable information!"
 
 #: sections/SectionDiscord.js:62
-msgid "sectionDiscord-title-24"
-msgstr "Once the verification is completed, your wallet address will be connected to your Discord account, and others will be able to see it too."
+#~ msgid "sectionDiscord-title-24"
+#~ msgstr "Once the verification is completed, your wallet address will be connected to your Discord account, and others will be able to see it too."
 
 #: sections/SectionETH.js:43
 msgid "sectionETH-content-10"
@@ -881,60 +889,60 @@ msgstr "Exchanges that are commonly used include, but are not limited to:"
 msgid "sectionGetETH-content-29"
 msgstr "Binance"
 
-#: sections/SectionGetETH.js:121
+#: sections/SectionGetETH.js:115
 msgid "sectionGetETH-content-30"
 msgstr "Caution:"
 
-#: sections/SectionGetETH.js:123
+#: sections/SectionGetETH.js:117
 msgid "sectionGetETH-content-31"
 msgstr "Always double-check the exchange URL to make sure it's valid."
 
-#: sections/SectionGetETH.js:125
+#: sections/SectionGetETH.js:119
 msgid "sectionGetETH-content-32"
 msgstr "When enrolling new users, the exchange frequently accepts invitation codes. You can ask your Web3 friends for invitation codes to register so that you can take advantage of the benefits."
 
-#: sections/SectionGetETH.js:129
+#: sections/SectionGetETH.js:123
 msgid "sectionGetETH-content-33"
 msgstr "For more options, please visit: "
 
 #: sections/SectionCatalog.js:202
-#: sections/SectionGetETH.js:145
+#: sections/SectionGetETH.js:139
 msgid "sectionGetETH-content-34"
 msgstr "Step 3. Get ETH"
 
-#: sections/SectionGetETH.js:146
+#: sections/SectionGetETH.js:140
 msgid "sectionGetETH-content-35"
 msgstr "In this section, wee will be introducing how to get ETH to your wallet."
 
-#: sections/SectionGetETH.js:156
+#: sections/SectionGetETH.js:150
 msgid "sectionGetETH-content-36"
 msgstr "We will be introducing different ways to get ETH to your wallet and you will be able to choose the one that is most convenient for you."
 
-#: sections/SectionGetETH.js:170
+#: sections/SectionGetETH.js:164
 msgid "sectionGetETH-content-37"
 msgstr "Do you have any ETH in any exchange?"
 
-#: sections/SectionGetETH.js:183
+#: sections/SectionGetETH.js:177
 msgid "sectionGetETH-content-38"
 msgstr "Yes, I do token exchange"
 
-#: sections/SectionGetETH.js:188
+#: sections/SectionGetETH.js:182
 msgid "sectionGetETH-content-39"
 msgstr "No"
 
-#: sections/SectionGetETH.js:194
+#: sections/SectionGetETH.js:188
 msgid "sectionGetETH-content-40"
 msgstr "Do you know friends who are engaged in Web3?"
 
-#: sections/SectionGetETH.js:206
+#: sections/SectionGetETH.js:200
 msgid "sectionGetETH-content-41"
 msgstr "Yes, I have Web3 friends"
 
-#: sections/SectionGetETH.js:211
+#: sections/SectionGetETH.js:205
 msgid "sectionGetETH-content-42"
 msgstr "No"
 
-#: sections/SectionGetETH.js:164
+#: sections/SectionGetETH.js:158
 msgid "sectionGetETH-legal-notice"
 msgstr "(Risk warning: Please operate in accordance with your country's laws and regulations.)"
 
@@ -1312,7 +1320,7 @@ msgstr "In this section, we will be introducing features of NFT and value behind
 #~ msgid "sectionNext-content-41"
 #~ msgstr "sectionNext-content-41"
 
-#: sections/SectionNext.js:301
+#: sections/SectionNext.js:283
 msgid "sectionNext-content-42"
 msgstr "These are donation AD, we will not check or verify donation AD, because this is part of the tutorial."
 
@@ -1320,7 +1328,7 @@ msgstr "These are donation AD, we will not check or verify donation AD, because 
 #~ msgid "sectionNext-content-43"
 #~ msgstr "How to donate?"
 
-#: sections/SectionNext.js:308
+#: sections/SectionNext.js:290
 msgid "sectionNext-content-44"
 msgstr "Please DO YOUR OWN RESEARCH."
 
@@ -1328,11 +1336,11 @@ msgstr "Please DO YOUR OWN RESEARCH."
 #~ msgid "sectionNext-content-45"
 #~ msgstr "sectionNext-content-45"
 
-#: sections/SectionNext.js:295
+#: sections/SectionNext.js:277
 msgid "sectionNext-title-10"
 msgstr "What's Next? You can start from the following"
 
-#: sections/SectionNext.js:296
+#: sections/SectionNext.js:278
 msgid "sectionNext-title-11"
 msgstr "sectionNext-title-11"
 
@@ -1569,12 +1577,16 @@ msgid "sectionSecurity-content-66"
 msgstr "Web3 生存指南之防骗反诈安全手册V1.0 (Chinese only)"
 
 #: sections/SectionSecurity.js:227
-msgid "sectionSecurity-content-dc"
-msgstr "DM (Direct Message) phishing attack on Discord. Attackers will imitate the project's official account and send you a direct message about the project's whitelist, lottery or mint information, usually with a phishing website link."
+#~ msgid "sectionSecurity-content-dc"
+#~ msgstr "DM (Direct Message) phishing attack on Discord. Attackers will imitate the project's official account and send you a direct message about the project's whitelist, lottery or mint information, usually with a phishing website link."
 
 #: sections/SectionSecurity.js:411
 #~ msgid "sectionSecurity-content-dc-solution"
 #~ msgstr "sectionSecurity-content-dc-solution"
+
+#: sections/SectionSecurity.js:227
+msgid "sectionSecurity-content-tg"
+msgstr "DM (Direct Message) phishing attack on Telegram. Attackers will imitate the project's official account and send you a direct message about the project's whitelist, lottery or mint information, usually with a phishing website link."
 
 #: sections/SectionSecurity.js:278
 msgid "sectionSecurity-other-example-1"
@@ -1609,15 +1621,15 @@ msgstr "Introducing security related knowledge of Web3"
 msgid "sectionSecurity-title-14"
 msgstr "Before getting ETH, it's important to learn the basics of Web3 security to avoid financial loss."
 
-#: sections/SectionTeam.js:577
+#: sections/SectionTeam.js:598
 msgid "sectionTeam-content-10"
 msgstr "This project was initiated by the GCLX NFT community, and was built by a number of contributors."
 
-#: sections/SectionTeam.js:585
+#: sections/SectionTeam.js:606
 msgid "sectionTeam-content-11"
 msgstr "Core contributors"
 
-#: sections/SectionTeam.js:602
+#: sections/SectionTeam.js:623
 msgid "sectionTeam-content-12"
 msgstr "Contributors"
 
@@ -1645,13 +1657,30 @@ msgstr "Contributors"
 #~ msgid "sectionTeam-partners-15"
 #~ msgstr "sectionTeam-partners-15"
 
-#: sections/SectionTeam.js:566
+#: sections/SectionTeam.js:587
 msgid "sectionTeam-title-10"
 msgstr "Team behind the screen"
 
-#: sections/SectionTeam.js:567
+#: sections/SectionTeam.js:588
 msgid "sectionTeam-title-11"
 msgstr "sectionTeam-title-11"
+
+#: sections/SectionCatalog.js:217
+#: sections/SectionTelegram.js:11
+msgid "sectionTelegram-title-10"
+msgstr "Step6: Join Community Telegram Group"
+
+#: sections/SectionTelegram.js:12
+msgid "sectionTelegram-title-11"
+msgstr "Instructions for joining our community Telegram group"
+
+#: sections/SectionTelegram.js:17
+msgid "sectionTelegram-title-17"
+msgstr "Click the link to join our Telegram group"
+
+#: sections/SectionTelegram.js:19
+msgid "sectionTelegram-title-18"
+msgstr "Official Telegram group link: "
 
 #: sections/SectionWallet.js:37
 msgid "sectionWallet-content-10"
@@ -1812,7 +1841,7 @@ msgstr "What is NFT?"
 msgid "sectiontitle-12"
 msgstr "Mint my first NFT"
 
-#: components/TopShare.js:42
+#: components/TopShare.js:43
 msgid "share-body"
 msgstr "Hi guys, I just found a non-profit instructional project MyFirstNFT @LXDAO_Official https://nft.myfirst.io/. You can get a FREE NFT while learning about Web3, underlying values of NFT, and security principles. Please take a look."
 
@@ -1827,6 +1856,14 @@ msgstr "Copy"
 #: components/shareDialog.js:92
 msgid "shareDialog-content-12"
 msgstr "Share via Twitter"
+
+#: components/FixedTools/Telegram.js:45
+msgid "telegram-content-10"
+msgstr "Any questions or suggestions? "
+
+#: components/FixedTools/Telegram.js:48
+msgid "telegram-content-11"
+msgstr "Please feel free to join our "
 
 #: sections/TopSection.js:26
 msgid "topSection-title-1"

@@ -1,1 +1,1 @@
-export const discordLink = 'https://discord.lxdao.io';
+export const telegramLink = 'https://t.me/lxdao';

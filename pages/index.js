@@ -24,7 +24,7 @@ import SectionNFTValue from '../sections/SectionNFTValue';
 import SectionNext from '../sections/SectionNext';
 import SectionPartners from '../sections/SectionPartners';
 import SectionTeam from '../sections/SectionTeam';
-import SectionDiscord from '../sections/SectionDiscord';
+import SectionTelegram from '../sections/SectionTelegram';
 import SectionDYOR from '../sections/SectionDYOR';
 import SectionFooter from '../sections/SectionFooter';
 import { LXDAOIntroduction } from 'lxdao-ui';
@@ -131,7 +131,7 @@ export default function Home() {
               <SectionGetETH />
               <SectionConnectWallet />
               <SectionMint />
-              <SectionDiscord />
+              <SectionTelegram />
             </SectionTitle>
             <SectionNext />
             <SectionPartners />

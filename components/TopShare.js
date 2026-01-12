@@ -1,7 +1,8 @@
 import { Box, Typography } from '@mui/material';
 import { t } from '@lingui/macro';
 import shareDialog from './shareDialog.js';
-import { discordLink } from '../common/config';
+import { telegramLink } from '../common/config';
+import TelegramIcon from '@mui/icons-material/Telegram';
 
 export default function TopShare(props) {
   return (
@@ -18,11 +19,11 @@ export default function TopShare(props) {
       <Typography
         target="_blank"
         component="a"
-        href={discordLink}
+        href={telegramLink}
         color="primary"
         marginRight={2}
       >
-        <Box width="50px" component={'img'} src={'/icons/discord.svg'} />
+        <TelegramIcon sx={{ fontSize: '50px', color: '#56CCF2' }} />
       </Typography>
       <Typography
         target="_blank"

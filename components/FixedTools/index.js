@@ -4,7 +4,7 @@ import { Box, useScrollTrigger } from '@mui/material';
 import { ProgressContext } from '../../hooks/useProgress';
 
 import Progress from './Progress';
-import Discord from './Discord';
+import Telegram from './Telegram';
 import ToTop from './ToTop';
 
 export default function FixedTools() {
@@ -38,7 +38,7 @@ export default function FixedTools() {
       }}
     >
       <ToTop />
-      <Discord />
+      <Telegram />
       <Progress />
     </Box>
   );

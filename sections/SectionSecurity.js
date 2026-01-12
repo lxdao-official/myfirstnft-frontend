@@ -224,7 +224,7 @@ export default function SectionSecurity() {
                       color="#FBBD78"
                     />
                     <ListItem
-                      text={t`sectionSecurity-content-dc`}
+                      text={t`sectionSecurity-content-tg`}
                       color="#FBBD78"
                     />
                   </List>
@@ -262,34 +262,7 @@ export default function SectionSecurity() {
                       color="#FBBD78"
                     />
                   </List>
-                  <Typography
-                    variant="h7"
-                    component="p"
-                    gutterBottom
-                    marginTop={2}
-                    sx={{ fontWeight: 700 }}
-                  >
-                    {t`sectionSecurity-other-examples-title`}：
-                  </Typography>
-                  <List sx={{ padding: 0 }}>
-                    <ListItem
-                      text={
-                        <Typography component="p">
-                          {t`sectionSecurity-other-example-1`}
-                          <Link
-                            color="#377dff"
-                            target="_blank"
-                            href={
-                              'https://mirror.xyz/yofine.eth/lHk2R_wawgmWltAirWWLgLlWIO4RzV7o_Qipf9C4z08'
-                            }
-                          >
-                            {t`sectionSecurity-other-example-1-link`}
-                          </Link>
-                        </Typography>
-                      }
-                      color="#FBBD78"
-                    />
-                  </List>
+
                   <Typography
                     variant="h7"
                     component="p"

@@ -112,7 +112,7 @@ export default function SectionTeam() {
                     </Box>
                     <Box>- Retweet our tweets</Box>
                     <Box>
-                      - Post link in your community Discord server, or groups
+                      - Post link in your community Telegram group, or groups
                     </Box>
                     <Box marginBottom={2}>
                       - Add a friendship link to your official Website (for
