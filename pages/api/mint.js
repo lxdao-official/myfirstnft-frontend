@@ -1,7 +1,7 @@
 const dotenv = require('dotenv');
 const nc = require('next-connect');
 const createImage = require('../../utils/createImage');
-const uploadToIPFS = require('../../utils/uploadToIPFS');
+const uploadToR2 = require('../../utils/uploadToR2');
 const generateSignature = require('../../utils/generateSignature');
 
 dotenv.config();
@@ -24,16 +24,16 @@ const handler = nc({
     const imageDataUrl = await createImage(pfp, enableLaser);
     console.log('Image created');
 
-    const imageIPFSURI = await uploadToIPFS(imageDataUrl);
-    console.log('Image uploaded to IPFS: ', imageIPFSURI);
+    const imageURI = await uploadToR2(imageDataUrl);
+    console.log('Image uploaded to R2: ', imageURI);
 
-    const signature = await generateSignature(imageIPFSURI);
+    const signature = await generateSignature(imageURI);
     console.log('Signature generated: ', signature);
 
     res.json({
       success: true,
       image: imageDataUrl,
-      imageIPFSURI: imageIPFSURI,
+      imageURI: imageURI,
       signature: signature,
     });
   } catch (err) {

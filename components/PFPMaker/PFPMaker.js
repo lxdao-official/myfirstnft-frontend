@@ -236,8 +236,8 @@ function MintButton(props) {
             });
 
             if (res.data.success) {
-              const { image, imageIPFSURI, signature } = res.data;
-              setMintParams({ image, imageIPFSURI, signature });
+              const { image, imageURI, signature } = res.data;
+              setMintParams({ image, imageURI, signature });
               setVisible(true);
             } else {
               throw new Error(res.data.errorMessage);
@@ -329,7 +329,7 @@ function MintButton(props) {
                     const value = ethers.utils.parseEther('0');
                     try {
                       const tx = await contractWithSigner.mint(
-                        mintParams.imageIPFSURI,
+                        mintParams.imageURI,
                         mintParams.signature,
                         {
                           value,
@@ -342,7 +342,7 @@ function MintButton(props) {
 
                       const newMintedItem = {
                         image: mintParams.image,
-                        imageIPFSURI: mintParams.imageIPFSURI,
+                        imageURI: mintParams.imageURI,
                         tx: tx.hash,
                       };
                       setMintData([...mintData, newMintedItem]);
