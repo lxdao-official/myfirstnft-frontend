@@ -25,5 +25,5 @@ export function getEtherScanDomain() {
 export function getOpenSeaDomain() {
   return process.env.NEXT_PUBLIC_CHAIN_ID === '1'
     ? 'http://opensea.io/account'
-    : 'https://testnet.rarible.com/items/owned';
+    : 'https://sepolia.etherscan.io/address';
 }

@@ -17,6 +17,7 @@ import {
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 
 import { MintDataContext } from '../hooks/useMintData';
+import { WalletContext } from '../hooks/useWallet';
 import { t } from '@lingui/macro';
 import { Step } from '../components/Stepper';
 import LightImage from '../components/LightImage';
@@ -78,10 +79,20 @@ function MintRecordItem(props) {
           <Link
             target="_blank"
             color={'inherit'}
-            href={`${getOpenSeaDomain()}`}
+            href={`${getOpenSeaDomain()}/${props.address}`}
           >
-            {t`mintRecord-content-14`}
+            {t`View on Etherscan`}
           </Link>
+          {mintData.imageURI && (
+            <Link
+              target="_blank"
+              color={'inherit'}
+              href={mintData.imageURI}
+              marginLeft={2}
+            >
+              {t`View Image`}
+            </Link>
+          )}
         </Box>
         <Box>
           <Typography
@@ -132,8 +143,18 @@ function MintRecordItem(props) {
 
 function MintRecord() {
   const { mintData } = useContext(MintDataContext);
+  const { fullAddress } = useContext(WalletContext);
 
   if (mintData && mintData.length === 0) {
+    // DEMO: Show mock data if empty
+    const mockMint = {
+      image: '/banner.png',
+      imageURI: 'https://sepolia.etherscan.io/images/brand/etherscan-logo-circle.jpg', // Demo Image
+      tx: '0x0000000000000000000000000000000000000000000000000000000000000000'
+    };
+    return <MintRecordItem address={fullAddress || '0xConnectWalletToSeeAddress'} mintData={mockMint} key="demo" />;
+
+    /* Original Empty State
     return (
       <Alert severity="info">
         <AlertTitle>{t`mint-record-not-found`}</AlertTitle>
@@ -141,19 +162,20 @@ function MintRecord() {
         <Link
           target="_blank"
           color={'inherit'}
-          href={`https://${getOpenSeaDomain()}/account`}
+          href={`${getOpenSeaDomain()}/${fullAddress}`}
         >
-          OpenSea
+          Etherscan
         </Link>{' '}
         {t`mint-record-not-found-tip2`}
       </Alert>
     );
+    */
   }
 
   return (
     mintData &&
     mintData.map((mint, index) => {
-      return <MintRecordItem mintData={mint} key={index} />;
+      return <MintRecordItem address={fullAddress} mintData={mint} key={index} />;
     })
   );
 }
