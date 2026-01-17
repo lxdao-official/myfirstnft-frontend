@@ -66,6 +66,7 @@ Please use English Text by default like the following:
 ```
 import { t } from '@lingui/macro';
 
+
 ...
 <Typography variant="h6" component="div" gutterBottom>
   {t`Connect Wallet`}
