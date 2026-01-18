@@ -25,11 +25,77 @@ const getNetworkConfig = (chainId) => {
 
 const NETWORK = getNetworkConfig(CHAIN_ID);
 
+// --- provider selection helpers (MetaMask first) ---
+async function discoverEIP6963Providers(timeoutMs = 200) {
+  if (typeof window === 'undefined') return [];
+  const found = [];
+  const handler = (event) => {
+    if (event?.detail?.provider) found.push(event.detail);
+  };
+
+  window.addEventListener('eip6963:announceProvider', handler);
+  try {
+    window.dispatchEvent(new Event('eip6963:requestProvider'));
+    await new Promise((r) => setTimeout(r, timeoutMs));
+  } finally {
+    window.removeEventListener('eip6963:announceProvider', handler);
+  }
+  return found;
+}
+
+async function getMetaMaskProvider() {
+  if (typeof window === 'undefined') return null;
+
+  // 1) EIP-6963 preferred
+  const details = await discoverEIP6963Providers();
+  const mmByRdns = details.find((d) => d?.info?.rdns === 'io.metamask');
+  if (mmByRdns?.provider) return mmByRdns.provider;
+
+  const mmByFlag = details.find((d) => d?.provider?.isMetaMask);
+  if (mmByFlag?.provider) return mmByFlag.provider;
+
+  // 2) Legacy: multiple injected providers array
+  const eth = window.ethereum;
+  if (eth?.providers && Array.isArray(eth.providers)) {
+    const mm = eth.providers.find((p) => p?.isMetaMask);
+    if (mm) return mm;
+    return null;
+  }
+
+  // 3) Single injected: only accept if it is truly MetaMask
+  if (eth?.isMetaMask) return eth;
+
+  return null;
+}
+
+// dummy package for Web3Modal v1 custom provider
+class MetaMaskProviderPackage { }
+
 const providerOptions = {
+  "custom-metamask": {
+    display: {
+      name: 'MetaMask',
+      description: 'Connect to your MetaMask Wallet',
+      logo: "/wallets/metamask.png",
+    },
+    package: MetaMaskProviderPackage,
+    connector: async (_ProviderPackage, _options) => {
+      const mm = await getMetaMaskProvider();
+      if (!mm) {
+        throw new Error(
+          'MetaMask not found. Please install/enable MetaMask, or use WalletConnect.'
+        );
+      }
+      await mm.request({ method: 'eth_requestAccounts' });
+      return mm;
+    },
+  },
   walletconnect: {
     package: WalletConnectProvider,
     options: {
       infuraId: process.env.NEXT_PUBLIC_INFURA_PROJECT_ID,
+      rpc: { 11155111: 'https://rpc.sepolia.org' },
+      chainId: 11155111,
     },
   },
 };
@@ -37,11 +103,27 @@ const providerOptions = {
 let web3ModelInstance;
 if (typeof window !== 'undefined') {
   web3ModelInstance = new Web3Modal({
-    network: NETWORK,
     cacheProvider: true,
     providerOptions,
+    //disable injeced to prevent Web3Modal see window.ethereum as default entrance
+    disableInjectedProvider: true,
   });
 }
+//clean web3Modal/walletconnect when user click
+async function resetWeb3ModalSession() {
+  try {
+    await web3ModelInstance?.clearCachedProvider?.();
+  } catch (e) { }
+
+  // Best-effort cleanup for WalletConnect session restore
+  try {
+    localStorage.removeItem('WEB3_CONNECT_CACHED_PROVIDER');
+    localStorage.removeItem('walletconnect');
+    localStorage.removeItem('WALLETCONNECT_DEEPLINK_CHOICE');
+    sessionStorage.clear();
+  } catch (e) { }
+}
+
 
 let provider;
 let signer;
@@ -66,6 +148,14 @@ export async function connectWallet() {
 }
 
 async function disconnectWallet() {
+  //to prevent web3Modal v1+WalletConnectProvider v1 automatically restore session.
+  try {
+    // WalletConnectProvider v1 usually has .disconnect() / .close()
+    if (instance?.disconnect) await instance.disconnect();
+    if (instance?.close) await instance.close();
+  } catch (e) {
+    // ignore
+  }
   provider = undefined;
   signer = undefined;
   instance = undefined;
@@ -83,7 +173,9 @@ export default function ConnectWallet(props) {
   // try to connect after the page loaded
   useEffect(() => {
     (async () => {
-      if (!fullAddress && web3ModelInstance?.cachedProvider) {
+      //only work without walletconnect
+      const cached = web3ModelInstance?.cachedProvider;
+      if (!fullAddress && cached && cached !== 'walletconnect' && !(typeof cached === 'string' && cached.startsWith('wc:'))) {
         try {
           const { provider, signer } = await connectWallet();
           const { chainId } = await provider.getNetwork();
@@ -125,6 +217,11 @@ export default function ConnectWallet(props) {
         onClick={async () => {
           setLoading(true);
           try {
+            const cached = web3ModelInstance?.cachedProvider;
+            if (cached === "walletconnect") {
+              await resetWeb3ModalSession();
+            }
+
             const { provider, signer, web3Instance } = await connectWallet();
             const { chainId } = await provider.getNetwork();
             if (chainId !== parseInt(CHAIN_ID)) {
@@ -154,7 +251,7 @@ export default function ConnectWallet(props) {
             showMessage({
               type: 'error',
               title: 'Failed to connect wallet',
-              body: err.message,
+              body: err.message || 'An unknown error occurred during the wallet connection.',
             });
           }
         }}
@@ -179,8 +276,25 @@ export default function ConnectWallet(props) {
               <Button
                 variant="contained"
                 onClick={async () => {
+                  // Prefer the currently connected provider (instance), fallback to window.ethereum
+                  const req =
+                    instance?.request
+                      ? instance.request.bind(instance)
+                      : window?.ethereum?.request
+                        ? window.ethereum.request.bind(window.ethereum)
+                        : null;
+
+                  if (!req) {
+                    showMessage({
+                      type: 'error',
+                      title: 'No wallet provider',
+                      body: 'Wallet provider not found. Please connect your wallet again.',
+                    });
+                    return;
+                  }
+
                   try {
-                    await window?.ethereum?.request({
+                    await req({
                       method: 'wallet_switchEthereumChain',
                       params: [
                         {
@@ -193,7 +307,7 @@ export default function ConnectWallet(props) {
                     // If chain is not found (error 4902), try to add it
                     if (err.code === 4902 && CHAIN_ID === '11155111') {
                       try {
-                        await window?.ethereum?.request({
+                        await req({
                           method: 'wallet_addEthereumChain',
                           params: [
                             {
@@ -226,6 +340,8 @@ export default function ConnectWallet(props) {
                     }
                   }
                 }}
+
+
               >
                 Change Network to {NETWORK}
               </Button>
