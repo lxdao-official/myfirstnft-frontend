@@ -18,14 +18,14 @@ const coreContributors = [
   {
     image: '/team/bruce.jpg',
     description:
-      'Web3 BUIDLER and BELIEVER! Creator of GuoChanLiangXin and MyFirstNFT. Member @theNextDAO. Core contributor @GCLX community.',
+      'Web3 BUILDER and BELIEVER! Creator of GuoChanLiangXin and MyFirstNFT. Member @theNextDAO. Core contributor @GCLX community.',
     name: 'brucexu.eth❤️',
     twitter: 'https://twitter.com/brucexu_eth',
   },
   {
     image: '/team/muxin.png',
     description:
-      'Web3 BUIDLER. Artist of GuoChanLiangXin. Member @theNextDAO. 💎  hand.  Core contributor @GCLX community.',
+      'Web3 BUILDER. Artist of GuoChanLiangXin. Member @theNextDAO. 💎  hand.  Core contributor @GCLX community.',
     name: 'Muxin.eth❤️',
     twitter: 'https://twitter.com/muxin_eth',
   },
@@ -45,7 +45,7 @@ const coreContributors = [
   {
     image: '/team/neethan.jpeg',
     description:
-      'BUIDLER, Surfer, Burner and Dreamer. Mod @theNextDAO. Lost somewhere in Web3.',
+      'BUILDER, Surfer, Burner and Dreamer. Mod @theNextDAO. Lost somewhere in Web3.',
     name: 'nΞethan',
     twitter: 'https://twitter.com/neethanverse',
   },
@@ -82,7 +82,7 @@ const coreContributors = [
   },
   {
     image: '/team/PolarBear.jpg',
-    description: 'She/Her. Web3 BUIDLER. Rug-pull Addict.',
+    description: 'She/Her. Web3 BUILDER. Rug-pull Addict.',
     name: 'PolarBear',
     twitter: 'https://twitter.com/BiPolar4ever_18',
   },
