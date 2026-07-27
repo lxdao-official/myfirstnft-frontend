@@ -128,7 +128,7 @@ function MintRecordItem(props) {
               href={
                 'https://twitter.com/share?text=' +
                 shareMsg +
-                '&url=https://nft.myfirst.io/'
+                '&url=https://nft.myfirstweb3.xyz/'
               }
               startIcon={<Icon sx={{ color: '#fff' }}>add_circle</Icon>}
             >

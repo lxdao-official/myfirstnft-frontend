@@ -66,7 +66,7 @@ msgstr "View on Etherscan"
 
 #: sections/SectionMint.js:29
 msgid "mintRecord-content-10"
-msgstr "Just finished \"My First NFT\" tutorial on @LXDAO_Official https://nft.myfirst.io/ where I learnt the basis of Web3 and NFT. Minted a FREE NFT to be my profile picture. If you want to learn how to mint a FREE NFT for yourself, join me NOW!"
+msgstr "Just finished \"My First NFT\" tutorial on @LXDAO_Official https://nft.myfirstweb3.xyz/ where I learnt the basis of Web3 and NFT. Minted a FREE NFT to be my profile picture. If you want to learn how to mint a FREE NFT for yourself, join me NOW!"
 
 #: sections/SectionMint.js:61
 msgid "mintRecord-content-11"
@@ -1843,7 +1843,7 @@ msgstr "Mint my first NFT"
 
 #: components/TopShare.js:43
 msgid "share-body"
-msgstr "Hi guys, I just found a non-profit instructional project MyFirstNFT @LXDAO_Official https://nft.myfirst.io/. You can get a FREE NFT while learning about Web3, underlying values of NFT, and security principles. Please take a look."
+msgstr "Hi guys, I just found a non-profit instructional project MyFirstNFT @LXDAO_Official https://nft.myfirstweb3.xyz/. You can get a FREE NFT while learning about Web3, underlying values of NFT, and security principles. Please take a look."
 
 #: components/shareDialog.js:25
 msgid "shareDialog-content-10"
