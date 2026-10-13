@@ -2,7 +2,7 @@
 
 MyFirstNFT is a non-profit instructional project for Web3 newbies. Get a FREE NFT while learning about Web3, NFT, and security. Buidl in [LXDAO](https://lxdao.io/).
 
-- MyFirstNFT Website: <https://myfirstnft.info>
+- MyFirstNFT Website: <https://nft.myfirstweb3.xyz/>
 - MyFirstNFT Twitter: <https://twitter.com/mfnft_official>
 - LXDAO Website: <https://lxdao.io/>
 - LXDAO Forum: <https://forum.lxdao.io/c/projects/001-mfnft/14>
